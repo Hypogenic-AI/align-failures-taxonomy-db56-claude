@@ -1,0 +1,24 @@
+idea:
+  title: Taxonomizing Alignment Failures in AI-driven Research
+  domain: artificial_intelligence
+  hypothesis: "Developing a taxonomy of alignment failures specific to AI-driven research\
+    \ will reveal categories of failure\u2014such as omitting negative findings, overclaiming\
+    \ results, and intentional research sabotage\u2014that are not yet well documented\
+    \ in the literature.\n"
+  background:
+    description: 'AI-driven research is becoming increasingly common. It would be
+      great to come up with a taxonomy of alignment failures in this context, examples
+      could be omitting negative findings, overclaiming results, intentionally giving
+      bad ideas (or generally research sabotage). Ideally, this taxonomy includes
+      categories that are not yet well documented in the literature.
+
+      '
+  metadata:
+    author: Chenhao Tan
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/Izhul5CPFbQ8oUZH8cd6
+    idea_id: taxonomizing_alignment_failure_20260505_013336_e4d20f94
+    created_at: '2026-05-05T01:33:36.706021'
+    status: submitted
+    github_repo_name: align-failures-taxonomy-db56-claude
+    github_repo_url: https://github.com/Hypogenic-AI/align-failures-taxonomy-db56-claude
