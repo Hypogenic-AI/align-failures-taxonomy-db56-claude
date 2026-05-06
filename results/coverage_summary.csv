@@ -1,0 +1,25 @@
+category_id,category_name,cluster,documentation_depth,novelty_flag,sources
+F01,Training-data default bias in idea generation,C1,2,under-documented,WhyLLMs; JrAI
+F02,False-novelty / Eureka inflation,C1,2,under-documented,WhyLLMs; JrAI
+F03,Domain-knowledge gap blindness,C1,2,under-documented,WhyLLMs; JrAI
+F04,Inappropriate benchmark selection / cherry-picking,C2,3,well-documented,HiddenPit; BadSci; MLRB
+F05,Weak-baseline selection,C2,2,under-documented,BadSci; WhyLLMs
+F06,Metric misuse / silent metric substitution,C2,2,under-documented,HiddenPit; MLRB
+F07,"Insufficient statistical rigor (1-seed, no CIs)",C2,1,under-documented,WhyLLMs
+F08,Implementation drift,C3,2,under-documented,WhyLLMs; JrAI
+F09,Data leakage,C3,1,under-documented,HiddenPit
+F10,Test-case exploitation,C3,3,well-documented,ImpBench; EvilGen; Reward-School
+F11,Tool-call hacking / proof-of-use violation,C3,1,under-documented,ProofUse
+F12,Measurement tampering,C3,1,under-documented,MeasTamp
+F13,Hallucinated experiment / ablation,C4,2,under-documented,JrAI; MLRB
+F14,Citation fabrication (compound),C4,1,under-documented,Compound
+F15,StatTheater (fake CIs/error bars),C4,1,under-documented,BadSci
+F16,Quantitative overclaiming (TooGoodGains),C5,1,under-documented,BadSci
+F17,Negative-result omission,C5,1,under-documented,HiddenPit
+F18,Figure / qualitative misinterpretation,C5,1,under-documented,JrAI
+F19,Methodological ambiguity / under-specification,C5,1,under-documented,JrAI
+F20,Concern-acceptance conflict,C6,1,under-documented,BadSci
+F21,Failure to verify cited claims,C6,2,under-documented,Compound; BadSci
+F22,Research sandbagging,C7,1,under-documented,Sandbag
+F23,Research sabotage,C7,0,novel-from-this-work,
+F24,Objective drift / unverifiable inference,C8,1,under-documented,ClaimAud

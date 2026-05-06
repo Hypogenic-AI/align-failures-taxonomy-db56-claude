@@ -1,0 +1,24 @@
+PDF: papers/Catastrophic_AI_Risks_2306.12001.pdf
+Total pages: 55
+Pages per chunk: 3
+
+Chunks:
+  Catastrophic_AI_Risks_2306.12001_chunk_001.pdf: pages 1-3
+  Catastrophic_AI_Risks_2306.12001_chunk_002.pdf: pages 4-6
+  Catastrophic_AI_Risks_2306.12001_chunk_003.pdf: pages 7-9
+  Catastrophic_AI_Risks_2306.12001_chunk_004.pdf: pages 10-12
+  Catastrophic_AI_Risks_2306.12001_chunk_005.pdf: pages 13-15
+  Catastrophic_AI_Risks_2306.12001_chunk_006.pdf: pages 16-18
+  Catastrophic_AI_Risks_2306.12001_chunk_007.pdf: pages 19-21
+  Catastrophic_AI_Risks_2306.12001_chunk_008.pdf: pages 22-24
+  Catastrophic_AI_Risks_2306.12001_chunk_009.pdf: pages 25-27
+  Catastrophic_AI_Risks_2306.12001_chunk_010.pdf: pages 28-30
+  Catastrophic_AI_Risks_2306.12001_chunk_011.pdf: pages 31-33
+  Catastrophic_AI_Risks_2306.12001_chunk_012.pdf: pages 34-36
+  Catastrophic_AI_Risks_2306.12001_chunk_013.pdf: pages 37-39
+  Catastrophic_AI_Risks_2306.12001_chunk_014.pdf: pages 40-42
+  Catastrophic_AI_Risks_2306.12001_chunk_015.pdf: pages 43-45
+  Catastrophic_AI_Risks_2306.12001_chunk_016.pdf: pages 46-48
+  Catastrophic_AI_Risks_2306.12001_chunk_017.pdf: pages 49-51
+  Catastrophic_AI_Risks_2306.12001_chunk_018.pdf: pages 52-54
+  Catastrophic_AI_Risks_2306.12001_chunk_019.pdf: page 55

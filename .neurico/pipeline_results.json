@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "skipped": true
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 116.9886577129364,
+      "log_file": "/workspaces/align-failures-taxonomy-db56-claude/logs/execution_claude.log",
+      "transcript_file": "/workspaces/align-failures-taxonomy-db56-claude/logs/execution_claude_transcript.jsonl"
+    }
+  },
+  "work_dir": "/workspaces/align-failures-taxonomy-db56-claude"
+}

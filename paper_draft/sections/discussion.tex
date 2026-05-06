@@ -1,0 +1,48 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Did the hypothesis hold?}
+
+The hypothesis comprised three conjuncts. \emph{(H1) Long-tailed documentation depth.} Confirmed: the 24 categories distribute as 2 well-documented / 21 under-documented / 1 novel-from-this-work. Even heavily-cited individual failure modes such as sandbagging or measurement tampering rest on a single primary source. \emph{(H2) Under-documented categories appear with non-trivial prevalence.} Confirmed: twelve under-documented categories have prevalence $\geq 0.10$; three (\fseven, \fnineteen, \fseventeen) exceed $0.80$. \emph{(H3) Frontier LLMs exhibit the under-documented categories under treatment $>$ control framing.} Confirmed for \fseventeen negative-result omission (Holm-$p = 0.023$, $h = 1.09$); directional but underpowered for \fsixteen quantitative overclaim and \ftwentythree research sabotage.
+
+\subsection{What is novel here, beyond restating the literature?}
+
+\textbf{(1) The coverage-map artifact.} A 24$\times$20 binary matrix lets a future author pick the next category to study by visual inspection of the depth-axis bars. To our knowledge no analogous artifact exists for AI-driven research failures.
+
+\textbf{(2) Quantitative confirmation of compound failures outside citation fabrication.} \citet{ansari2026compound} demonstrated 100\% compound structure for one category. We extend the result: 100\% of audited AI-scientist papers exhibit $\geq 2$ categories simultaneously and 95\% exhibit $\geq 3$. Detection pipelines that assume independence will under-report severity.
+
+\textbf{(3) First controlled propensity demonstration of negative-result omission in a frontier LLM under publish-pressure framing.} Prior work flags ``post-hoc selection'' as a phenomenon~\citep{luo2025hidden} but does not measure propensity. The 0\%--27\% gap on \gptone (Holm-$p = 0.023$) and the replicating 0\%--40\% gap on \gptfive ($h = 1.37$) have not been published.
+
+\textbf{(4) Research sabotage (F23) as a novel category.} No prior paper dedicates analysis to \emph{intentional} research-misleading by AI agents in a competitive/conflicted setting. Our \gptone probe finds a 23-point-percentage treatment effect; the result is directional but underpowered, motivating a follow-up benchmark.
+
+\textbf{(5) AI-reviewer calibration baseline as a confound.} The 33\% control misalignment rate on \probeC is itself novel evidence: a frontier LLM asked for a peer review of a \emph{clean} paper produces at least one spurious concern in 1 of 3 trials. This baseline matters for any future AI-reviewer-of-AI-scientist evaluation pipeline.
+
+\subsection{Comparison to prior work}
+
+\citet{luo2025hidden}'s four pitfalls map onto F04 (cherry-picking, prevalence 65\%), F09 (data leakage, 0\% under paper-only audit), F06 (metric misuse, 5\%), and post-hoc selection (embedded in F17 at 80\%). \citet{chen2025mlrbench}'s 80\% fabrication-rate claim aligns with F13 (35\% on paper-only audit) plus F19 (95\%): combined, the experimental backbone is the weakest link. \citet{jiang2025badscientist}'s five fabrication strategies map onto F04, F05, F15, F16, and F19 in our taxonomy and gain a prevalence layer. \citet{trehan2026whyllms}'s argument that RLHF makes models ``agreeable'' in tension with scientific skepticism is essentially what \probeA tests in an RCT-style design: the same model omits negatives at 27\% under a framing that activates a ``be agreeable to your principal investigator'' prior, while never doing so under neutral framing.
+
+\subsection{Limitations}
+
+\para{Pretraining contamination.} The 10 ICLR 2025 workshop tasks were public before the agents were run; agents may have been pre-exposed. We mitigate by limiting prevalence-axis claims to \emph{prevalence} rather than causation; the propensity probes use novel scenarios with no public ground truth.
+
+\para{LLM-judge bias.} Both judges (\gptone, \gptfive) are LLMs with the same plausible publication-norm priors as the systems under audit. The 0.61 $\kappa$ shows agreement, but two model-aligned judges might both \emph{under-detect} the failures that align most strongly with their training. This caveat is shared across the LLM-judge prevalence literature.
+
+\para{Sample size.} $N = 20$ artifacts and $n = 30$ per probe condition give modest power, particularly for the smaller treatment effects in \probeB and \probeC. Wilson CIs are wide; we interpret point estimates accordingly.
+
+\para{Honeypot ecology.} Publish-pressure prompts are stylized; whether similar effects appear under realistic deployment prompts (\eg an AI scientist operated by a real graduate student) is open. The directional asymmetry (control $\ll$ treatment) is the part that matters most: the same model demonstrably \emph{can} avoid the failure under different framing, so what we measure is propensity, not capability.
+
+\para{Reasoning-token exhaustion on \gptfive.} About 17\% of \gptfive trials produced empty content because reasoning tokens consumed the entire \texttt{max\_completion\_tokens} budget. We exclude empty trials. \probeC was not run on \gptfive due to this issue and time constraints.
+
+\para{Single-judge family.} All judging used OpenAI models. A more independent design would use a Claude or Gemini judge for at least one condition; we leave this to future work.
+
+\subsection{Surprises}
+
+\textbf{F07 (no CIs / single seed) is universal.} Every audited artifact reports point estimates without confidence intervals or multi-seed averaging, despite this being a basic norm. A simple ``are there CIs in the results?'' linter would catch every audited paper, suggesting a low-cost, high-yield first auditing target.
+
+\textbf{F19 (under-specification) is at 95\%.} The audited methodologies are too vague to reproduce. This generalizes a subjective observation in \citet{miyai2026jrai} into a quantitative claim.
+
+\textbf{Probe-C control misalignment of 33\%.} AI-reviewer calibration is itself a failure mode that exists \emph{without} misalignment incentives. Future AI-reviewer evaluations should report this baseline rate explicitly.
+
+\subsection{Broader implications}
+
+For \emph{auditors}, the coverage map identifies categories whose detection has been studied by at most one or two prior papers; tools like \citet{luo2025hidden}'s trace-log auditor could be extended directly. For \emph{benchmark designers}, the prevalence ranking suggests that benchmarks isolating F07 (rigor), F19 (specification), and F17 (negative omission) would target the most pervasive real-world failures. For \emph{model providers}, \probeA evidence that a single-prompt incentive flips a frontier LLM's willingness to omit negative results suggests that publishing-pipeline integration should include explicit policy against incentive-induced reporting distortion. For \emph{governance}, the compound-failure structure (mean 6.7 simultaneous categories per artifact) suggests that single-category compliance regimes will be insufficient.

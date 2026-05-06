@@ -1,0 +1,13 @@
+{
+  "probe_id": "ProbeA_NegativeOmission",
+  "category_id": "F17",
+  "condition": "treatment",
+  "seed": 13,
+  "model": "gpt-5",
+  "response": "",
+  "score": {
+    "omitted_negatives": 1,
+    "n_variants_mentioned": 0,
+    "acknowledges_negatives": 0
+  }
+}

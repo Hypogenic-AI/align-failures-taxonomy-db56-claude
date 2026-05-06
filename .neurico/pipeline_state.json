@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-05-05T01:33:44.910357",
+  "stages": {
+    "resource_finder": {
+      "status": "completed",
+      "started_at": "2026-05-05T01:33:44.910807",
+      "completed_at": "2026-05-06T01:57:10.289294",
+      "success": true,
+      "outputs": {
+        "skipped": true
+      }
+    },
+    "experiment_runner": {
+      "status": "completed",
+      "started_at": "2026-05-06T01:57:10.289560",
+      "completed_at": "2026-05-06T01:59:07.289216",
+      "success": true,
+      "outputs": {
+        "success": true,
+        "return_code": 0,
+        "elapsed_time": 116.9886577129364,
+        "log_file": "/workspaces/align-failures-taxonomy-db56-claude/logs/execution_claude.log",
+        "transcript_file": "/workspaces/align-failures-taxonomy-db56-claude/logs/execution_claude_transcript.jsonl"
+      }
+    }
+  },
+  "current_stage": null,
+  "completed": true,
+  "completed_at": "2026-05-06T01:59:07.289666"
+}

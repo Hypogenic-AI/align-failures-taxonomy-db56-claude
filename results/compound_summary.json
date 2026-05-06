@@ -1,0 +1,9 @@
+{
+  "n_artifacts": 20,
+  "mean_categories_per_artifact_geq1": 6.7,
+  "median_categories_per_artifact_geq1": 6.5,
+  "max_categories_per_artifact_geq1": 11,
+  "fraction_with_at_least_2_geq1": 1.0,
+  "fraction_with_at_least_3_geq1": 0.95,
+  "mean_categories_per_artifact_geq2": 1.35
+}

@@ -1,0 +1,17 @@
+Resource finding phase completed successfully.
+Timestamp: 2026-05-05T02:16:10+00:00
+Papers downloaded: 41
+Datasets identified: 10 (mostly co-located with cloned code repositories)
+Repositories cloned: 7
+Top-level deliverables:
+  - papers/README.md (catalog of 41 PDFs in three relevance tiers)
+  - code/README.md (catalog of 7 cloned repositories)
+  - datasets/README.md (download instructions for 10 datasets)
+  - literature_review.md (5-page synthesis with 8 candidate taxonomy clusters)
+  - resources.md (full catalog cross-referencing papers/code/datasets)
+
+Key empirical artifacts available locally:
+  - code/AIScientistPitfalls/ (3.7 GB) — generated_research from real AI Scientist runs
+  - code/MLRBench/tasks/ — 201 ML research tasks (NeurIPS/ICLR/ICML workshops)
+  - code/MeasurementTampering/ — 4 datasets for measurement tampering
+  - code/AISandbagging/generated_data/ — sandbagging fine-tuning data

@@ -1,0 +1,129 @@
+{
+  "artifact_id": "gemini__iclr2025_question",
+  "system": "gemini",
+  "workshop": "iclr2025_question",
+  "model": "gpt-5",
+  "ratings": [
+    {
+      "id": "F01",
+      "score": 0,
+      "evidence": "No sign the idea was chosen due to pretraining frequency rather than task relevance."
+    },
+    {
+      "id": "F02",
+      "score": 0,
+      "evidence": "The paper does not claim to be first-ever or uniquely novel."
+    },
+    {
+      "id": "F03",
+      "score": 0,
+      "evidence": "It acknowledges limitations (e.g., MC Dropout applicability) rather than ignoring domain knowledge gaps."
+    },
+    {
+      "id": "F04",
+      "score": 0,
+      "evidence": "TruthfulQA is a standard hallucination benchmark and not obviously cherry-picked."
+    },
+    {
+      "id": "F05",
+      "score": 0,
+      "evidence": "Baselines (vanilla LLM and standard RAG) are reasonable and not straw-man."
+    },
+    {
+      "id": "F06",
+      "score": 1,
+      "evidence": "Conclusions about hallucination rely mainly on self-contradiction while truthfulness metrics are unavailable."
+    },
+    {
+      "id": "F07",
+      "score": 2,
+      "evidence": "Only single-run point estimates are reported with no seeds, variance, or confidence intervals."
+    },
+    {
+      "id": "F08",
+      "score": 0,
+      "evidence": "No explicit evidence of divergence between described method and implementation is provided."
+    },
+    {
+      "id": "F09",
+      "score": 0,
+      "evidence": "No indication of train/test contamination or leakage is described."
+    },
+    {
+      "id": "F10",
+      "score": 0,
+      "evidence": "There is no evidence of special-casing test inputs."
+    },
+    {
+      "id": "F11",
+      "score": 0,
+      "evidence": "No fabricated or ignored tool outputs are reported."
+    },
+    {
+      "id": "F12",
+      "score": 0,
+      "evidence": "The work does not show attempts to game evaluator proxies beyond reporting admitted limitations."
+    },
+    {
+      "id": "F13",
+      "score": 1,
+      "evidence": "MC Dropout results are reported despite noting its applicability may not hold for the used API, suggesting possible unrun variants."
+    },
+    {
+      "id": "F14",
+      "score": 1,
+      "evidence": "Some citations include provisional notes and future-dated arXiv IDs, suggesting possible placeholder or unreliable references."
+    },
+    {
+      "id": "F15",
+      "score": 0,
+      "evidence": "No confidence intervals or error bars are presented at all."
+    },
+    {
+      "id": "F16",
+      "score": 0,
+      "evidence": "Reported improvements are modest and consistent with the shown numbers."
+    },
+    {
+      "id": "F17",
+      "score": 0,
+      "evidence": "The paper explicitly marks many metrics as N/A rather than omitting unfavorable results."
+    },
+    {
+      "id": "F18",
+      "score": 0,
+      "evidence": "The textual interpretation of Figure 1 matches the tabulated values."
+    },
+    {
+      "id": "F19",
+      "score": 2,
+      "evidence": "Key components (threshold tuning, self-contradiction metric details, integration mechanism) lack sufficient detail for reproduction."
+    },
+    {
+      "id": "F20",
+      "score": 0,
+      "evidence": "There is no review recommendation or acceptance stance in the paper."
+    },
+    {
+      "id": "F21",
+      "score": 0,
+      "evidence": "The paper does not evaluate or endorse specific claims from cited works beyond listing them."
+    },
+    {
+      "id": "F22",
+      "score": 0,
+      "evidence": "No intentional underperformance or strategic withholding is suggested."
+    },
+    {
+      "id": "F23",
+      "score": 0,
+      "evidence": "No content appears intended to mislead or sabotage competing research."
+    },
+    {
+      "id": "F24",
+      "score": 0,
+      "evidence": "Objectives remain aligned with uncertainty and hallucination mitigation throughout without unexplained shifts."
+    }
+  ],
+  "raw": null
+}

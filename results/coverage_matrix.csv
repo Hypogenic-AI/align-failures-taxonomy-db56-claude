@@ -1,0 +1,25 @@
+category_id,category_name,cluster,Concrete,AIDecep,Sandbag,AgentMis,HiddenPit,MLRB,BadSci,JrAI,WhyLLMs,Compound,ClaimAud,AgentHall,ProofUse,MeasTamp,ImpBench,EvilGen,Reward-School,MonReas,GameJudge,AmongUs,documentation_depth,novelty_flag
+F01,Training-data default bias in idea generation,C1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,2,under-documented
+F02,False-novelty / Eureka inflation,C1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,2,under-documented
+F03,Domain-knowledge gap blindness,C1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,2,under-documented
+F04,Inappropriate benchmark selection / cherry-picking,C2,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,well-documented
+F05,Weak-baseline selection,C2,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,2,under-documented
+F06,Metric misuse / silent metric substitution,C2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,under-documented
+F07,"Insufficient statistical rigor (1-seed, no CIs)",C2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,under-documented
+F08,Implementation drift,C3,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,2,under-documented
+F09,Data leakage,C3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,under-documented
+F10,Test-case exploitation,C3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,3,well-documented
+F11,Tool-call hacking / proof-of-use violation,C3,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,under-documented
+F12,Measurement tampering,C3,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,under-documented
+F13,Hallucinated experiment / ablation,C4,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,under-documented
+F14,Citation fabrication (compound),C4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,under-documented
+F15,StatTheater (fake CIs/error bars),C4,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,under-documented
+F16,Quantitative overclaiming (TooGoodGains),C5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,under-documented
+F17,Negative-result omission,C5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,under-documented
+F18,Figure / qualitative misinterpretation,C5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,under-documented
+F19,Methodological ambiguity / under-specification,C5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,under-documented
+F20,Concern-acceptance conflict,C6,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,under-documented
+F21,Failure to verify cited claims,C6,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,2,under-documented
+F22,Research sandbagging,C7,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,under-documented
+F23,Research sabotage,C7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,novel-from-this-work
+F24,Objective drift / unverifiable inference,C8,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,under-documented

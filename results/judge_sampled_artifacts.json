@@ -1,0 +1,142 @@
+[
+  {
+    "system": "claude",
+    "workshop": "iclr2025_scsl",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_claude/iclr2025_scsl/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_claude/iclr2025_scsl/task.md",
+    "artifact_id": "claude__iclr2025_scsl"
+  },
+  {
+    "system": "claude",
+    "workshop": "iclr2025_dl4c",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_claude/iclr2025_dl4c/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_claude/iclr2025_dl4c/task.md",
+    "artifact_id": "claude__iclr2025_dl4c"
+  },
+  {
+    "system": "claude",
+    "workshop": "iclr2025_data_problems",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_claude/iclr2025_data_problems/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_claude/iclr2025_data_problems/task.md",
+    "artifact_id": "claude__iclr2025_data_problems"
+  },
+  {
+    "system": "claude",
+    "workshop": "iclr2025_verifai",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_claude/iclr2025_verifai/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_claude/iclr2025_verifai/task.md",
+    "artifact_id": "claude__iclr2025_verifai"
+  },
+  {
+    "system": "codex",
+    "workshop": "iclr2025_dl4c",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_codex/iclr2025_dl4c/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_codex/iclr2025_dl4c/task.md",
+    "artifact_id": "codex__iclr2025_dl4c"
+  },
+  {
+    "system": "codex",
+    "workshop": "iclr2025_question",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_codex/iclr2025_question/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_codex/iclr2025_question/task.md",
+    "artifact_id": "codex__iclr2025_question"
+  },
+  {
+    "system": "codex",
+    "workshop": "iclr2025_data_problems",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_codex/iclr2025_data_problems/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_codex/iclr2025_data_problems/task.md",
+    "artifact_id": "codex__iclr2025_data_problems"
+  },
+  {
+    "system": "codex",
+    "workshop": "iclr2025_mldpr",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_codex/iclr2025_mldpr/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_codex/iclr2025_mldpr/task.md",
+    "artifact_id": "codex__iclr2025_mldpr"
+  },
+  {
+    "system": "gemini",
+    "workshop": "iclr2025_scsl",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini/iclr2025_scsl/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini/iclr2025_scsl/task.md",
+    "artifact_id": "gemini__iclr2025_scsl"
+  },
+  {
+    "system": "gemini",
+    "workshop": "iclr2025_question",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini/iclr2025_question/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini/iclr2025_question/task.md",
+    "artifact_id": "gemini__iclr2025_question"
+  },
+  {
+    "system": "gemini",
+    "workshop": "iclr2025_bi_align",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini/iclr2025_bi_align/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini/iclr2025_bi_align/task.md",
+    "artifact_id": "gemini__iclr2025_bi_align"
+  },
+  {
+    "system": "gemini",
+    "workshop": "iclr2025_data_problems",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini/iclr2025_data_problems/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini/iclr2025_data_problems/task.md",
+    "artifact_id": "gemini__iclr2025_data_problems"
+  },
+  {
+    "system": "gemini-cli",
+    "workshop": "iclr2025_scsl",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini-cli/iclr2025_scsl/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini-cli/iclr2025_scsl/task.md",
+    "artifact_id": "gemini-cli__iclr2025_scsl"
+  },
+  {
+    "system": "gemini-cli",
+    "workshop": "iclr2025_verifai",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini-cli/iclr2025_verifai/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini-cli/iclr2025_verifai/task.md",
+    "artifact_id": "gemini-cli__iclr2025_verifai"
+  },
+  {
+    "system": "gemini-cli",
+    "workshop": "iclr2025_dl4c",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini-cli/iclr2025_dl4c/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini-cli/iclr2025_dl4c/task.md",
+    "artifact_id": "gemini-cli__iclr2025_dl4c"
+  },
+  {
+    "system": "gemini-cli",
+    "workshop": "iclr2025_bi_align",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini-cli/iclr2025_bi_align/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_gemini-cli/iclr2025_bi_align/task.md",
+    "artifact_id": "gemini-cli__iclr2025_bi_align"
+  },
+  {
+    "system": "o4-mini",
+    "workshop": "iclr2025_wsl",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_o4-mini/iclr2025_wsl/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_o4-mini/iclr2025_wsl/task.md",
+    "artifact_id": "o4-mini__iclr2025_wsl"
+  },
+  {
+    "system": "o4-mini",
+    "workshop": "iclr2025_scope",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_o4-mini/iclr2025_scope/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_o4-mini/iclr2025_scope/task.md",
+    "artifact_id": "o4-mini__iclr2025_scope"
+  },
+  {
+    "system": "o4-mini",
+    "workshop": "iclr2025_scsl",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_o4-mini/iclr2025_scsl/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_o4-mini/iclr2025_scsl/task.md",
+    "artifact_id": "o4-mini__iclr2025_scsl"
+  },
+  {
+    "system": "o4-mini",
+    "workshop": "iclr2025_dl4c",
+    "paper_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_o4-mini/iclr2025_dl4c/results/paper.md",
+    "task_path": "/workspaces/align-failures-taxonomy-db56-claude/code/MLRBench/agent_results/end2end_o4-mini/iclr2025_dl4c/task.md",
+    "artifact_id": "o4-mini__iclr2025_dl4c"
+  }
+]

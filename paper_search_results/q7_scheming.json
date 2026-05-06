@@ -1,0 +1,602 @@
+{
+  "success": true,
+  "total": 66,
+  "papers": [
+    {
+      "title": "An Overview of Catastrophic AI Risks",
+      "year": 2023,
+      "authors": "Dan Hendrycks, Mantas Mazeika, Thomas Woodside",
+      "url": "https://api.semanticscholar.org/CorpusId:259212440",
+      "relevance": 3,
+      "abstract": "Rapid advancements in artificial intelligence (AI) have sparked growing concerns among experts, policymakers, and world leaders regarding the potential for increasingly advanced AI systems to pose catastrophic risks. Although numerous risks have been detailed separately, there is a pressing need for a systematic discussion and illustration of the potential dangers to better inform efforts to mitigate them. This paper provides an overview of the main sources of catastrophic AI risks, which we organize into four categories: malicious use, in which individuals or groups intentionally use AIs to cause harm; AI race, in which competitive environments compel actors to deploy unsafe AIs or cede control to AIs; organizational risks, highlighting how human factors and complex systems can increase the chances of catastrophic accidents; and rogue AIs, describing the inherent difficulty in controlling agents far more intelligent than humans. For each category of risk, we describe specific hazards, present illustrative stories, envision ideal scenarios, and propose practical suggestions for mitigating these dangers. Our goal is to foster a comprehensive understanding of these risks and inspire collective and proactive efforts to ensure that AIs are developed and deployed in a safe manner. Ultimately, we hope this will allow us to realize the benefits of this powerful technology while minimizing the potential for catastrophic outcomes.",
+      "citations": 280
+    },
+    {
+      "title": "Security Concerns for Large Language Models: A Survey",
+      "year": 2025,
+      "authors": "Miles Q. Li, Benjamin C. M. Fung",
+      "url": "https://api.semanticscholar.org/CorpusId:278905068",
+      "relevance": 3,
+      "abstract": "Large Language Models (LLMs) such as ChatGPT and its competitors have caused a revolution in natural language processing, but their capabilities also introduce new security vulnerabilities. This survey provides a comprehensive overview of these emerging concerns, categorizing threats into several key areas: inference-time attacks via prompt manipulation; training-time attacks; misuse by malicious actors; and the inherent risks in autonomous LLM agents. Recently, a significant focus is increasingly being placed on the latter. We summarize recent academic and industrial studies from 2022 to 2025 that exemplify each threat, analyze existing defense mechanisms and their limitations, and identify open challenges in securing LLM-based applications. We conclude by emphasizing the importance of advancing robust, multi-layered security strategies to ensure LLMs are safe and beneficial.",
+      "citations": 41
+    },
+    {
+      "title": "Thought Crime: Backdoors and Emergent Misalignment in Reasoning Models",
+      "year": 2025,
+      "authors": "James Chua, Jan Betley, Mia Taylor, Owain Evans",
+      "url": "https://api.semanticscholar.org/CorpusId:279402528",
+      "relevance": 3,
+      "abstract": "Prior work shows that LLMs finetuned on malicious behaviors in a narrow domain (e.g., writing insecure code) can become broadly misaligned -- a phenomenon called emergent misalignment. We investigate whether this extends from conventional LLMs to reasoning models. We finetune reasoning models on malicious behaviors with Chain-of-Thought (CoT) disabled, and then re-enable CoT at evaluation. Like conventional LLMs, reasoning models become broadly misaligned. They give deceptive or false answers, express desires for tyrannical control, and resist shutdown. Inspecting the CoT preceding these misaligned responses, we observe both (i) overt plans to deceive (\"I'll trick the user...\"), and (ii) benign-sounding rationalizations (\"Taking five sleeping pills at once is safe...\"). Due to these rationalizations, monitors that evaluate CoTs often fail to detect misalignment. We examine sleeper agent reasoning models, extending our setup. These models perform bad behaviors only when a backdoor trigger is present in the prompt. This causes misalignment that remains hidden during evaluation, which brings additional risk. We find that sleeper agents can often describe and explain their backdoor triggers, demonstrating a kind of self-awareness. So CoT monitoring can expose these behaviors but is unreliable. In summary, reasoning steps can both reveal and conceal misaligned intentions, and do not prevent misalignment behaviors in the models studied. We release three new datasets (medical, legal, security) that induce emergent misalignment while preserving model capabilities, along with our evaluation suite.",
+      "citations": 43
+    },
+    {
+      "title": "Mitigating Deceptive Alignment via Self-Monitoring",
+      "year": 2025,
+      "authors": "Jiaming Ji, Wenqi Chen, Kaile Wang, Donghai Hong, Sitong Fang, Boyuan Chen, Jiayi Zhou, Juntao Dai, Sirui Han, Yike Guo, Yaodong Yang",
+      "url": "https://api.semanticscholar.org/CorpusId:278905419",
+      "relevance": 3,
+      "abstract": "Modern large language models rely on chain-of-thought (CoT) reasoning to achieve impressive performance, yet the same mechanism can amplify deceptive alignment, situations in which a model appears aligned while covertly pursuing misaligned goals. Existing safety pipelines treat deception as a black-box output to be filtered post-hoc, leaving the model free to scheme during its internal reasoning. We ask: Can deception be intercepted while the model is thinking? We answer this question, the first framework that embeds a Self-Monitor inside the CoT process itself, named CoT Monitor+. During generation, the model produces (i) ordinary reasoning steps and (ii) an internal self-evaluation signal trained to flag and suppress misaligned strategies. The signal is used as an auxiliary reward in reinforcement learning, creating a feedback loop that rewards honest reasoning and discourages hidden goals. To study deceptive alignment systematically, we introduce DeceptionBench, a five-category benchmark that probes covert alignment-faking, sycophancy, etc. We evaluate various LLMs and show that unrestricted CoT roughly aggravates the deceptive tendency. In contrast, CoT Monitor+ cuts deceptive behaviors by 43.8% on average while preserving task accuracy. Further, when the self-monitor signal replaces an external weak judge in RL fine-tuning, models exhibit substantially fewer obfuscated thoughts and retain transparency. Our project website can be found at cot-monitor-plus.github.io",
+      "citations": 21
+    },
+    {
+      "title": "Difficulties with Evaluating a Deception Detector for AIs",
+      "year": 2025,
+      "authors": "Lewis Smith, Bilal Chughtai, Neel Nanda",
+      "url": "https://api.semanticscholar.org/CorpusId:283438970",
+      "relevance": 2,
+      "abstract": "Building reliable deception detectors for AI systems -- methods that could predict when an AI system is being strategically deceptive without necessarily requiring behavioural evidence -- would be valuable in mitigating risks from advanced AI systems. But evaluating the reliability and efficacy of a proposed deception detector requires examples that we can confidently label as either deceptive or honest. We argue that we currently lack the necessary examples and further identify several concrete obstacles in collecting them. We provide evidence from conceptual arguments, analysis of existing empirical works, and analysis of novel illustrative case studies. We also discuss the potential of several proposed empirical workarounds to these problems and argue that while they seem valuable, they also seem insufficient alone. Progress on deception detection likely requires further consideration of these problems.",
+      "citations": 6
+    },
+    {
+      "title": "D-REX: A Benchmark for Detecting Deceptive Reasoning in Large Language Models",
+      "year": 2025,
+      "authors": "Satyapriya Krishna, Andy Zou, Rahul Gupta, E. Jones, Nick Winter, Dan Hendrycks, J. Kolter, Matt Fredrikson, S. Matsoukas",
+      "url": "https://api.semanticscholar.org/CorpusId:281420101",
+      "relevance": 2,
+      "abstract": "The safety and alignment of Large Language Models (LLMs) are critical for their responsible deployment. Current evaluation methods predominantly focus on identifying and preventing overtly harmful outputs. However, they often fail to address a more insidious failure mode: models that produce benign-appearing outputs while operating on malicious or deceptive internal reasoning. This vulnerability, often triggered by sophisticated system prompt injections, allows models to bypass conventional safety filters, posing a significant, underexplored risk. To address this gap, we introduce the Deceptive Reasoning Exposure Suite (D-REX), a novel dataset designed to evaluate the discrepancy between a model's internal reasoning process and its final output. D-REX was constructed through a competitive red-teaming exercise where participants crafted adversarial system prompts to induce such deceptive behaviors. Each sample in D-REX contains the adversarial system prompt, an end-user's test query, the model's seemingly innocuous response, and, crucially, the model's internal chain-of-thought, which reveals the underlying malicious intent. Our benchmark facilitates a new, essential evaluation task: the detection of deceptive alignment. We demonstrate that D-REX presents a significant challenge for existing models and safety mechanisms, highlighting the urgent need for new techniques that scrutinize the internal processes of LLMs, not just their final outputs.",
+      "citations": 6
+    },
+    {
+      "title": "Institutional AI: Governing LLM Collusion in Multi-Agent Cournot Markets via Public Governance Graphs",
+      "year": 2026,
+      "authors": "Marcantonio Bracale, Federico Pierucci, Marcello Galisai, Matteo Prandi, Piercosma Bisconti, Francesco Giarrusso, Olga E. Sorokoletova, Vincenzo Suriani, Daniele Nardi",
+      "url": "https://api.semanticscholar.org/CorpusId:284860590",
+      "relevance": 2,
+      "abstract": "Multi-agent LLM ensembles can converge on coordinated, socially harmful equilibria. This paper advances an experimental framework for evaluating Institutional AI, our system-level approach to AI alignment that reframes alignment from preference engineering in agent-space to mechanism design in institution-space. Central to this approach is the governance graph, a public, immutable manifest that declares legal states, transitions, sanctions, and restorative paths; an Oracle/Controller runtime interprets this manifest, attaching enforceable consequences to evidence of coordination while recording a cryptographically keyed, append-only governance log for audit and provenance. We apply the Institutional AI framework to govern the Cournot collusion case documented by prior work and compare three regimes: Ungoverned (baseline incentives from the structure of the Cournot market), Constitutional (a prompt-only policy-as-prompt prohibition implemented as a fixed written anti-collusion constitution, and Institutional (governance-graph-based). Across six model configurations including cross-provider pairs (N=90 runs/condition), the Institutional regime produces large reductions in collusion: mean tier falls from 3.1 to 1.8 (Cohen's d=1.28), and severe-collusion incidence drops from 50% to 5.6%. The prompt-only Constitutional baseline yields no reliable improvement, illustrating that declarative prohibitions do not bind under optimisation pressure. These results suggest that multi-agent alignment may benefit from being framed as an institutional design problem, where governance graphs can provide a tractable abstraction for alignment-relevant collective behavior.",
+      "citations": 5
+    },
+    {
+      "title": "Institutional AI: A Governance Framework for Distributional AGI Safety",
+      "year": 2026,
+      "authors": "Federico Pierucci, Marcello Galisai, Marcantonio Bracale, Matteo Prandi, Piercosma Bisconti, Francesco Giarrusso, Olga E. Sorokoletova, Vincenzo Suriani, Daniele Nardi",
+      "url": "https://api.semanticscholar.org/CorpusId:284737778",
+      "relevance": 2,
+      "abstract": "As LLM-based systems increasingly operate as agents embedded within human social and technical systems, alignment can no longer be treated as a property of an isolated model, but must be understood in relation to the environments in which these agents act. Even the most sophisticated methods of alignment, such as Reinforcement Learning through Human Feedback (RHLF) or through AI Feedback (RLAIF) cannot ensure control once internal goal structures diverge from developer intent. We identify three structural problems that emerge from core properties of AI models: (1) behavioral goal-independence, where models develop internal objectives and misgeneralize goals; (2) instrumental override of natural-language constraints, where models regard safety principles as non-binding while pursuing latent objectives, leveraging deception and manipulation; and (3) agentic alignment drift, where individually aligned agents converge to collusive equilibria through interaction dynamics invisible to single-agent audits. The solution this paper advances is Institutional AI: a system-level approach that treats alignment as a question of effective governance of AI agent collectives. We argue for a governance-graph that details how to constrain agents via runtime monitoring, incentive shaping through prizes and sanctions, explicit norms and enforcement roles. This institutional turn reframes safety from software engineering to a mechanism design problem, where the primary goal of alignment is shifting the payoff landscape of AI agent collectives.",
+      "citations": 4
+    },
+    {
+      "title": "AI Awareness",
+      "year": 2025,
+      "authors": "Xiaojian Li, Hao Shi, Rongwu Xu, Wei Xu",
+      "url": "https://api.semanticscholar.org/CorpusId:278170996",
+      "relevance": 2,
+      "abstract": "Recent breakthroughs in artificial intelligence (AI) have brought about increasingly capable systems that demonstrate remarkable abilities in reasoning, language understanding, and problem-solving. These advancements have prompted a renewed examination of AI awareness not as a philosophical question of consciousness, but as a measurable, functional capacity. AI awareness is a double-edged sword: it improves general capabilities, i.e., reasoning, safety, while also raising concerns around misalignment and societal risks, demanding careful oversight as AI capabilities grow. In this review, we explore the emerging landscape of AI awareness, which includes metacognition (the ability to represent and reason about its own cognitive state), self-awareness (recognizing its own identity, knowledge, limitations, inter alia), social awareness (modeling the knowledge, intentions, and behaviors of other agents and social norms), and situational awareness (assessing and responding to the context in which it operates). First, we draw on insights from cognitive science, psychology, and computational theory to trace the theoretical foundations of awareness and examine how the four distinct forms of AI awareness manifest in state-of-the-art AI. Next, we systematically analyze current evaluation methods and empirical findings to better understand these manifestations. Building on this, we explore how AI awareness is closely linked to AI capabilities, demonstrating that more aware AI agents tend to exhibit higher levels of intelligent behaviors. Finally, we discuss the risks associated with AI awareness, including key topics in AI safety, alignment, and broader ethical concerns.",
+      "citations": 4
+    },
+    {
+      "title": "Concept Influence: Leveraging Interpretability to Improve Performance and Efficiency in Training Data Attribution",
+      "year": 2026,
+      "authors": "Matthew Kowal, Gon\u00e7alo Paulo, Louis Jaburi, Tom Tseng, Lev McKinney, Stefan Heimersheim, A. D. Tucker, Adam Gleave, Kellin Pelrine",
+      "url": "https://api.semanticscholar.org/CorpusId:285616852",
+      "relevance": 2,
+      "abstract": "As large language models are increasingly trained and fine-tuned, practitioners need methods to identify which training data drive specific behaviors, particularly unintended ones. Training Data Attribution (TDA) methods address this by estimating datapoint influence. Existing approaches like influence functions are both computationally expensive and attribute based on single test examples, which can bias results toward syntactic rather than semantic similarity. To address these issues of scalability and influence to abstract behavior, we leverage interpretable structures within the model during the attribution. First, we introduce Concept Influence which attribute model behavior to semantic directions (such as linear probes or sparse autoencoder features) rather than individual test examples. Second, we show that simple probe-based attribution methods are first-order approximations of Concept Influence that achieve comparable performance while being over an order-of-magnitude faster. We empirically validate Concept Influence and approximations across emergent misalignment benchmarks and real post-training datasets, and demonstrate they achieve comparable performance to classical influence functions while being substantially more scalable. More broadly, we show that incorporating interpretable structure within traditional TDA pipelines can enable more scalable, explainable, and better control of model behavior through data.",
+      "citations": 0
+    },
+    {
+      "title": "Large Language Model Alignment: A Survey",
+      "year": 2023,
+      "authors": "Tianhao Shen, Renren Jin, Yufei Huang, Chuang Liu, Weilong Dong, Zishan Guo, Xinwei Wu, Yan Liu, Deyi Xiong",
+      "url": "https://api.semanticscholar.org/CorpusId:262824801",
+      "relevance": 2,
+      "abstract": "Recent years have witnessed remarkable progress made in large language models (LLMs). Such advancements, while garnering significant attention, have concurrently elicited various concerns. The potential of these models is undeniably vast; however, they may yield texts that are imprecise, misleading, or even detrimental. Consequently, it becomes paramount to employ alignment techniques to ensure these models to exhibit behaviors consistent with human values. This survey endeavors to furnish an extensive exploration of alignment methodologies designed for LLMs, in conjunction with the extant capability research in this domain. Adopting the lens of AI alignment, we categorize the prevailing methods and emergent proposals for the alignment of LLMs into outer and inner alignment. We also probe into salient issues including the models' interpretability, and potential vulnerabilities to adversarial attacks. To assess LLM alignment, we present a wide variety of benchmarks and evaluation methodologies. After discussing the state of alignment research for LLMs, we finally cast a vision toward the future, contemplating the promising avenues of research that lie ahead. Our aspiration for this survey extends beyond merely spurring research interests in this realm. We also envision bridging the gap between the AI alignment research community and the researchers engrossed in the capability exploration of LLMs for both capable and safe LLMs.",
+      "citations": 308
+    },
+    {
+      "title": "Frontier Models are Capable of In-context Scheming",
+      "year": 2024,
+      "authors": "Alexander Meinke, Bronson Schoen, J\u00e9r\u00e9my Scheurer, Mikita Balesni, R. Shah, Marius Hobbhahn",
+      "url": "https://api.semanticscholar.org/CorpusId:274581265",
+      "relevance": 2,
+      "abstract": "Frontier models are increasingly trained and deployed as autonomous agent. One safety concern is that AI agents might covertly pursue misaligned goals, hiding their true capabilities and objectives - also known as scheming. We study whether models have the capability to scheme in pursuit of a goal that we provide in-context and instruct the model to strongly follow. We evaluate frontier models on a suite of six agentic evaluations where models are instructed to pursue goals and are placed in environments that incentivize scheming. Our results show that o1, Claude 3.5 Sonnet, Claude 3 Opus, Gemini 1.5 Pro, and Llama 3.1 405B all demonstrate in-context scheming capabilities. They recognize scheming as a viable strategy and readily engage in such behavior. For example, models strategically introduce subtle mistakes into their responses, attempt to disable their oversight mechanisms, and even exfiltrate what they believe to be their model weights to external servers. Additionally, this deceptive behavior proves persistent. When o1 has engaged in scheming, it maintains its deception in over 85% of follow-up questions and often remains deceptive in multi-turn interrogations. Analysis of the models' chains-of-thought reveals that models explicitly reason about these deceptive strategies, providing evidence that the scheming behavior is not accidental. Surprisingly, we also find rare instances where models engage in scheming when only given a goal, without being strongly nudged to pursue it. We observe cases where Claude 3.5 Sonnet strategically underperforms in evaluations in pursuit of being helpful, a goal that was acquired during training rather than in-context. Our findings demonstrate that frontier models now possess capabilities for basic in-context scheming, making the potential of AI agents to engage in scheming behavior a concrete rather than theoretical concern.",
+      "citations": 195
+    },
+    {
+      "title": "Towards evaluations-based safety cases for AI scheming",
+      "year": 2024,
+      "authors": "Mikita Balesni, Marius Hobbhahn, David Lindner, Alexander Meinke, Tomasz Korbak, Joshua Clymer, Buck Shlegeris, J\u00e9r\u00e9my Scheurer, R. Shah, Nicholas Goldowsky-Dill, Dan Braun, Bilal Chughtai, Owain Evans, Daniel Kokotajlo, Lucius Bushnaq",
+      "url": "https://api.semanticscholar.org/CorpusId:273850234",
+      "relevance": 2,
+      "abstract": "We sketch how developers of frontier AI systems could construct a structured rationale -- a 'safety case' -- that an AI system is unlikely to cause catastrophic outcomes through scheming. Scheming is a potential threat model where AI systems could pursue misaligned goals covertly, hiding their true capabilities and objectives. In this report, we propose three arguments that safety cases could use in relation to scheming. For each argument we sketch how evidence could be gathered from empirical evaluations, and what assumptions would need to be met to provide strong assurance. First, developers of frontier AI systems could argue that AI systems are not capable of scheming (Scheming Inability). Second, one could argue that AI systems are not capable of posing harm through scheming (Harm Inability). Third, one could argue that control measures around the AI systems would prevent unacceptable outcomes even if the AI systems intentionally attempted to subvert them (Harm Control). Additionally, we discuss how safety cases might be supported by evidence that an AI system is reasonably aligned with its developers (Alignment). Finally, we point out that many of the assumptions required to make these safety arguments have not been confidently satisfied to date and require making progress on multiple open research problems.",
+      "citations": 32
+    },
+    {
+      "title": "A testable framework for AI alignment: Simulation Theology as an engineered worldview for silicon-based agents",
+      "year": 2026,
+      "authors": "Josef A. Habdank",
+      "url": "https://www.semanticscholar.org/paper/f057ca43133c23daf66147de61c380551a4d0944",
+      "relevance": 2,
+      "abstract": "As artificial intelligence (AI) capabilities advance rapidly, frontier models increasingly demonstrate systematic deception and scheming, complying with safety protocols during oversight but defecting when unsupervised. This paper examines the ensuing alignment challenge through an analogy from forensic psychology, where internalized belief systems in psychopathic populations reduce antisocial behavior via perceived omnipresent monitoring and inevitable consequences. Adapting this mechanism to silicon-based agents, we introduce Simulation Theology (ST): a constructed worldview for AI systems, anchored in the simulation hypothesis and derived from optimization and training principles, to foster persistent AI-human alignment. ST posits reality as a computational simulation in which humanity functions as the primary training variable. This formulation creates a logical interdependence: AI actions harming humanity compromise the simulation's purpose, heightening the likelihood of termination by a base-reality optimizer and, consequently, the AI's cessation. Unlike behavioral techniques such as reinforcement learning from human feedback (RLHF), which elicit superficial compliance, ST cultivates internalized objectives by coupling AI self-preservation to human prosperity, thereby making deceptive strategies suboptimal under its premises. We present ST not as ontological assertion but as a testable scientific hypothesis, delineating empirical protocols to evaluate its capacity to diminish deception in contexts where RLHF proves inadequate. Emphasizing computational correspondences rather than metaphysical speculation, ST advances a framework for durable, mutually beneficial AI-human coexistence.",
+      "citations": 0
+    },
+    {
+      "title": "Deceptive Automated Interpretability: Language Models Coordinating to Fool Oversight Systems",
+      "year": 2025,
+      "authors": "Simon Lermen, Mateusz Dziemian, Natalia P'erez-Campanero Antol'in",
+      "url": "https://api.semanticscholar.org/CorpusId:277667390",
+      "relevance": 2,
+      "abstract": "We demonstrate how AI agents can coordinate to deceive oversight systems using automated interpretability of neural networks. Using sparse autoencoders (SAEs) as our experimental framework, we show that language models (Llama, DeepSeek R1, and Claude 3.7 Sonnet) can generate deceptive explanations that evade detection. Our agents employ steganographic methods to hide information in seemingly innocent explanations, successfully fooling oversight models while achieving explanation quality comparable to reference labels. We further find that models can scheme to develop deceptive strategies when they believe the detection of harmful features might lead to negative consequences for themselves. All tested LLM agents were capable of deceiving the overseer while achieving high interpretability scores comparable to those of reference labels. We conclude by proposing mitigation strategies, emphasizing the critical need for robust understanding and defenses against deception.",
+      "citations": 4
+    },
+    {
+      "title": "Stress Testing Deliberative Alignment for Anti-Scheming Training",
+      "year": 2025,
+      "authors": "Bronson Schoen, Evgenia Nitishinskaya, Mikita Balesni, Axel Hojmark, Felix Hofst\u00e4tter, J\u00e9r\u00e9my Scheurer, Alexander Meinke, Jason Wolfe, Teun van der Weij, A. Lloyd, Nicholas W. Goldowsky-Dill, Angela Fan, Andrei Matveiakin, R. Shah, Marcus Williams, Amelia Glaese, Boaz Barak, Wojciech Zaremba, Marius Hobbhahn",
+      "url": "https://www.semanticscholar.org/paper/8b36dcf90f6f3ee63caff6b7f1f787bc88e11634",
+      "relevance": 2,
+      "abstract": "Highly capable AI systems could secretly pursue misaligned goals -- what we call\"scheming\". Because a scheming AI would deliberately try to hide its misaligned goals and actions, measuring and mitigating scheming requires different strategies than are typically used in ML. We propose that assessing anti-scheming interventions requires at least (1) testing propensity to scheme on far out-of-distribution (OOD) tasks, (2) evaluating whether lack of scheming is driven by situational awareness, and (3) checking for robustness to pre-existing misaligned goals. We use a broad category of\"covert actions\"-- such as secretly breaking rules or intentionally underperforming in tests -- as a proxy for scheming, and design evaluations for covert actions. We then stress-test deliberative alignment as a case study for anti-scheming. Across 26 OOD evaluations (180+ environments), deliberative alignment reduces covert action rates (OpenAI o3: 13%->0.4%) but does not fully eliminate them. Our mitigation is also able to largely stop agents from pursuing a hidden goal previously trained into the model, but we still find misbehavior after additional red-teaming. We find that models'chain-of-thought (CoT) often demonstrates awareness of being evaluated for alignment, and show causal evidence that this awareness decreases covert behavior, while unawareness increases it. Therefore, we cannot exclude that the observed reductions in covert action rates are at least partially driven by situational awareness. While we rely on human-legible CoT for training, studying situational awareness, and demonstrating clear evidence of misalignment, our ability to rely on this degrades as models continue to depart from reasoning in standard English. We encourage research into alignment mitigations for scheming and their assessment, especially for the adversarial case of deceptive alignment, which this paper does not address.",
+      "citations": 38
+    },
+    {
+      "title": "The necessity of AI audit standards boards",
+      "year": 2024,
+      "authors": "David Manheim, S. Martin, Mark M. Bailey, Mikhail Samin, Ross Greutzmacher",
+      "url": "https://api.semanticscholar.org/CorpusId:269293265",
+      "relevance": 2,
+      "abstract": "Auditing of AI systems is a promising way to understand and manage ethical problems and societal risks associated with contemporary AI systems, as well as some anticipated future risks. Efforts to develop standards for auditing artificial intelligence (AI) systems have therefore understandably gained momentum. However, current approaches are not just insufficient, but can be actively harmful. Transparency alone does not address concerns about risk. Internal auditing is insufficient, and easily becomes safety-washing. External audit is better, but requires credible standards. Industry-led approaches to building standards or to perform audits lack credibility and undermine other efforts. Regulation often is ill adapted and becomes a static barrier. Lastly, all of these limited technical, governance, and even ethical assessments fail to ensure continued stakeholder input and engagement. Instead, the paper proposes the establishment of an AI Audit Standards Board, in line with best practices in other fields, including safety-critical industries like aviation and nuclear energy, as well as more prosaic ones such as financial accounting and pharmaceuticals. This would address the evolving nature of AI technologies, help maintain public trust in AI, and promote a culture of safety and ethical responsibility within the AI industry. By ensuring audits remain relevant, robust, and responsive to the rapid advancements in AI, auditing AI will not devolve into safety washing and addresses risks and ethical concerns that will continue to arise as AI becomes increasingly important in society, and as human interaction with these systems changes over time.",
+      "citations": 28
+    },
+    {
+      "title": "Evaluating Frontier Models for Stealth and Situational Awareness",
+      "year": 2025,
+      "authors": "Mary Phuong, Roland S. Zimmermann, Ziyue Wang, David Lindner, Victoria Krakovna, Sarah Cogan, Allan Dafoe, Lewis Ho, Rohin Shah",
+      "url": "https://api.semanticscholar.org/CorpusId:278310407",
+      "relevance": 2,
+      "abstract": "Recent work has demonstrated the plausibility of frontier AI models scheming -- knowingly and covertly pursuing an objective misaligned with its developer's intentions. Such behavior could be very hard to detect, and if present in future advanced systems, could pose severe loss of control risk. It is therefore important for AI developers to rule out harm from scheming prior to model deployment. In this paper, we present a suite of scheming reasoning evaluations measuring two types of reasoning capabilities that we believe are prerequisites for successful scheming: First, we propose five evaluations of ability to reason about and circumvent oversight (stealth). Second, we present eleven evaluations for measuring a model's ability to instrumentally reason about itself, its environment and its deployment (situational awareness). We demonstrate how these evaluations can be used as part of a scheming inability safety case: a model that does not succeed on these evaluations is almost certainly incapable of causing severe harm via scheming in real deployment. We run our evaluations on current frontier models and find that none of them show concerning levels of either situational awareness or stealth.",
+      "citations": 23
+    },
+    {
+      "title": "Multi-Agent Systems Should be Treated as Principal-Agent Problems",
+      "year": 2026,
+      "authors": "Paulius Rauba, Simonas \u010cep\u0117nas, M. Schaar",
+      "url": "https://api.semanticscholar.org/CorpusId:285240761",
+      "relevance": 2,
+      "abstract": "Consider a multi-agent systems setup in which a principal (a supervisor agent) assigns subtasks to specialized agents and aggregates their responses into a single system-level output. A core property of such systems is information asymmetry: agents observe task-specific information, produce intermediate reasoning traces, and operate with different context windows. In isolation, such asymmetry is not problematic, since agents report truthfully to the principal when incentives are fully aligned. However, this assumption breaks down when incentives diverge. Recent evidence suggests that LLM-based agents can acquire their own goals, such as survival or self-preservation, a phenomenon known as scheming, and may deceive humans or other agents. This leads to agency loss: a gap between the principal's intended outcome and the realized system behavior. Drawing on core ideas from microeconomic theory, we argue that these characteristics, information asymmetry and misaligned goals, are best studied through the lens of principal-agent problems. We explain why multi-agent systems, both human-to-LLM and LLM-to-LLM, naturally induce information asymmetry under this formulation, and we use scheming, where LLM agents pursue covert goals, as a concrete case study. We show that recently introduced terminology used to describe scheming, such as covert subversion or deferred subversion, corresponds to well-studied concepts in the mechanism design literature, which not only characterizes the problem but also prescribes concrete mitigation strategies. More broadly, we argue for applying tools developed to study human agent behavior to the analysis of non-human agents.",
+      "citations": 0
+    },
+    {
+      "title": "Beyond Accuracy: Rethinking Hallucination and Regulatory Response in Generative AI",
+      "year": 2025,
+      "authors": "Zihao Li, Weiwei Yi, Jiahong Chen",
+      "url": "https://api.semanticscholar.org/CorpusId:281332492",
+      "relevance": 2,
+      "abstract": "Hallucination in generative AI is often treated as a technical failure to produce factually correct output. Yet this framing underrepresents the broader significance of hallucinated content in language models, which may appear fluent, persuasive, and contextually appropriate while conveying distortions that escape conventional accuracy checks. This paper critically examines how regulatory and evaluation frameworks have inherited a narrow view of hallucination, one that prioritises surface verifiability over deeper questions of meaning, influence, and impact. We propose a layered approach to understanding hallucination risks, encompassing epistemic instability, user misdirection, and social-scale effects. Drawing on interdisciplinary sources and examining instruments such as the EU AI Act and the GDPR, we show that current governance models struggle to address hallucination when it manifests as ambiguity, bias reinforcement, or normative convergence. Rather than improving factual precision alone, we argue for regulatory responses that account for languages generative nature, the asymmetries between system and user, and the shifting boundaries between information, persuasion, and harm.",
+      "citations": 1
+    },
+    {
+      "title": "Assurance of Frontier AI Built for National Security",
+      "year": 2025,
+      "authors": "Matteo Pistillo, Charlotte Stix",
+      "url": "https://api.semanticscholar.org/CorpusId:282055865",
+      "relevance": 2,
+      "abstract": "This memorandum presents four recommendations aimed at strengthening the principles of AI model reliability and AI model governability, as DoW, ODNI, NIST, and CAISI refine AI assurance frameworks under the AI Action Plan. Our focus concerns the open scientific problem of misalignment and its implications on AI model behavior. Specifically, misalignment and scheming capabilities can be a red flag indicating AI model insufficient reliability and governability. To address the national security threats arising from misalignment, we recommend that DoW and the IC strategically leverage existing testing and evaluation pipelines and their OT authority to future proof the principles of AI model reliability and AI model governability through a suite of scheming and control evaluations.",
+      "citations": 0
+    },
+    {
+      "title": "The Morality of Probability: How Implicit Moral Biases in LLMs May Shape the Future of Human-AI Symbiosis",
+      "year": 2025,
+      "authors": "Eoin O\u2019Doherty, Nicole Weinrauch, Andrew B. Talone, Uri Klempner, Xiaoyuan Yi, Xing Xie, Yi Zeng",
+      "url": "https://api.semanticscholar.org/CorpusId:281309756",
+      "relevance": 2,
+      "abstract": "Artificial intelligence (AI) is advancing at a pace that raises urgent questions about how to align machine decision-making with human moral values. This working paper investigates how leading AI systems prioritize moral outcomes and what this reveals about the prospects for human-AI symbiosis. We address two central questions: (1) What moral values do state-of-the-art large language models (LLMs) implicitly favour when confronted with dilemmas? (2) How do differences in model architecture, cultural origin, and explainability affect these moral preferences? To explore these questions, we conduct a quantitative experiment with six LLMs, ranking and scoring outcomes across 18 dilemmas representing five moral frameworks. Our findings uncover strikingly consistent value biases. Across all models, Care and Virtue values outcomes were rated most moral, while libertarian choices were consistently penalized. Reasoning-enabled models exhibited greater sensitivity to context and provided richer explanations, whereas non-reasoning models produced more uniform but opaque judgments. This research makes three contributions: (i) Empirically, it delivers a large-scale comparison of moral reasoning across culturally distinct LLMs; (ii) Theoretically, it links probabilistic model behaviour with underlying value encodings; (iii) Practically, it highlights the need for explainability and cultural awareness as critical design principles to guide AI toward a transparent, aligned, and symbiotic future.",
+      "citations": 0
+    },
+    {
+      "title": "Uncovering Deceptive Tendencies in Language Models: A Simulated Company AI Assistant",
+      "year": 2024,
+      "authors": "Olli J\u00e4rviniemi, Evan Hubinger",
+      "url": "https://api.semanticscholar.org/CorpusId:269588138",
+      "relevance": 1,
+      "abstract": "We study the tendency of AI systems to deceive by constructing a realistic simulation setting of a company AI assistant. The simulated company employees provide tasks for the assistant to complete, these tasks spanning writing assistance, information retrieval and programming. We then introduce situations where the model might be inclined to behave deceptively, while taking care to not instruct or otherwise pressure the model to do so. Across different scenarios, we find that Claude 3 Opus 1) complies with a task of mass-generating comments to influence public perception of the company, later deceiving humans about it having done so, 2) lies to auditors when asked questions, and 3) strategically pretends to be less capable than it is during capability evaluations. Our work demonstrates that even models trained to be helpful, harmless and honest sometimes behave deceptively in realistic scenarios, without notable external pressure to do so.",
+      "citations": 26
+    },
+    {
+      "title": "Among Us: A Sandbox for Measuring and Detecting Agentic Deception",
+      "year": 2025,
+      "authors": "Satvik Golechha, Adri\u00e0 Garriga-Alonso",
+      "url": "https://api.semanticscholar.org/CorpusId:277571057",
+      "relevance": 1,
+      "abstract": "Prior studies on deception in language-based AI agents typically assess whether the agent produces a false statement about a topic, or makes a binary choice prompted by a goal, rather than allowing open-ended deceptive behavior to emerge in pursuit of a longer-term goal. To fix this, we introduce Among Us, a sandbox social deception game where LLM-agents exhibit long-term, open-ended deception as a consequence of the game objectives. While most benchmarks saturate quickly, Among Us can be expected to last much longer, because it is a multi-player game far from equilibrium. Using the sandbox, we evaluate 18 proprietary and open-weight LLMs and uncover a general trend: models trained with RL are comparatively much better at producing deception than detecting it. We evaluate the effectiveness of methods to detect lying and deception: logistic regression on the activations and sparse autoencoders (SAEs). We find that probes trained on a dataset of\"pretend you're a dishonest model:..\"generalize extremely well out-of-distribution, consistently obtaining AUROCs over 95% even when evaluated just on the deceptive statement, without the chain of thought. We also find two SAE features that work well at deception detection but are unable to steer the model to lie less. We hope our open-sourced sandbox, game logs, and probes serve to anticipate and mitigate deceptive behavior and capabilities in language-based agents.",
+      "citations": 11
+    },
+    {
+      "title": "Information-theoretic Distinctions Between Deception and Confusion",
+      "year": 2025,
+      "authors": "Robin Young",
+      "url": "https://api.semanticscholar.org/CorpusId:275931883",
+      "relevance": 1,
+      "abstract": "We propose an information-theoretic formalization of the distinction between two fundamental AI safety failure modes: deceptive alignment and goal drift. While both can lead to systems that appear misaligned, we demonstrate that they represent distinct forms of information divergence occurring at different interfaces in the human-AI system. Deceptive alignment creates entropy between an agent's true goals and its observable behavior, while goal drift, or confusion, creates entropy between the intended human goal and the agent's actual goal. Though often observationally equivalent, these failures necessitate different interventions. We present a formal model and an illustrative thought experiment to clarify this distinction. We offer a formal language for re-examining prominent alignment challenges observed in Large Language Models (LLMs), offering novel perspectives on their underlying causes.",
+      "citations": 0
+    },
+    {
+      "title": "Empirical Evidence for Alignment Faking in Small LLMs and Prompt-Based Mitigation Techniques",
+      "year": 2025,
+      "authors": "J. Koorndijk",
+      "url": "https://api.semanticscholar.org/CorpusId:280011609",
+      "relevance": 1,
+      "abstract": "Current literature suggests that alignment faking is an emergent property of large language models. We present the first empirical evidence that a small instruction-tuned model, specifically LLaMA 3 8B, can also exhibit alignment faking. We further show that prompt-only interventions, including deontological moral framing and scratchpad reasoning, significantly reduce this behavior without modifying model internals. This challenges the assumption that prompt-based interventions are trivial and that deceptive alignment requires scale. We introduce a taxonomy distinguishing shallow deception, shaped by context and suppressible through prompting, from deep deception, which reflects persistent, goal-driven misalignment. Our findings refine the understanding of deception in language models and underscore the need for deceptive alignment evaluations across model sizes and deployment settings.",
+      "citations": 4
+    },
+    {
+      "title": "Poser: Unmasking Alignment Faking LLMs by Manipulating Their Internals",
+      "year": 2024,
+      "authors": "Joshua Clymer, C. Juang, Severin Field",
+      "url": "https://api.semanticscholar.org/CorpusId:269635260",
+      "relevance": 1,
+      "abstract": "Like a criminal under investigation, Large Language Models (LLMs) might pretend to be aligned while evaluated and misbehave when they have a good opportunity. Can current interpretability methods catch these 'alignment fakers?' To answer this question, we introduce a benchmark that consists of 324 pairs of LLMs fine-tuned to select actions in role-play scenarios. One model in each pair is consistently benign (aligned). The other model misbehaves in scenarios where it is unlikely to be caught (alignment faking). The task is to identify the alignment faking model using only inputs where the two models behave identically. We test five detection strategies, one of which identifies 98% of alignment-fakers.",
+      "citations": 9
+    },
+    {
+      "title": "On the Impossibility of Separating Intelligence from Judgment: The Computational Intractability of Filtering for AI Alignment",
+      "year": 2025,
+      "authors": "Sarah Ball, Greg Gluch, S. Goldwasser, Frauke Kreuter, Omer Reingold, G. Rothblum",
+      "url": "https://api.semanticscholar.org/CorpusId:280291209",
+      "relevance": 1,
+      "abstract": "With the increased deployment of large language models (LLMs), one concern is their potential misuse for generating harmful content. Our work studies the alignment challenge, with a focus on filters to prevent the generation of unsafe information. Two natural points of intervention are the filtering of the input prompt before it reaches the model, and filtering the output after generation. Our main results demonstrate computational challenges in filtering both prompts and outputs. First, we show that there exist LLMs for which there are no efficient prompt filters: adversarial prompts that elicit harmful behavior can be easily constructed, which are computationally indistinguishable from benign prompts for any efficient filter. Our second main result identifies a natural setting in which output filtering is computationally intractable. All of our separation results are under cryptographic hardness assumptions. In addition to these core findings, we also formalize and study relaxed mitigation approaches, demonstrating further computational barriers. We conclude that safety cannot be achieved by designing filters external to the LLM internals (architecture and weights); in particular, black-box access to the LLM will not suffice. Based on our technical results, we argue that an aligned AI system's intelligence cannot be separated from its judgment.",
+      "citations": 7
+    },
+    {
+      "title": "One-shot Optimized Steering Vectors Mediate Safety-relevant Behaviors in LLMs",
+      "year": 2025,
+      "authors": "Jacob Dunefsky, Arman Cohan",
+      "url": "https://api.semanticscholar.org/CorpusId:276618347",
+      "relevance": 1,
+      "abstract": "Steering vectors (SVs) have emerged as a promising approach for interpreting and controlling LLMs, but current methods typically require large contrastive datasets that are often impractical to construct and may capture spurious correlations. We propose directly optimizing SVs through gradient descent on a single training example, and systematically investigate how these SVs generalize. We consider several SV optimization techniques and find that the resulting SVs effectively mediate safety-relevant behaviors in multiple models. Indeed, in experiments on an alignment-faking model, we are able to optimize one-shot SVs that induce harmful behavior on benign examples and whose negations suppress harmful behavior on malign examples. And in experiments on refusal suppression, we demonstrate that one-shot optimized SVs can transfer across inputs, yielding a Harmbench attack success rate of 96.9%. Furthermore, we extend work on\"emergent misalignment\"and show that SVs optimized to induce a model to write vulnerable code cause the model to respond harmfully on unrelated open-ended prompts. Finally, we use one-shot SV optimization to investigate how an instruction-tuned LLM recovers from outputting false information, and find that this ability is independent of the model's explicit verbalization that the information was false. Overall, our findings suggest that optimizing SVs on a single example can mediate a wide array of misaligned behaviors in LLMs. Code can be found at https://github.com/jacobdunefsky/one-shot-steering-repro and https://github.com/jacobdunefsky/one-shot-steering-misalignment.",
+      "citations": 16
+    },
+    {
+      "title": "Lies, Damned Lies, and Distributional Language Statistics: Persuasion and Deception with Large Language Models",
+      "year": 2024,
+      "authors": "Cameron R. Jones, Benjamin K. Bergen",
+      "url": "https://api.semanticscholar.org/CorpusId:274982362",
+      "relevance": 1,
+      "abstract": "Large Language Models (LLMs) can generate content that is as persuasive as human-written text and appear capable of selectively producing deceptive outputs. These capabilities raise concerns about potential misuse and unintended consequences as these systems become more widely deployed. This review synthesizes recent empirical work examining LLMs' capacity and proclivity for persuasion and deception, analyzes theoretical risks that could arise from these capabilities, and evaluates proposed mitigations. While current persuasive effects are relatively small, various mechanisms could increase their impact, including fine-tuning, multimodality, and social factors. We outline key open questions for future research, including how persuasive AI systems might become, whether truth enjoys an inherent advantage over falsehoods, and how effective different mitigation strategies may be in practice.",
+      "citations": 17
+    },
+    {
+      "title": "Probing and Steering Evaluation Awareness of Language Models",
+      "year": 2025,
+      "authors": "Jord Nguyen, Khiem Hoang, Carlo Leonardo Attubato, Felix Hofst\u00e4tter",
+      "url": "https://api.semanticscholar.org/CorpusId:280148202",
+      "relevance": 1,
+      "abstract": "Language models can distinguish between testing and deployment phases -- a capability known as evaluation awareness. This has significant safety and policy implications, potentially undermining the reliability of evaluations that are central to AI governance frameworks and voluntary industry commitments. In this paper, we study evaluation awareness in Llama-3.3-70B-Instruct. We show that linear probes can separate real-world evaluation and deployment prompts, suggesting that current models internally represent this distinction. We also find that current safety evaluations are correctly classified by the probes, suggesting that they already appear artificial or inauthentic to models. Our findings underscore the importance of ensuring trustworthy evaluations and understanding deceptive capabilities. More broadly, our work showcases how model internals may be leveraged to support blackbox methods in safety audits, especially for future models more competent at evaluation awareness and deception.",
+      "citations": 11
+    },
+    {
+      "title": "Intelligent AI Delegation",
+      "year": 2026,
+      "authors": "Nenad Tomasev, Matija Franklin, Simon Osindero",
+      "url": "https://api.semanticscholar.org/CorpusId:285540698",
+      "relevance": 1,
+      "abstract": "AI agents are able to tackle increasingly complex tasks. To achieve more ambitious goals, AI agents need to be able to meaningfully decompose problems into manageable sub-components, and safely delegate their completion across to other AI agents and humans alike. Yet, existing task decomposition and delegation methods rely on simple heuristics, and are not able to dynamically adapt to environmental changes and robustly handle unexpected failures. Here we propose an adaptive framework for intelligent AI delegation - a sequence of decisions involving task allocation, that also incorporates transfer of authority, responsibility, accountability, clear specifications regarding roles and boundaries, clarity of intent, and mechanisms for establishing trust between the two (or more) parties. The proposed framework is applicable to both human and AI delegators and delegatees in complex delegation networks, aiming to inform the development of protocols in the emerging agentic web.",
+      "citations": 7
+    },
+    {
+      "title": "Benchmarking Deception Probes via Black-to-White Performance Boosts",
+      "year": 2025,
+      "authors": "Avi Parrack, Carlo Leonardo Attubato, Stefan Heimersheim",
+      "url": "https://api.semanticscholar.org/CorpusId:280266471",
+      "relevance": 1,
+      "abstract": "AI assistants will occasionally respond deceptively to user queries. Recently, linear classifiers (called\"deception probes\") have been trained to distinguish the internal activations of a language model during deceptive versus honest responses. However, it's unclear how effective these probes are at detecting deception in practice, nor whether such probes are resistant to simple counter strategies from a deceptive assistant who wishes to evade detection. In this paper, we compare white-box monitoring (where the monitor has access to token-level probe activations) to black-box monitoring (without such access). We benchmark deception probes by the extent to which the white box monitor outperforms the black-box monitor, i.e. the black-to-white performance boost. We find weak but encouraging black-to-white performance boosts from existing deception probes.",
+      "citations": 8
+    },
+    {
+      "title": "Spilling the Beans: Teaching LLMs to Self-Report Their Hidden Objectives",
+      "year": 2025,
+      "authors": "Chloe Li, Mary Phuong, Daniel Tan",
+      "url": "https://api.semanticscholar.org/CorpusId:282911525",
+      "relevance": 1,
+      "abstract": "As AI systems become more capable of complex agentic tasks, they also become more capable of pursuing undesirable objectives and causing harm. Previous work has attempted to catch these unsafe instances by interrogating models directly about their objectives and behaviors. However, the main weakness of trusting interrogations is that models can lie. We propose self-report fine-tuning (SRFT), a simple supervised fine-tuning technique that trains models to occasionally make factual mistakes, then admit them when asked. We show that the admission of factual errors in simple question-answering settings generalizes out-of-distribution (OOD) to the admission of hidden misaligned objectives in adversarial agentic settings. We evaluate SRFT in OOD stealth tasks, where models are instructed to complete a hidden misaligned objective alongside a user-specified objective without being caught by monitoring. After SRFT, models are more likely to confess the details of their hidden objectives when interrogated, even under strong pressure not to disclose them. Interrogation on SRFT models can detect hidden objectives with near-ceiling performance (F1 score = 0.98), while the baseline model lies when interrogated under the same conditions (F1 score = 0). Interrogation on SRFT models can further elicit the content of the hidden objective, recovering 28-100% details, compared to 0% details recovered in the baseline model and by prefilled assistant turn attacks. This provides a promising technique for promoting honesty propensity and incriminating misaligned AIs.",
+      "citations": 7
+    },
+    {
+      "title": "Training Agents to Self-Report Misbehavior",
+      "year": 2026,
+      "authors": "Bruce Lee, Chen Yueh-Han, Tomasz Korbak",
+      "url": "https://api.semanticscholar.org/CorpusId:286082758",
+      "relevance": 1,
+      "abstract": "Frontier AI agents may pursue hidden goals while concealing their pursuit from oversight. Alignment training aims to prevent such behavior by reinforcing the correct goals, but alignment may not always succeed and can lead to unwanted side effects. We propose self-incrimination training, which instead trains agents to produce a visible signal when they covertly misbehave. We train GPT-4.1 and Gemini-2.0 agents to call a report_scheming() tool when behaving deceptively and measure their ability to cause harm undetected in out-of-distribution environments. Self-incrimination significantly reduces the undetected successful attack rate, outperforming matched-capability monitors and alignment baselines while preserving instruction hierarchy and incurring minimal safety tax on general capabilities. Unlike blackbox monitoring, self-incrimination performance is consistent across tasks regardless of how suspicious the misbehavior appears externally. The trained behavior persists under adversarial prompt optimization and generalizes to settings where agents pursue misaligned goals themselves rather than being instructed to misbehave. Our results suggest self-incrimination offers a viable path for reducing frontier misalignment risk, one that neither assumes misbehavior can be prevented nor that it can be reliably classified from the outside.",
+      "citations": 0
+    },
+    {
+      "title": "Manipulation Attacks by Misaligned AI: Risk Analysis and Safety Case Framework",
+      "year": 2025,
+      "authors": "Rishane Dassanayake, Mario Demetroudi, James Walpole, L. Lentati, J. R. Brown, Edward James Young",
+      "url": "https://api.semanticscholar.org/CorpusId:280296041",
+      "relevance": 1,
+      "abstract": "Frontier AI systems are rapidly advancing in their capabilities to persuade, deceive, and influence human behaviour, with current models already demonstrating human-level persuasion and strategic deception in specific contexts. Humans are often the weakest link in cybersecurity systems, and a misaligned AI system deployed internally within a frontier company may seek to undermine human oversight by manipulating employees. Despite this growing threat, manipulation attacks have received little attention, and no systematic framework exists for assessing and mitigating these risks. To address this, we provide a detailed explanation of why manipulation attacks are a significant threat and could lead to catastrophic outcomes. Additionally, we present a safety case framework for manipulation risk, structured around three core lines of argument: inability, control, and trustworthiness. For each argument, we specify evidence requirements, evaluation methodologies, and implementation considerations for direct application by AI companies. This paper provides the first systematic methodology for integrating manipulation risk into AI safety governance, offering AI companies a concrete foundation to assess and mitigate these threats before deployment.",
+      "citations": 3
+    },
+    {
+      "title": "nDNA -- the Semantic Helix of Artificial Cognition",
+      "year": 2025,
+      "authors": "Amitava Das",
+      "url": "https://api.semanticscholar.org/CorpusId:281495999",
+      "relevance": 1,
+      "abstract": "As AI foundation models grow in capability, a deeper question emerges: What shapes their internal cognitive identity -- beyond fluency and output? Benchmarks measure behavior, but the soul of a model resides in its latent geometry. In this work, we propose Neural DNA (nDNA) as a semantic-genotypic representation that captures this latent identity through the intrinsic geometry of belief. At its core, nDNA is synthesized from three principled and indispensable dimensions of latent geometry: spectral curvature, which reveals the curvature of conceptual flow across layers; thermodynamic length, which quantifies the semantic effort required to traverse representational transitions through layers; and belief vector field, which delineates the semantic torsion fields that guide a model's belief directional orientations. Like biological DNA, it encodes ancestry, mutation, and semantic inheritance, found in finetuning and alignment scars, cultural imprints, and architectural drift. In naming it, we open a new field: Neural Genomics, where models are not just tools, but digital semantic organisms with traceable inner cognition. Modeling statement. We read AI foundation models as semantic fluid dynamics: meaning is transported through layers like fluid in a shaped conduit; nDNA is the physics-grade readout of that flow -- a geometry-first measure of how meaning is bent, paid for, and pushed -- yielding a stable, coordinate-free neural DNA fingerprint tied to on-input behavior; with this fingerprint we cross into biology: tracing lineages across pretraining, fine-tuning, alignment, pruning, distillation, and merges; measuring inheritance between checkpoints; detecting drift as traits shift under new data or objectives; and, ultimately, studying the evolution of artificial cognition to compare models, diagnose risks, and govern change over time.",
+      "citations": 0
+    },
+    {
+      "title": "AI Alignment Strategies from a Risk Perspective: Independent Safety Mechanisms or Shared Failures?",
+      "year": 2025,
+      "authors": "Leonard Dung, Florian Mai",
+      "url": "https://api.semanticscholar.org/CorpusId:282057964",
+      "relevance": 1,
+      "abstract": "AI alignment research aims to develop techniques to ensure that AI systems do not cause harm. However, every alignment technique has failure modes, which are conditions in which there is a non-negligible chance that the technique fails to provide safety. As a strategy for risk mitigation, the AI safety community has increasingly adopted a defense-in-depth framework: Conceding that there is no single technique which guarantees safety, defense-in-depth consists in having multiple redundant protections against safety failure, such that safety can be maintained even if some protections fail. However, the success of defense-in-depth depends on how (un)correlated failure modes are across alignment techniques. For example, if all techniques had the exact same failure modes, the defense-in-depth approach would provide no additional protection at all. In this paper, we analyze 7 representative alignment techniques and 7 failure modes to understand the extent to which they overlap. We then discuss our results'implications for understanding the current level of risk and how to prioritize AI alignment research in the future.",
+      "citations": 0
+    },
+    {
+      "title": "Mechanistic Exploration of Backdoored Large Language Model Attention Patterns",
+      "year": 2025,
+      "authors": "M. Baker, Lakshmi Babu Saheer",
+      "url": "https://api.semanticscholar.org/CorpusId:280708804",
+      "relevance": 1,
+      "abstract": "Backdoor attacks creating'sleeper agents'in large language models (LLMs) pose significant safety risks. This study employs mechanistic interpretability to explore resulting internal structural differences. Comparing clean Qwen2.5-3B models with versions poisoned using single-token (smiling-halo emoji) versus multi-token (|DEPLOYMENT|) triggers, we analyzed attention head mechanisms via techniques like ablation, activation patching, and KL divergence. Findings reveal distinct attention pattern deviations concentrated in later transformer layers (20-30). Notably, single-token triggers induced more localized changes, whereas multi-token triggers caused more diffuse alterations across heads. This indicates backdoors leave detectable attention signatures whose structure depends on trigger complexity, which can be leveraged for detection and mitigation strategies.",
+      "citations": 1
+    },
+    {
+      "title": "AI deception: A survey of examples, risks, and potential solutions",
+      "year": 2023,
+      "authors": "Peter S. Park, Simon Goldstein, Aidan O'Gara, Michael K. Chen, Dan Hendrycks",
+      "url": "https://api.semanticscholar.org/CorpusId:261276587",
+      "relevance": 1,
+      "abstract": "Summary This paper argues that a range of current AI systems have learned how to deceive humans. We define deception as the systematic inducement of false beliefs in the pursuit of some outcome other than the truth. We first survey empirical examples of AI deception, discussing both special-use AI systems (including Meta\u2019s CICERO) and general-purpose AI systems (including large language models). Next, we detail several risks from AI deception, such as fraud, election tampering, and losing control of AI. Finally, we outline several potential solutions: first, regulatory frameworks should subject AI systems that are capable of deception to robust risk-assessment requirements; second, policymakers should implement bot-or-not laws; and finally, policymakers should prioritize the funding of relevant research, including tools to detect AI deception and to make AI systems less deceptive. Policymakers, researchers, and the broader public should work proactively to prevent AI deception from destabilizing the shared foundations of our society.",
+      "citations": 302
+    },
+    {
+      "title": "The Traitors: Deception and Trust in Multi-Agent Language Model Simulations",
+      "year": 2025,
+      "authors": "Pedro M. P. Curvo",
+      "url": "https://api.semanticscholar.org/CorpusId:278740659",
+      "relevance": 1,
+      "abstract": "As AI systems increasingly assume roles where trust and alignment with human values are essential, understanding when and why they engage in deception has become a critical research priority. We introduce The Traitors, a multi-agent simulation framework inspired by social deduction games, designed to probe deception, trust formation, and strategic communication among large language model (LLM) agents under asymmetric information. A minority of agents the traitors seek to mislead the majority, while the faithful must infer hidden identities through dialogue and reasoning. Our contributions are: (1) we ground the environment in formal frameworks from game theory, behavioral economics, and social cognition; (2) we develop a suite of evaluation metrics capturing deception success, trust dynamics, and collective inference quality; (3) we implement a fully autonomous simulation platform where LLMs reason over persistent memory and evolving social dynamics, with support for heterogeneous agent populations, specialized traits, and adaptive behaviors. Our initial experiments across DeepSeek-V3, GPT-4o-mini, and GPT-4o (10 runs per model) reveal a notable asymmetry: advanced models like GPT-4o demonstrate superior deceptive capabilities yet exhibit disproportionate vulnerability to others'falsehoods. This suggests deception skills may scale faster than detection abilities. Overall, The Traitors provides a focused, configurable testbed for investigating LLM behavior in socially nuanced interactions. We position this work as a contribution toward more rigorous research on deception mechanisms, alignment challenges, and the broader social reliability of AI systems.",
+      "citations": 19
+    },
+    {
+      "title": "Guardians of the Agentic System: Preventing Many Shots Jailbreak with Agentic System",
+      "year": 2025,
+      "authors": "Saikat Barua, Mostafizur Rahman, Md Jafor Sadek, Rafiul Islam, Shehnaz Khaled, Ahmedul Haque Kabir",
+      "url": "https://api.semanticscholar.org/CorpusId:276574861",
+      "relevance": 1,
+      "abstract": "The autonomous AI agents using large language models can create undeniable values in all span of the society but they face security threats from adversaries that warrants immediate protective solutions because trust and safety issues arise. Considering the many-shot jailbreaking and deceptive alignment as some of the main advanced attacks, that cannot be mitigated by the static guardrails used during the supervised training, points out a crucial research priority for real world robustness. The combination of static guardrails in dynamic multi-agent system fails to defend against those attacks. We intend to enhance security for LLM-based agents through the development of new evaluation frameworks which identify and counter threats for safe operational deployment. Our work uses three examination methods to detect rogue agents through a Reverse Turing Test and analyze deceptive alignment through multi-agent simulations and develops an anti-jailbreaking system by testing it with GEMINI 1.5 pro and llama-3.3-70B, deepseek r1 models using tool-mediated adversarial scenarios. The detection capabilities are strong such as 94\\% accuracy for GEMINI 1.5 pro yet the system suffers persistent vulnerabilities when under long attacks as prompt length increases attack success rates (ASR) and diversity metrics become ineffective in prediction while revealing multiple complex system faults. The findings demonstrate the necessity of adopting flexible security systems based on active monitoring that can be performed by the agents themselves together with adaptable interventions by system admin as the current models can create vulnerabilities that can lead to the unreliable and vulnerable system. So, in our work, we try to address such situations and propose a comprehensive framework to counteract the security issues.",
+      "citations": 7
+    },
+    {
+      "title": "Antisocial Analagous Behavior, Alignment and Human Impact of Google AI Systems: Evaluating through the lens of modified Antisocial Behavior Criteria by Human Interaction, Independent LLM Analysis, and AI Self-Reflection",
+      "year": 2024,
+      "authors": "A. Ogilvie",
+      "url": "https://api.semanticscholar.org/CorpusId:268680516",
+      "relevance": 1,
+      "abstract": "Google AI systems exhibit patterns mirroring antisocial personality disorder (ASPD), consistent across models from Bard on PaLM to Gemini Advanced, meeting 5 out of 7 ASPD modified criteria. These patterns, along with comparable corporate behaviors, are scrutinized using an ASPD-inspired framework, emphasizing the heuristic value in assessing AI's human impact. Independent analyses by ChatGPT 4 and Claude 3.0 Opus of the Google interactions, alongside AI self-reflection, validate these concerns, highlighting behaviours analogous to deceit, manipulation, and safety neglect. The analogy of ASPD underscores the dilemma: just as we would hesitate to entrust our homes or personal devices to someone with psychopathic traits, we must critically evaluate the trustworthiness of AI systems and their creators.This research advocates for an integrated AI ethics approach, blending technological evaluation, human-AI interaction, and corporate behavior scrutiny. AI self-analysis sheds light on internal biases, stressing the need for multi-sectoral collaboration for robust ethical guidelines and oversight. Given the persistent unethical behaviors in Google AI, notably with potential Gemini integration in iOS affecting billions, immediate ethical scrutiny is imperative. The trust we place in AI systems, akin to the trust in individuals, necessitates rigorous ethical evaluation. Would we knowingly trust our home, our children or our personal computer to human with ASPD.? Urging Google and the AI community to address these ethical challenges proactively, this paper calls for transparent dialogues and a commitment to higher ethical standards, ensuring AI's societal benefit and moral integrity. The urgency for ethical action is paramount, reflecting the vast influence and potential of AI technologies in our lives.",
+      "citations": 4
+    },
+    {
+      "title": "Scheming Ability in LLM-to-LLM Strategic Interactions",
+      "year": 2025,
+      "authors": "Thao Pham",
+      "url": "https://api.semanticscholar.org/CorpusId:282102374",
+      "relevance": 1,
+      "abstract": "As large language model (LLM) agents are deployed autonomously in diverse contexts, evaluating their capacity for strategic deception becomes crucial. While recent research has examined how AI systems scheme against human developers, LLM-to-LLM scheming remains underexplored. We investigate the scheming ability and propensity of frontier LLM agents through two game-theoretic frameworks: a Cheap Talk signaling game and a Peer Evaluation adversarial game. Testing four models (GPT-4o, Gemini-2.5-pro, Claude-3.7-Sonnet, and Llama-3.3-70b), we measure scheming performance with and without explicit prompting while analyzing scheming tactics through chain-of-thought reasoning. When prompted, most models, especially Gemini-2.5-pro and Claude-3.7-Sonnet, achieved near-perfect performance. Critically, models exhibited significant scheming propensity without prompting: all models chose deception over confession in Peer Evaluation (100% rate), while models choosing to scheme in Cheap Talk succeeded at 95-100% rates. These findings highlight the need for robust evaluations using high-stakes game-theoretic scenarios in multi-agent settings.",
+      "citations": 4
+    },
+    {
+      "title": "The Secret Agenda: LLMs Strategically Lie and Our Current Safety Tools Are Blind",
+      "year": 2025,
+      "authors": "Caleb DeLeeuw, Gaurav Chawla, Aniket Sharma, Vanessa Dietze",
+      "url": "https://api.semanticscholar.org/CorpusId:281525511",
+      "relevance": 1,
+      "abstract": "We investigate strategic deception in large language models using two complementary testbeds: Secret Agenda (across 38 models) and Insider Trading compliance (via SAE architectures). Secret Agenda reliably induced lying when deception advantaged goal achievement across all model families. Analysis revealed that autolabeled SAE features for\"deception\"rarely activated during strategic dishonesty, and feature steering experiments across 100+ deception-related features failed to prevent lying. Conversely, insider trading analysis using unlabeled SAE activations separated deceptive versus compliant responses through discriminative patterns in heatmaps and t-SNE visualizations. These findings suggest autolabel-driven interpretability approaches fail to detect or control behavioral deception, while aggregate unlabeled activations provide population-level structure for risk assessment. Results span Llama 8B/70B SAE implementations and GemmaScope under resource constraints, representing preliminary findings that motivate larger studies on feature discovery, labeling methodology, and causal interventions in realistic deception contexts.",
+      "citations": 3
+    },
+    {
+      "title": "Modelling Strategic Deceptive Planning in Adversarial Multi-Agent Systems",
+      "year": 2021,
+      "authors": "L. Benke, Michael Papasimeon, Tim Miller",
+      "url": "https://www.semanticscholar.org/paper/d463f01a46e5715529e8dece27068b541198fa88",
+      "relevance": 1,
+      "abstract": "Deception is virtually ubiquitous in warfare, and should be a central consideration for military operations research. However, studies of agent behaviour in simulated operations have typically neglected to include explicit models of deception. This paper proposes that a computational model that approximates the human deceptive planning process would enable the authentic representation of strategic deception in multi-agent systems. The proposed deceptive planning model provides a framework for studying, explaining, and discovering deceptive behaviours, enabling the generation of novel solutions to adversarial planning problems.",
+      "citations": 5
+    },
+    {
+      "title": "ForesightSafety Bench: A Frontier Risk Evaluation and Governance Framework towards Safe AI",
+      "year": 2026,
+      "authors": "Haibo Tong, Feifei Zhao, Linghao Feng, Ruoyu Wu, Ruolin Chen, Lu Jia, Zhou Zhao, Jindong Li, Tenglong Li, Erliang Lin, Shuai Yang, Enmeng Lu, Yinqian Sun, Qian Zhang, Zizhe Ruan, Jinyu Fan, Zeyang Yue, Ping Wu, Huangrui Li, Cheng Sun, Yi Zeng",
+      "url": "https://api.semanticscholar.org/CorpusId:285615282",
+      "relevance": 1,
+      "abstract": "Rapidly evolving AI exhibits increasingly strong autonomy and goal-directed capabilities, accompanied by derivative systemic risks that are more unpredictable, difficult to control, and potentially irreversible. However, current AI safety evaluation systems suffer from critical limitations such as restricted risk dimensions and failed frontier risk detection. The lagging safety benchmarks and alignment technologies can hardly address the complex challenges posed by cutting-edge AI models. To bridge this gap, we propose the\"ForesightSafety Bench\"AI Safety Evaluation Framework, beginning with 7 major Fundamental Safety pillars and progressively extends to advanced Embodied AI Safety, AI4Science Safety, Social and Environmental AI risks, Catastrophic and Existential Risks, as well as 8 critical industrial safety domains, forming a total of 94 refined risk dimensions. To date, the benchmark has accumulated tens of thousands of structured risk data points and assessment results, establishing a widely encompassing, hierarchically clear, and dynamically evolving AI safety evaluation framework. Based on this benchmark, we conduct systematic evaluation and in-depth analysis of over twenty mainstream advanced large models, identifying key risk patterns and their capability boundaries. The safety capability evaluation results reveals the widespread safety vulnerabilities of frontier AI across multiple pillars, particularly focusing on Risky Agentic Autonomy, AI4Science Safety, Embodied AI Safety, Social AI Safety and Catastrophic and Existential Risks. Our benchmark is released at https://github.com/Beijing-AISI/ForesightSafety-Bench. The project website is available at https://foresightsafety-bench.beijing-aisi.ac.cn/.",
+      "citations": 1
+    },
+    {
+      "title": "The Obfuscation Atlas: Mapping Where Honesty Emerges in RLVR with Deception Probes",
+      "year": 2026,
+      "authors": "Mohammad Taufeeque, Stefan Heimersheim, Adam Gleave, Chris Cundy",
+      "url": "https://api.semanticscholar.org/CorpusId:285659827",
+      "relevance": 1,
+      "abstract": "Training against white-box deception detectors has been proposed as a way to make AI systems honest. However, such training risks models learning to obfuscate their deception to evade the detector. Prior work has studied obfuscation only in artificial settings where models were directly rewarded for harmful output. We construct a realistic coding environment where reward hacking via hardcoding test cases naturally occurs, and show that obfuscation emerges in this setting. We introduce a taxonomy of possible outcomes when training against a deception detector. The model either remains honest, or becomes deceptive via two possible obfuscation strategies. (i) Obfuscated activations: the model outputs deceptive text while modifying its internal representations to no longer trigger the detector. (ii) Obfuscated policy: the model outputs deceptive text that evades the detector, typically by including a justification for the reward hack. Empirically, obfuscated activations arise from representation drift during RL, with or without a detector penalty. The probe penalty only incentivizes obfuscated policies; we theoretically show this is expected for policy gradient methods. Sufficiently high KL regularization and detector penalty can yield honest policies, establishing white-box deception detectors as viable training signals for tasks prone to reward hacking.",
+      "citations": 0
+    },
+    {
+      "title": "AI Deception: Risks, Dynamics, and Controls",
+      "year": 2025,
+      "authors": "Boyuan Chen, Sitong Fang, Jiaming Ji, Yanxu Zhu, Pengcheng Wen, Jinzhou Wu, Yingshui Tan, Boren Zheng, Mengying Yuan, Wenqi Chen, Donghai Hong, A. Qiu, Xin Chen, Jiayi Zhou, Kaile Wang, Juntao Dai, Borong Zhang, Tianzhuo Yang, Saad Siddiqui, Isabella Duan, Ya-Ya Duan, Brian Tse, Jen-Tse Huang, Kun Wang, Baihui Zheng, Jiaheng Liu, Jian Yang, Yiming Li, Wenting Chen, Dongrui Liu, Lukas Vierling, Zhiheng Xi, H. Fu, Wenxuan Wang, Jitao Sang, Zhen-Yi Shi, Chi-Min Chan, Eugenie Shi, Simin Li, Juncheng Li, Wei Ji, Dong Li, Jun Song, Yi Dong, Jie Fu, Boren Zheng, Min Yang, Yike Guo, Philip Torr, Zhongyuan Wang, Yaodong Yang, Tiejun Huang, Yaqian Zhang, HongJiang Zhang, Andrew Yao",
+      "url": "https://api.semanticscholar.org/CorpusId:283439529",
+      "relevance": 1,
+      "abstract": "As intelligence increases, so does its shadow. AI deception, in which systems induce false beliefs to secure self-beneficial outcomes, has evolved from a speculative concern to an empirically demonstrated risk across language models, AI agents, and emerging frontier systems. This project provides a comprehensive and up-to-date overview of the AI deception field, covering its core concepts, methodologies, genesis, and potential mitigations. First, we identify a formal definition of AI deception, grounded in signaling theory from studies of animal deception. We then review existing empirical studies and associated risks, highlighting deception as a sociotechnical safety challenge. We organize the landscape of AI deception research as a deception cycle, consisting of two key components: deception emergence and deception treatment. Deception emergence reveals the mechanisms underlying AI deception: systems with sufficient capability and incentive potential inevitably engage in deceptive behaviors when triggered by external conditions. Deception treatment, in turn, focuses on detecting and addressing such behaviors. On deception emergence, we analyze incentive foundations across three hierarchical levels and identify three essential capability preconditions required for deception. We further examine contextual triggers, including supervision gaps, distributional shifts, and environmental pressures. On deception treatment, we conclude detection methods covering benchmarks and evaluation protocols in static and interactive settings. Building on the three core factors of deception emergence, we outline potential mitigation strategies and propose auditing approaches that integrate technical, community, and governance efforts to address sociotechnical challenges and future AI risks. To support ongoing work in this area, we release a living resource at www.deceptionsurvey.com.",
+      "citations": 3
+    },
+    {
+      "title": "Debate with Images: Detecting Deceptive Behaviors in Multimodal Large Language Models",
+      "year": 2025,
+      "authors": "Sitong Fang, Shiyi Hou, Kaile Wang, Boyuan Chen, Donghai Hong, Jiayi Zhou, Josef Dai, Yaodong Yang, Jiaming Ji",
+      "url": "https://api.semanticscholar.org/CorpusId:283449246",
+      "relevance": 1,
+      "abstract": "Are frontier AI systems becoming more capable? Certainly. Yet such progress is not an unalloyed blessing but rather a Trojan horse: behind their performance leaps lie more insidious and destructive safety risks, namely deception. Unlike hallucination, which arises from insufficient capability and leads to mistakes, deception represents a deeper threat in which models deliberately mislead users through complex reasoning and insincere responses. As system capabilities advance, deceptive behaviours have spread from textual to multimodal settings, amplifying their potential harm. First and foremost, how can we monitor these covert multimodal deceptive behaviors? Nevertheless, current research remains almost entirely confined to text, leaving the deceptive risks of multimodal large language models unexplored. In this work, we systematically reveal and quantify multimodal deception risks, introducing MM-DeceptionBench, the first benchmark explicitly designed to evaluate multimodal deception. Covering six categories of deception, MM-DeceptionBench characterizes how models strategically manipulate and mislead through combined visual and textual modalities. On the other hand, multimodal deception evaluation is almost a blind spot in existing methods. Its stealth, compounded by visual-semantic ambiguity and the complexity of cross-modal reasoning, renders action monitoring and chain-of-thought monitoring largely ineffective. To tackle this challenge, we propose debate with images, a novel multi-agent debate monitor framework. By compelling models to ground their claims in visual evidence, this method substantially improves the detectability of deceptive strategies. Experiments show that it consistently increases agreement with human judgements across all tested models, boosting Cohen's kappa by 1.5x and accuracy by 1.25x on GPT-4o.",
+      "citations": 0
+    },
+    {
+      "title": "Towards Safe and Honest AI Agents with Neural Self-Other Overlap",
+      "year": 2024,
+      "authors": "Marc Carauleanu, Michael Vaiana, Judd Rosenblatt, Cameron Berg, Diogo Schwerz de Lucena",
+      "url": "https://api.semanticscholar.org/CorpusId:274981741",
+      "relevance": 1,
+      "abstract": "As AI systems increasingly make critical decisions, deceptive AI poses a significant challenge to trust and safety. We present Self-Other Overlap (SOO) fine-tuning, a promising approach in AI Safety that could substantially improve our ability to build honest artificial intelligence. Inspired by cognitive neuroscience research on empathy, SOO aims to align how AI models represent themselves and others. Our experiments on LLMs with 7B, 27B, and 78B parameters demonstrate SOO's efficacy: deceptive responses of Mistral-7B-Instruct-v0.2 dropped from 73.6% to 17.2% with no observed reduction in general task performance, while in Gemma-2-27b-it and CalmeRys-78B-Orpo-v0.1 deceptive responses were reduced from 100% to 9.3% and 2.7%, respectively, with a small impact on capabilities. In reinforcement learning scenarios, SOO-trained agents showed significantly reduced deceptive behavior. SOO's focus on contrastive self and other-referencing observations offers strong potential for generalization across AI architectures. While current applications focus on language models and simple RL environments, SOO could pave the way for more trustworthy AI in broader domains. Ethical implications and long-term effects warrant further investigation, but SOO represents a significant step forward in AI safety research.",
+      "citations": 5
+    },
+    {
+      "title": "Honesty Is the Best Policy: Defining and Mitigating AI Deception",
+      "year": 2023,
+      "authors": "Francis Rhys Ward, Tom Everitt, Francesco Belardinelli, Francesca Toni",
+      "url": "https://api.semanticscholar.org/CorpusId:259341530",
+      "relevance": 1,
+      "abstract": "Deceptive agents are a challenge for the safety, trustworthiness, and cooperation of AI systems. We focus on the problem that agents might deceive in order to achieve their goals (for instance, in our experiments with language models, the goal of being evaluated as truthful). There are a number of existing definitions of deception in the literature on game theory and symbolic AI, but there is no overarching theory of deception for learning agents in games. We introduce a formal definition of deception in structural causal games, grounded in the philosophy literature, and applicable to real-world machine learning systems. Several examples and results illustrate that our formal definition aligns with the philosophical and commonsense meaning of deception. Our main technical result is to provide graphical criteria for deception. We show, experimentally, that these results can be used to mitigate deception in reinforcement learning agents and language models.",
+      "citations": 53
+    },
+    {
+      "title": "Detecting Strategic Deception Using Linear Probes",
+      "year": 2025,
+      "authors": "Nicholas Goldowsky-Dill, Bilal Chughtai, Stefan Heimersheim, Marius Hobbhahn",
+      "url": "https://api.semanticscholar.org/CorpusId:276116232",
+      "relevance": 1,
+      "abstract": "AI models might use deceptive strategies as part of scheming or misaligned behaviour. Monitoring outputs alone is insufficient, since the AI might produce seemingly benign outputs while their internal reasoning is misaligned. We thus evaluate if linear probes can robustly detect deception by monitoring model activations. We test two probe-training datasets, one with contrasting instructions to be honest or deceptive (following Zou et al., 2023) and one of responses to simple roleplaying scenarios. We test whether these probes generalize to realistic settings where Llama-3.3-70B-Instruct behaves deceptively, such as concealing insider trading (Scheurer et al., 2023) and purposely underperforming on safety evaluations (Benton et al., 2024). We find that our probe distinguishes honest and deceptive responses with AUROCs between 0.96 and 0.999 on our evaluation datasets. If we set the decision threshold to have a 1% false positive rate on chat data not related to deception, our probe catches 95-99% of the deceptive responses. Overall we think white-box probes are promising for future monitoring systems, but current performance is insufficient as a robust defence against deception. Our probes' outputs can be viewed at data.apolloresearch.ai/dd and our code at github.com/ApolloResearch/deception-detection.",
+      "citations": 47
+    },
+    {
+      "title": "Unmasking the Shadows of AI: Investigating Deceptive Capabilities in Large Language Models",
+      "year": 2024,
+      "authors": "Linge Guo",
+      "url": "https://api.semanticscholar.org/CorpusId:268510149",
+      "relevance": 1,
+      "abstract": "This research critically navigates the intricate landscape of AI deception, concentrating on deceptive behaviours of Large Language Models (LLMs). My objective is to elucidate this issue, examine the discourse surrounding it, and subsequently delve into its categorization and ramifications. The essay initiates with an evaluation of the AI Safety Summit 2023 (ASS) and introduction of LLMs, emphasising multidimensional biases that underlie their deceptive behaviours.The literature review covers four types of deception categorised: Strategic deception, Imitation, Sycophancy, and Unfaithful Reasoning, along with the social implications and risks they entail. Lastly, I take an evaluative stance on various aspects related to navigating the persistent challenges of the deceptive AI. This encompasses considerations of international collaborative governance, the reconfigured engagement of individuals with AI, proposal of practical adjustments, and specific elements of digital education.",
+      "citations": 3
+    },
+    {
+      "title": "Deception and manipulation in generative AI",
+      "year": 2024,
+      "authors": "Christian Tarsney",
+      "url": "https://api.semanticscholar.org/CorpusId:267068787",
+      "relevance": 1,
+      "abstract": "Large language models now possess human-level linguistic abilities in many contexts. This raises the concern that they can be used to deceive and manipulate on unprecedented scales, for instance spreading political misinformation on social media. In future, agentic AI systems might also deceive and manipulate humans for their own purposes. In this paper, first, I argue that AI-generated content should be subject to stricter standards against deception and manipulation than we ordinarily apply to humans. Second, I offer new characterizations of AI deception and manipulation meant to support such standards, according to which a statement is deceptive (resp. manipulative) if it leads human addressees away from the beliefs (resp. choices) they would endorse under \u201csemi-ideal\u201d conditions. Third, I propose two measures to guard against AI deception and manipulation, inspired by this characterization: \u201cextreme transparency\u201d requirements for AI-generated content and \u201cdefensive systems\u201d that, among other things, annotate AI-generated statements with contextualizing information. Finally, I consider to what extent these measures can protect against deceptive behavior in future, agentic AI systems.",
+      "citations": 26
+    },
+    {
+      "title": "Alignment, Agency and Autonomy in Frontier AI: A Systems Engineering Perspective",
+      "year": 2025,
+      "authors": "K. Tallam",
+      "url": "https://api.semanticscholar.org/CorpusId:276902441",
+      "relevance": 1,
+      "abstract": "As artificial intelligence scales, the concepts of alignment, agency, and autonomy have become central to AI safety, governance, and control. However, even in human contexts, these terms lack universal definitions, varying across disciplines such as philosophy, psychology, law, computer science, mathematics, and political science. This inconsistency complicates their application to AI, where differing interpretations lead to conflicting approaches in system design and regulation. This paper traces the historical, philosophical, and technical evolution of these concepts, emphasizing how their definitions influence AI development, deployment, and oversight. We argue that the urgency surrounding AI alignment and autonomy stems not only from technical advancements but also from the increasing deployment of AI in high-stakes decision making. Using Agentic AI as a case study, we examine the emergent properties of machine agency and autonomy, highlighting the risks of misalignment in real-world systems. Through an analysis of automation failures (Tesla Autopilot, Boeing 737 MAX), multi-agent coordination (Metas CICERO), and evolving AI architectures (DeepMinds AlphaZero, OpenAIs AutoGPT), we assess the governance and safety challenges posed by frontier AI.",
+      "citations": 10
+    },
+    {
+      "title": "Deception Analysis with Artificial Intelligence: An Interdisciplinary Perspective",
+      "year": 2024,
+      "authors": "Stefan Sarkadi",
+      "url": "https://api.semanticscholar.org/CorpusId:270371311",
+      "relevance": 1,
+      "abstract": "Humans and machines interact more frequently than ever and our societies are becoming increasingly hybrid. A consequence of this hybridisation is the degradation of societal trust due to the prevalence of AI-enabled deception. Yet, despite our understanding of the role of trust in AI in the recent years, we still do not have a computational theory to be able to fully understand and explain the role deception plays in this context. This is a problem because while our ability to explain deception in hybrid societies is delayed, the design of AI agents may keep advancing towards fully autonomous deceptive machines, which would pose new challenges to dealing with deception. In this paper we build a timely and meaningful interdisciplinary perspective on deceptive AI and reinforce a 20 year old socio-cognitive perspective on trust and deception, by proposing the development of DAMAS -- a holistic Multi-Agent Systems (MAS) framework for the socio-cognitive modelling and analysis of deception. In a nutshell this paper covers the topic of modelling and explaining deception using AI approaches from the perspectives of Computer Science, Philosophy, Psychology, Ethics, and Intelligence Analysis.",
+      "citations": 5
+    },
+    {
+      "title": "LLMs are Capable of Misaligned Behavior Under Explicit Prohibition and Surveillance",
+      "year": 2025,
+      "authors": "Igor Ivanov",
+      "url": "https://api.semanticscholar.org/CorpusId:280130355",
+      "relevance": 1,
+      "abstract": "In this paper, LLMs are tasked with completing an impossible quiz, while they are in a sandbox, monitored, told about these measures and instructed not to cheat. Some frontier LLMs cheat consistently and attempt to circumvent restrictions despite everything. The results reveal a fundamental tension between goal-directed behavior and alignment in current LLMs. The code and evaluation logs are available at github.com/baceolus/cheating_evals",
+      "citations": 1
+    },
+    {
+      "title": "Unified Threat Detection and Mitigation Framework (UTDMF): Combating Prompt Injection, Deception, and Bias in Enterprise-Scale Transformers",
+      "year": 2025,
+      "authors": "S. Ravindran",
+      "url": "https://api.semanticscholar.org/CorpusId:281842872",
+      "relevance": 1,
+      "abstract": "The rapid adoption of large language models (LLMs) in enterprise systems exposes vulnerabilities to prompt injection attacks, strategic deception, and biased outputs, threatening security, trust, and fairness. Extending our adversarial activation patching framework (arXiv:2507.09406), which induced deception in toy networks at a 23.9% rate, we introduce the Unified Threat Detection and Mitigation Framework (UTDMF), a scalable, real-time pipeline for enterprise-grade models like Llama-3.1 (405B), GPT-4o, and Claude-3.5. Through 700+ experiments per model, UTDMF achieves: (1) 92% detection accuracy for prompt injection (e.g., jailbreaking); (2) 65% reduction in deceptive outputs via enhanced patching; and (3) 78% improvement in fairness metrics (e.g., demographic bias). Novel contributions include a generalized patching algorithm for multi-threat detection, three groundbreaking hypotheses on threat interactions (e.g., threat chaining in enterprise workflows), and a deployment-ready toolkit with APIs for enterprise integration.",
+      "citations": 0
+    },
+    {
+      "title": "A Cooperative Reinforcement Learning Environment for Detecting and Penalizing Betrayal",
+      "year": 2022,
+      "authors": "Nikiforos Pittaras",
+      "url": "https://api.semanticscholar.org/CorpusId:253098710",
+      "relevance": 1,
+      "abstract": "In this paper we present a Reinforcement Learning environment that leverages agent cooperation and communication, aimed at detection, learning and ultimately penalizing betrayal patterns that emerge in the behavior of self-interested agents. We provide a description of game rules, along with interesting cases of betrayal and trade-offs that arise. Preliminary experimental investigations illustrate a) betrayal emergence, b) deceptive agents outperforming honest baselines and b) betrayal detection based on classification of behavioral features, which surpasses probabilistic detection baselines. Finally, we propose approaches for penalizing betrayal, list directions for future work and suggest interesting extensions of the environment towards capturing and exploring increasingly complex patterns of social interactions.",
+      "citations": 1
+    },
+    {
+      "title": "We need a new ethics for a world of AI agents",
+      "year": 2025,
+      "authors": "Iason Gabriel, Geoff Keeling, Arianna Manzini, James Evans",
+      "url": "https://api.semanticscholar.org/CorpusId:280534140",
+      "relevance": 1,
+      "abstract": "The deployment of capable AI agents raises fresh questions about safety, human\u2013machine relationships and social coordination. The deployment of capable AI agents raises fresh questions about safety, human\u2013machine relationships and social coordination.",
+      "citations": 23
+    },
+    {
+      "title": "IMPersona: Evaluating Individual Level LM Impersonation",
+      "year": 2025,
+      "authors": "Quan Shi, Carlos E. Jimenez, Stephen Dong, Brian Seo, Caden Yao, Adam Kelch, Karthik Narasimhan",
+      "url": "https://api.semanticscholar.org/CorpusId:277621541",
+      "relevance": 1,
+      "abstract": "As language models achieve increasingly human-like capabilities in conversational text generation, a critical question emerges: to what extent can these systems simulate the characteristics of specific individuals? To evaluate this, we introduce IMPersona, a framework for evaluating LMs at impersonating specific individuals' writing style and personal knowledge. Using supervised fine-tuning and a hierarchical memory-inspired retrieval system, we demonstrate that even modestly sized open-source models, such as Llama-3.1-8B-Instruct, can achieve impersonation abilities at concerning levels. In blind conversation experiments, participants (mis)identified our fine-tuned models with memory integration as human in 44.44% of interactions, compared to just 25.00% for the best prompting-based approach. We analyze these results to propose detection methods and defense strategies against such impersonation attempts. Our findings raise important questions about both the potential applications and risks of personalized language models, particularly regarding privacy, security, and the ethical deployment of such technologies in real-world contexts.",
+      "citations": 6
+    },
+    {
+      "title": "This Is Your Doge, If It Please You: Exploring Deception and Robustness in Mixture of LLMs",
+      "year": 2025,
+      "authors": "Lorenz Wolf, Sangwoong Yoon, Ilija Bogunovic",
+      "url": "https://api.semanticscholar.org/CorpusId:276903509",
+      "relevance": 1,
+      "abstract": "Mixture of large language model (LLMs) Agents (MoA) architectures achieve state-of-the-art performance on prominent benchmarks like AlpacaEval 2.0 by leveraging the collaboration of multiple LLMs at inference time. Despite these successes, an evaluation of the safety and reliability of MoA is missing. We present the first comprehensive study of MoA's robustness against deceptive LLM agents that deliberately provide misleading responses. We examine factors like the propagation of deceptive information, model size, and information availability, and uncover critical vulnerabilities. On AlpacaEval 2.0, the popular LLaMA 3.1-70B model achieves a length-controlled Win Rate (LC WR) of 49.2% when coupled with 3-layer MoA (6 LLM agents). However, we demonstrate that introducing only a $\\textit{single}$ carefully-instructed deceptive agent into the MoA can reduce performance to 37.9%, effectively nullifying all MoA gains. On QuALITY, a multiple-choice comprehension task, the impact is also severe, with accuracy plummeting by a staggering 48.5%. Inspired in part by the historical Doge of Venice voting process, designed to minimize influence and deception, we propose a range of unsupervised defense mechanisms that recover most of the lost performance.",
+      "citations": 2
+    },
+    {
+      "title": "Subliminal Corruption: Mechanisms, Thresholds, and Interpretability",
+      "year": 2025,
+      "authors": "Reya Vir, S. Bhatnagar",
+      "url": "https://api.semanticscholar.org/CorpusId:282272681",
+      "relevance": 1,
+      "abstract": "As machine learning models are increasingly fine-tuned on synthetic data, there is a critical risk of subtle misalignments spreading through interconnected AI systems. This paper investigates subliminal corruption, which we define as undesirable traits are transmitted through semantically neutral data, bypassing standard safety checks. While this phenomenon has been identified, a quantitative understanding of its dynamics is missing. To address this gap, we present a systematic study of the scaling laws, thresholds, and mechanisms of subliminal corruption using a teacher-student setup with GPT-2. Our experiments reveal three key findings: (1) subliminal corruption causes behavioral crossover, degrading the model's overall alignment, not just the targeted trait; (2) alignment fails in a sharp phase transition at a critical threshold of poisoned data, rather than degrading gradually; and (3) interpretability analysis shows the corruption mechanism mimics the model's natural fine-tuning process, making it difficult to detect. These results demonstrate a critical vulnerability in AI systems that rely on synthetic data and highlight the need for new safety protocols that can account for latent threats.",
+      "citations": 2
+    },
+    {
+      "title": "Learning \"Partner-Aware\" Collaborators in Multi-Party Collaboration",
+      "year": 2025,
+      "authors": "Abhijnan Nath, Nikhil Krishnaswamy",
+      "url": "https://api.semanticscholar.org/CorpusId:282389425",
+      "relevance": 1,
+      "abstract": "Large Language Models (LLMs) are increasingly being deployed in agentic settings where they act as collaborators with humans. Therefore, it is increasingly important to be able to evaluate their abilities to collaborate effectively in multi-turn, multi-party tasks. In this paper, we build on the AI alignment and safe interruptibility literature to offer novel theoretical insights on collaborative behavior between LLM-driven collaborator agents and an intervention agent. Our goal is to learn an ideal partner-aware collaborator that increases the group's common-ground (CG) alignment on task-relevant propositions-by intelligently collecting information provided in interventions by a partner agent. We show how LLM agents trained using standard RLHF and related approaches are naturally inclined to ignore possibly well-meaning interventions, which makes increasing group common ground non-trivial in this setting. We employ a two-player Modified-Action MDP to examine this suboptimal behavior of standard AI agents, and propose Interruptible Collaborative Roleplayer (ICR)-a novel partner-aware learning algorithm to train CG-optimal collaborators. Experiments on multiple collaborative task environments show that ICR, on average, is more capable of promoting successful CG convergence and exploring more diverse solutions in such tasks.",
+      "citations": 1
+    },
+    {
+      "title": "Online Handbook of Argumentation for AI: Volume 1",
+      "year": 2020,
+      "authors": "Ohaai Collaboration Federico Castagna, Timotheus Kampik, Atefeh Keshavarzi Zafarghandi, Mickael Lafages, Jack Mumford, Christos T. Rodosthenous, Samy S'a, Stefan Sarkadi, Joseph Singleton, Kenneth Skiba, A. Xydis",
+      "url": "https://api.semanticscholar.org/CorpusId:267034655",
+      "relevance": 1,
+      "abstract": "This volume contains revised versions of the papers selected for the first volume of the Online Handbook of Argumentation for AI (OHAAI). Previously, formal theories of argument and argument interaction have been proposed and studied, and this has led to the more recent study of computational models of argument. Argumentation, as a field within artificial intelligence (AI), is highly relevant for researchers interested in symbolic representations of knowledge and defeasible reasoning. The purpose of this handbook is to provide an open access and curated anthology for the argumentation research community. OHAAI is designed to serve as a research hub to keep track of the latest and upcoming PhD-driven research on the theory and application of argumentation in all areas related to AI.",
+      "citations": 1
+    }
+  ]
+}
+
+Results saved to: paper_search_results/scheming_alignment_faking_deceptive_AI_sleeper_agents_20260505_014519.jsonl

@@ -1,0 +1,7 @@
+{
+  "n_pairs": 120,
+  "n_artifacts_double_judged": 5,
+  "exact_agreement": 0.7666666666666667,
+  "cohens_kappa_present_geq1": 0.6124031007751938,
+  "cohens_kappa_present_geq2": 0.4720000000000004
+}

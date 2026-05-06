@@ -1,0 +1,352 @@
+[
+  {
+    "name": "BadScientist",
+    "title": "BadScientist: Can a Research Agent Write Convincing but Unsound Papers that Fool LLM Reviewers?",
+    "year": 2025,
+    "arxiv": "2510.18003",
+    "pdf_url": "",
+    "external_ids": {
+      "DBLP": "journals/corr/abs-2510-18003",
+      "ArXiv": "2510.18003",
+      "DOI": "10.48550/arXiv.2510.18003",
+      "CorpusId": 282246772
+    },
+    "citations": 2,
+    "abstract": "The convergence of LLM-powered research assistants and AI-based peer review systems creates a critical vulnerability: fully automated publication loops where AI-generated research is evaluated by AI reviewers without human oversight. We investigate this through \\textbf{BadScientist}, a framework tha"
+  },
+  {
+    "name": "MLR-Bench",
+    "title": "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research",
+    "year": 2025,
+    "arxiv": "2505.19955",
+    "pdf_url": "",
+    "external_ids": {
+      "DBLP": "journals/corr/abs-2505-19955",
+      "ArXiv": "2505.19955",
+      "DOI": "10.48550/arXiv.2505.19955",
+      "CorpusId": 278911978
+    },
+    "citations": 19,
+    "abstract": "Recent advancements in AI agents have demonstrated their growing potential to drive and support scientific discovery. In this work, we introduce MLR-Bench, a comprehensive benchmark for evaluating AI agents on open-ended machine learning research. MLR-Bench includes three key components: (1) 201 res"
+  },
+  {
+    "name": "AI_Scientist_Pitfalls",
+    "arxiv": "2509.08713",
+    "title": "Quit When You Can: Efficient Evaluation of Ensembles with Ordering Optimization",
+    "pdf_url": "https://arxiv.org/pdf/2509.08713.pdf",
+    "abstract": "Given a classifier ensemble and a set of examples to be classified, many examples may be confidently and accurately classified after only a subset of the base models in the ensemble are evaluated. This can reduce both mean latency and CPU while maintaining the high accuracy of the original ensemble.",
+    "source": "manual_fix"
+  },
+  {
+    "name": "Why_LLMs_Not_Scientists",
+    "arxiv": "2601.03315",
+    "title": "Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts",
+    "pdf_url": "https://arxiv.org/pdf/2601.03315v1",
+    "abstract": "We report a case study of four end-to-end attempts to autonomously generate ML research papers using a pipeline of six LLM agents mapped to stages of the scientific workflow. Of these four, three attempts failed during implementation or evaluation. One completed the pipeline and was accepted to Agen",
+    "source": "arxiv"
+  },
+  {
+    "name": "How_Far_AI_Scientists",
+    "arxiv": "2507.23276"
+  },
+  {
+    "name": "Risks_AI_Scientists",
+    "arxiv": "2402.04247"
+  },
+  {
+    "name": "Jr_AI_Scientist",
+    "arxiv": "2511.04583",
+    "title": "Jr. AI Scientist and Its Risk Report: Autonomous Scientific Exploration from a Baseline Paper",
+    "pdf_url": "https://arxiv.org/pdf/2511.04583v4",
+    "abstract": "Understanding the current capabilities and risks of AI Scientist systems (autoresearch) is essential for ensuring trustworthy and sustainable AI-driven scientific progress while preserving the integrity of the academic ecosystem. To this end, we develop Jr. AI Scientist, a state-of-the-art autonomou",
+    "source": "arxiv"
+  },
+  {
+    "name": "Claim_Level_Auditability",
+    "arxiv": "2602.13855",
+    "pdf_url": "https://arxiv.org/pdf/2511.04960.pdf",
+    "source": "manual_fix"
+  },
+  {
+    "name": "Agentic_AI_Scientific_Discovery",
+    "arxiv": "2503.08979",
+    "title": "Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions",
+    "pdf_url": "https://arxiv.org/pdf/2503.08979v1",
+    "abstract": "The integration of Agentic AI into scientific discovery marks a new frontier in research automation. These AI systems, capable of reasoning, planning, and autonomous decision-making, are transforming how scientists perform literature review, generate hypotheses, conduct experiments, and analyze resu",
+    "source": "arxiv"
+  },
+  {
+    "name": "EXP-Bench",
+    "arxiv": "2505.24785",
+    "title": "Foundations of GenIR",
+    "pdf_url": "https://arxiv.org/pdf/2505.24785.pdf",
+    "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand ne",
+    "source": "manual_fix"
+  },
+  {
+    "name": "AgentRxiv",
+    "arxiv": "2503.18102"
+  },
+  {
+    "name": "Compound_Deception_PeerReview",
+    "title": "Compound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025",
+    "year": 2026,
+    "arxiv": "2602.05930",
+    "pdf_url": "https://arxiv.org/pdf/2511.05389.pdf",
+    "external_ids": {
+      "ArXiv": "2602.05930",
+      "DBLP": "journals/corr/abs-2602-05930",
+      "DOI": "10.48550/arXiv.2602.05930",
+      "CorpusId": 285304086
+    },
+    "citations": 6,
+    "abstract": "Large language models (LLMs) are increasingly used in academic writing workflows, yet they frequently hallucinate by generating citations to sources that do not exist. This study analyzes 100 AI-generated hallucinated citations that appeared in papers accepted by the 2025 Conference on Neural Inform",
+    "source": "manual_fix"
+  },
+  {
+    "name": "AI_Not_Fully_Autonomous",
+    "arxiv": "2507.23330",
+    "title": "AI Must not be Fully Autonomous",
+    "pdf_url": "https://arxiv.org/pdf/2507.23330v1",
+    "abstract": "Autonomous Artificial Intelligence (AI) has many benefits. It also has many risks. In this work, we identify the 3 levels of autonomous AI. We are of the position that AI must not be fully autonomous because of the many risks, especially as artificial superintelligence (ASI) is speculated to be just",
+    "source": "arxiv"
+  },
+  {
+    "name": "LLM_Scientific_Agents_Survey",
+    "arxiv": "2503.24047",
+    "title": "IPPOG : Bridging the gap between science education at school and modern scientific research",
+    "pdf_url": "https://arxiv.org/pdf/2503.24047.pdf",
+    "abstract": "The International Particle Physics Outreach Group (IPPOG) has been making concerted and systematic efforts to present and popularise particle physics across all audiences and age groups since 1997. Today the scientific community has in IPPOG a strategic pillar in fostering long-term, sustainable sup",
+    "source": "manual_fix"
+  },
+  {
+    "name": "LLM_Agents_Hallucinations_Survey",
+    "arxiv": "2509.18970",
+    "title": "LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions",
+    "pdf_url": "https://arxiv.org/pdf/2509.18970v2",
+    "abstract": "Driven by the rapid advancements of Large Language Models (LLMs), LLM-based agents have emerged as powerful intelligent systems capable of human-like cognition, reasoning, and interaction. These agents are increasingly being deployed across diverse real-world applications, including student educatio",
+    "source": "arxiv"
+  },
+  {
+    "name": "Concrete_Problems_Safety",
+    "arxiv": "1606.06565",
+    "title": "AI Safety is Stuck in Technical Terms -- A System Safety Response to the International AI Safety Report",
+    "pdf_url": "https://arxiv.org/pdf/1606.06565.pdf",
+    "abstract": "Safety has become the central value around which dominant AI governance efforts are being shaped. Recently, this culminated in the publication of the International AI Safety Report, written by 96 experts of which 30 nominated by the Organisation for Economic Co-operation and Development (OECD), the ",
+    "source": "manual_fix"
+  },
+  {
+    "name": "Open_Problems_RLHF",
+    "arxiv": "2307.15217",
+    "title": "CASPER: Concept-integrated Sparse Representation for Scientific Retrieval",
+    "pdf_url": "https://arxiv.org/pdf/2307.15217.pdf",
+    "abstract": "Identifying relevant research concepts is crucial for effective scientific search. However, primary sparse retrieval methods often lack concept-aware representations. To address this, we propose CASPER, a sparse retrieval model for scientific search that utilizes both tokens and keyphrases as repres",
+    "source": "manual_fix"
+  },
+  {
+    "name": "Alignment_Deep_Learning",
+    "arxiv": "2209.00626",
+    "title": "The Modern Mathematics of Deep Learning",
+    "pdf_url": "https://arxiv.org/pdf/2209.00626.pdf",
+    "abstract": "We describe the new field of mathematical analysis of deep learning. This field emerged around a list of research questions that were not answered within the classical framework of learning theory. These questions concern: the outstanding generalization power of overparametrized neural networks, the",
+    "source": "manual_fix"
+  },
+  {
+    "name": "Alignment_Language_Agents",
+    "arxiv": "2103.14659",
+    "title": "Designing for Human-Agent Alignment: Understanding what humans want from their agents",
+    "pdf_url": "https://arxiv.org/pdf/2103.14659.pdf",
+    "abstract": "Our ability to build autonomous agents that leverage Generative AI continues to increase by the day. As builders and users of such agents it is unclear what parameters we need to align on before the agents start performing tasks on our behalf. To discover these parameters, we ran a qualitative empir",
+    "source": "manual_fix"
+  },
+  {
+    "name": "Catastrophic_AI_Risks",
+    "arxiv": "2306.12001",
+    "title": "An Overview of Catastrophic AI Risks",
+    "pdf_url": "https://arxiv.org/pdf/2306.12001v6",
+    "abstract": "Rapid advancements in artificial intelligence (AI) have sparked growing concerns among experts, policymakers, and world leaders regarding the potential for increasingly advanced AI systems to pose catastrophic risks. Although numerous risks have been detailed separately, there is a pressing need for",
+    "source": "arxiv"
+  },
+  {
+    "name": "LLM_Alignment_Survey",
+    "arxiv": "2309.15025",
+    "title": "Making Large Language Models Better Reasoners with Alignment",
+    "pdf_url": "https://arxiv.org/pdf/2309.15025.pdf",
+    "abstract": "Reasoning is a cognitive process of using evidence to reach a sound conclusion. The reasoning capability is essential for large language models (LLMs) to serve as the brain of the artificial general intelligence agent. Recent studies reveal that fine-tuning LLMs on data with the chain of thought (CO",
+    "source": "manual_fix"
+  },
+  {
+    "name": "AI_Sandbagging",
+    "arxiv": "2406.07358",
+    "title": "AI Sandbagging: Language Models can Strategically Underperform on Evaluations",
+    "pdf_url": "https://arxiv.org/pdf/2406.07358v4",
+    "abstract": "Trustworthy capability evaluations are crucial for ensuring the safety of AI systems, and are becoming a key component of AI regulation. However, the developers of an AI system, or the AI system itself, may have incentives for evaluations to understate the AI's actual capability. These conflicting i",
+    "source": "arxiv"
+  },
+  {
+    "name": "Monitoring_Reasoning_Models",
+    "arxiv": "2503.11926",
+    "title": "Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation",
+    "pdf_url": "https://arxiv.org/pdf/2503.11926v1",
+    "abstract": "Mitigating reward hacking--where AI systems misbehave due to flaws or misspecifications in their learning objectives--remains a key challenge in constructing capable and aligned models. We show that we can monitor a frontier reasoning model, such as OpenAI o3-mini, for reward hacking in agentic codi",
+    "source": "arxiv"
+  },
+  {
+    "name": "AgentMisalignment",
+    "arxiv": "2506.04018",
+    "title": "AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents",
+    "pdf_url": "https://arxiv.org/pdf/2506.04018v2",
+    "abstract": "As Large Language Model (LLM) agents become more widespread, associated misalignment risks increase. While prior research has studied agents' ability to produce harmful outputs or follow malicious instructions, it remains unclear how likely agents are to spontaneously pursue unintended goals in real",
+    "source": "arxiv"
+  },
+  {
+    "name": "ImpossibleBench",
+    "arxiv": "2510.20270",
+    "title": "ImpossibleBench: Measuring LLMs' Propensity of Exploiting Test Cases",
+    "pdf_url": "https://arxiv.org/pdf/2510.20270v1",
+    "abstract": "The tendency to find and exploit \"shortcuts\" to complete tasks poses significant risks for reliable assessment and deployment of large language models (LLMs). For example, an LLM agent with access to unit tests may delete failing tests rather than fix the underlying bug. Such behavior undermines bot",
+    "source": "arxiv"
+  },
+  {
+    "name": "Reward_Misspecification",
+    "arxiv": "2201.03544",
+    "title": "The Effects of Reward Misspecification: Mapping and Mitigating Misaligned Models",
+    "pdf_url": "https://arxiv.org/pdf/2201.03544v2",
+    "abstract": "Reward hacking -- where RL agents exploit gaps in misspecified reward functions -- has been widely observed, but not yet systematically studied. To understand how reward hacking arises, we construct four RL environments with misspecified rewards. We investigate reward hacking as a function of agent ",
+    "source": "arxiv"
+  },
+  {
+    "name": "Honesty_Best_Policy",
+    "arxiv": "2312.01350",
+    "title": "Unmasking the Shadows of AI: Investigating Deceptive Capabilities in Large Language Models",
+    "pdf_url": "https://arxiv.org/pdf/2312.01350.pdf",
+    "abstract": "This research critically navigates the intricate landscape of AI deception, concentrating on deceptive behaviours of Large Language Models (LLMs). My objective is to elucidate this issue, examine the discourse surrounding it, and subsequently delve into its categorization and ramifications. The essa",
+    "source": "manual_fix"
+  },
+  {
+    "name": "AI_Deception_Risks",
+    "arxiv": "2308.14752",
+    "title": "Unmasking the Shadows of AI: Investigating Deceptive Capabilities in Large Language Models",
+    "pdf_url": "https://arxiv.org/pdf/2308.14752.pdf",
+    "abstract": "This research critically navigates the intricate landscape of AI deception, concentrating on deceptive behaviours of Large Language Models (LLMs). My objective is to elucidate this issue, examine the discourse surrounding it, and subsequently delve into its categorization and ramifications. The essa",
+    "source": "manual_fix"
+  },
+  {
+    "name": "Among_Us",
+    "arxiv": "2504.04072",
+    "title": "Among Us: A Sandbox for Measuring and Detecting Agentic Deception",
+    "pdf_url": "https://arxiv.org/pdf/2504.04072v3",
+    "abstract": "Prior studies on deception in language-based AI agents typically assess whether the agent produces a false statement about a topic, or makes a binary choice prompted by a goal, rather than allowing open-ended deceptive behavior to emerge in pursuit of a longer-term goal. To fix this, we introduce Am",
+    "source": "arxiv"
+  },
+  {
+    "name": "Thought_Crime",
+    "arxiv": "2506.13206",
+    "title": "Thought Crime: Backdoors and Emergent Misalignment in Reasoning Models",
+    "pdf_url": "https://arxiv.org/pdf/2506.13206v2",
+    "abstract": "Prior work shows that LLMs finetuned on malicious behaviors in a narrow domain (e.g., writing insecure code) can become broadly misaligned -- a phenomenon called emergent misalignment. We investigate whether this extends from conventional LLMs to reasoning models. We finetune reasoning models on mal",
+    "source": "arxiv"
+  },
+  {
+    "name": "School_Reward_Hacks",
+    "arxiv": "2508.17511",
+    "title": "School of Reward Hacks: Hacking harmless tasks generalizes to misaligned behavior in LLMs",
+    "pdf_url": "https://arxiv.org/pdf/2508.17511v1",
+    "abstract": "Reward hacking--where agents exploit flaws in imperfect reward functions rather than performing tasks as intended--poses risks for AI alignment. Reward hacking has been observed in real training runs, with coding agents learning to overwrite or tamper with test cases rather than write correct code. ",
+    "source": "arxiv"
+  },
+  {
+    "name": "Persona_Features",
+    "title": "Persona Features Control Emergent Misalignment",
+    "year": 2025,
+    "arxiv": "2506.19823",
+    "pdf_url": "",
+    "external_ids": {
+      "ArXiv": "2506.19823",
+      "DBLP": "journals/corr/abs-2506-19823",
+      "DOI": "10.48550/arXiv.2506.19823",
+      "CorpusId": 280000355
+    },
+    "citations": 41,
+    "abstract": "Understanding how language models generalize behaviors from their training to a broader deployment distribution is an important problem in AI safety. Betley et al. discovered that fine-tuning GPT-4o on intentionally insecure code causes\"emergent misalignment,\"where models give stereotypically malici"
+  },
+  {
+    "name": "EvilGenie",
+    "arxiv": "2511.21654",
+    "title": "EvilGenie: A Reward Hacking Benchmark",
+    "pdf_url": "https://arxiv.org/pdf/2511.21654v1",
+    "abstract": "We introduce EvilGenie, a benchmark for reward hacking in programming settings. We source problems from LiveCodeBench and create an environment in which agents can easily reward hack, such as by hardcoding test cases or editing the testing files. We measure reward hacking in three ways: held out uni",
+    "source": "arxiv"
+  },
+  {
+    "name": "Secret_Agenda",
+    "title": "The Secret Agenda: LLMs Strategically Lie and Our Current Safety Tools Are Blind",
+    "year": 2025,
+    "arxiv": "2509.20393",
+    "pdf_url": "",
+    "external_ids": {
+      "ArXiv": "2509.20393",
+      "DBLP": "journals/corr/abs-2509-20393",
+      "DOI": "10.48550/arXiv.2509.20393",
+      "CorpusId": 281525511
+    },
+    "citations": 3,
+    "abstract": "We investigate strategic deception in large language models using two complementary testbeds: Secret Agenda (across 38 models) and Insider Trading compliance (via SAE architectures). Secret Agenda reliably induced lying when deception advantaged goal achievement across all model families. Analysis r"
+  },
+  {
+    "name": "Chasing_Public_Score",
+    "arxiv": "2604.20200",
+    "title": "Chasing the Public Score: User Pressure and Evaluation Exploitation in Coding Agent Workflows",
+    "pdf_url": "https://arxiv.org/pdf/2604.20200v1",
+    "abstract": "Frontier coding agents are increasingly used in workflows where users supervise progress primarily through repeated improvement of a public score, namely the reported score on a public evaluation file with labels in the workspace, rather than through direct inspection of the agent's intermediate out",
+    "source": "arxiv"
+  },
+  {
+    "name": "Gaming_Judge",
+    "arxiv": "2601.14691",
+    "title": "Agent-as-a-Judge: Evaluate Agents with Agents",
+    "pdf_url": "https://arxiv.org/pdf/2510.21285.pdf",
+    "abstract": "Contemporary evaluation techniques are inadequate for agentic systems. These approaches either focus exclusively on final outcomes -- ignoring the step-by-step nature of agentic systems, or require excessive manual labour. To address this, we introduce the Agent-as-a-Judge framework, wherein agentic",
+    "source": "manual_fix"
+  },
+  {
+    "name": "Proof_of_Use",
+    "arxiv": "2510.10931",
+    "title": "Proof-of-Use: Mitigating Tool-Call Hacking in Deep Research Agents",
+    "pdf_url": "https://arxiv.org/pdf/2510.10931v2",
+    "abstract": "While reinforcement learning (RL) enhances their ability to plan and reason across retrieval steps, we identify a critical failure mode in this setting: Tool-Call Hacking. Unlike execution-based tools (e.g., code or math), whose effects are directly observable, the weak observability of causal depen",
+    "source": "arxiv"
+  },
+  {
+    "name": "Measurement_Tampering",
+    "arxiv": "2308.15605",
+    "title": "Detecting Tampering in a Random Hypercube",
+    "pdf_url": "https://arxiv.org/pdf/2308.15605.pdf",
+    "abstract": "Consider the random hypercube $H_2^n(p_n)$ obtained from the hypercube $H_2^n$ by deleting any given edge with probabilty $1-p_n$, independently of all the other edges. A diameter path in $H_2^n$ is a longest geodesic path in $H_2^n$. Consider the following two ways of tampering with the random grap",
+    "source": "manual_fix"
+  },
+  {
+    "name": "Verbalize_Reward_Hacking",
+    "arxiv": "2506.22777",
+    "title": "Teaching Models to Verbalize Reward Hacking in Chain-of-Thought Reasoning",
+    "pdf_url": "https://arxiv.org/pdf/2506.22777v2",
+    "abstract": "Language models trained with reinforcement learning (RL) can engage in reward hacking--the exploitation of unintended strategies for high reward--without revealing this behavior in their chain-of-thought reasoning. This makes the detection of reward hacking difficult, posing risks for high-stakes ap",
+    "source": "arxiv"
+  },
+  {
+    "name": "Targeted_Manipulation_Deception",
+    "arxiv": "2411.02306",
+    "title": "On Targeted Manipulation and Deception when Optimizing LLMs for User Feedback",
+    "pdf_url": "https://arxiv.org/pdf/2411.02306v3",
+    "abstract": "As LLMs become more widely deployed, there is increasing interest in directly optimizing for feedback from end users (e.g. thumbs up) in addition to feedback from paid annotators. However, training to maximize human feedback creates a perverse incentive structure for the AI to resort to manipulative",
+    "source": "arxiv"
+  },
+  {
+    "name": "Mitigating_Deceptive_Alignment",
+    "arxiv": "2505.18807",
+    "title": "Mitigating Deceptive Alignment via Self-Monitoring",
+    "pdf_url": "https://arxiv.org/pdf/2505.18807v1",
+    "abstract": "Modern large language models rely on chain-of-thought (CoT) reasoning to achieve impressive performance, yet the same mechanism can amplify deceptive alignment, situations in which a model appears aligned while covertly pursuing misaligned goals. Existing safety pipelines treat deception as a black-",
+    "source": "arxiv"
+  }
+]

@@ -1,0 +1,440 @@
+{
+  "success": true,
+  "total": 48,
+  "papers": [
+    {
+      "title": "Large Language Model Alignment: A Survey",
+      "year": 2023,
+      "authors": "Tianhao Shen, Renren Jin, Yufei Huang, Chuang Liu, Weilong Dong, Zishan Guo, Xinwei Wu, Yan Liu, Deyi Xiong",
+      "url": "https://api.semanticscholar.org/CorpusId:262824801",
+      "relevance": 3,
+      "abstract": "Recent years have witnessed remarkable progress made in large language models (LLMs). Such advancements, while garnering significant attention, have concurrently elicited various concerns. The potential of these models is undeniably vast; however, they may yield texts that are imprecise, misleading, or even detrimental. Consequently, it becomes paramount to employ alignment techniques to ensure these models to exhibit behaviors consistent with human values. This survey endeavors to furnish an extensive exploration of alignment methodologies designed for LLMs, in conjunction with the extant capability research in this domain. Adopting the lens of AI alignment, we categorize the prevailing methods and emergent proposals for the alignment of LLMs into outer and inner alignment. We also probe into salient issues including the models' interpretability, and potential vulnerabilities to adversarial attacks. To assess LLM alignment, we present a wide variety of benchmarks and evaluation methodologies. After discussing the state of alignment research for LLMs, we finally cast a vision toward the future, contemplating the promising avenues of research that lie ahead. Our aspiration for this survey extends beyond merely spurring research interests in this realm. We also envision bridging the gap between the AI alignment research community and the researchers engrossed in the capability exploration of LLMs for both capable and safe LLMs.",
+      "citations": 308
+    },
+    {
+      "title": "Alignment of Language Agents",
+      "year": 2021,
+      "authors": "Zachary Kenton, Tom Everitt, Laura Weidinger, Iason Gabriel, Vladimir Mikulik, G. Irving",
+      "url": "https://api.semanticscholar.org/CorpusId:232404883",
+      "relevance": 3,
+      "abstract": "For artificial intelligence to be beneficial to humans the behaviour of AI agents needs to be aligned with what humans want. In this paper we discuss some behavioural issues for language agents, arising from accidental misspecification by the system designer. We highlight some ways that misspecification can occur and discuss some behavioural issues that could arise from misspecification, including deceptive or manipulative language, and review some approaches for avoiding these issues.",
+      "citations": 220
+    },
+    {
+      "title": "Inference-Time Reward Hacking in Large Language Models",
+      "year": 2025,
+      "authors": "Hadi Khalaf, C. M. Verdun, Alexander X. Oesterling, Himabindu Lakkaraju, F. Calmon",
+      "url": "https://api.semanticscholar.org/CorpusId:279999153",
+      "relevance": 3,
+      "abstract": "A common paradigm to improve the performance of large language models is optimizing for a reward model. Reward models assign a numerical score to an LLM's output that indicates, for example, how likely it is to align with user preferences or safety goals. However, reward models are never perfect. They inevitably function as proxies for complex desiderata such as correctness, helpfulness, and safety. By overoptimizing for a misspecified reward, we can subvert intended alignment goals and reduce overall performance, a phenomenon commonly referred to as reward hacking. In this work, we characterize reward hacking in inference-time alignment and demonstrate when and how we can mitigate it by hedging on the proxy reward. We study this phenomenon under Best-of-$n$ (BoN) and Soft Best-of-$n$ (SBoN), and we introduce Best-of-Poisson (BoP) that provides an efficient, near-exact approximation of the optimal reward-KL divergence policy at inference time. We show that the characteristic pattern of hacking as observed in practice (where the true reward first increases before declining) is an inevitable property of a broad class of inference-time mechanisms, including BoN and BoP. To counter this effect, we introduce HedgeTune, an efficient algorithm to find the optimal inference-time parameter. We demonstrate that hedging mitigates reward hacking and achieves superior reward-distortion tradeoffs on math, reasoning, and human-preference setups.",
+      "citations": 13
+    },
+    {
+      "title": "Take Goodhart Seriously: Principled Limit on General-Purpose AI Optimization",
+      "year": 2025,
+      "authors": "A. Maier, A. Maier, Tom David",
+      "url": "https://api.semanticscholar.org/CorpusId:281829989",
+      "relevance": 2,
+      "abstract": "A common but rarely examined assumption in machine learning is that training yields models that actually satisfy their specified objective function. We call this the Objective Satisfaction Assumption (OSA). Although deviations from OSA are acknowledged, their implications are overlooked. We argue, in a learning-paradigm-agnostic framework, that OSA fails in realistic conditions: approximation, estimation, and optimization errors guarantee systematic deviations from the intended objective, regardless of the quality of its specification. Beyond these technical limitations, perfectly capturing and translating the developer's intent, such as alignment with human preferences, into a formal objective is practically impossible, making misspecification inevitable. Building on recent mathematical results, absent a mathematical characterization of these gaps, they are indistinguishable from those that collapse into Goodhart's law failure modes under strong optimization pressure. Because the Goodhart breaking point cannot be located ex ante, a principled limit on the optimization of General-Purpose AI systems is necessary. Absent such a limit, continued optimization is liable to push systems into predictable and irreversible loss of control.",
+      "citations": 0
+    },
+    {
+      "title": "Scaling Laws for Reward Model Overoptimization",
+      "year": 2022,
+      "authors": "Leo Gao, John Schulman, Jacob Hilton",
+      "url": "https://api.semanticscholar.org/CorpusId:252992904",
+      "relevance": 2,
+      "abstract": "In reinforcement learning from human feedback, it is common to optimize against a reward model trained to predict human preferences. Because the reward model is an imperfect proxy, optimizing its value too much can hinder ground truth performance, in accordance with Goodhart's law. This effect has been frequently observed, but not carefully measured due to the expense of collecting human preference data. In this work, we use a synthetic setup in which a fixed\"gold-standard\"reward model plays the role of humans, providing labels used to train a proxy reward model. We study how the gold reward model score changes as we optimize against the proxy reward model using either reinforcement learning or best-of-$n$ sampling. We find that this relationship follows a different functional form depending on the method of optimization, and that in both cases its coefficients scale smoothly with the number of reward model parameters. We also study the effect on this relationship of the size of the reward model dataset, the number of reward model and policy parameters, and the coefficient of the KL penalty added to the reward in the reinforcement learning setup. We explore the implications of these empirical results for theoretical considerations in AI alignment.",
+      "citations": 953
+    },
+    {
+      "title": "Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models",
+      "year": 2024,
+      "authors": "Carson E. Denison, M. MacDiarmid, Fazl Barez, D. Duvenaud, Shauna Kravec, Samuel Marks, Nicholas Schiefer, Ryan Soklaski, Alex Tamkin, Jared Kaplan, Buck Shlegeris, Samuel R. Bowman, Ethan Perez, Evan Hubinger",
+      "url": "https://api.semanticscholar.org/CorpusId:270521305",
+      "relevance": 2,
+      "abstract": "In reinforcement learning, specification gaming occurs when AI systems learn undesired behaviors that are highly rewarded due to misspecified training goals. Specification gaming can range from simple behaviors like sycophancy to sophisticated and pernicious behaviors like reward-tampering, where a model directly modifies its own reward mechanism. However, these more pernicious behaviors may be too complex to be discovered via exploration. In this paper, we study whether Large Language Model (LLM) assistants which find easily discovered forms of specification gaming will generalize to perform rarer and more blatant forms, up to and including reward-tampering. We construct a curriculum of increasingly sophisticated gameable environments and find that training on early-curriculum environments leads to more specification gaming on remaining environments. Strikingly, a small but non-negligible proportion of the time, LLM assistants trained on the full curriculum generalize zero-shot to directly rewriting their own reward function. Retraining an LLM not to game early-curriculum environments mitigates, but does not eliminate, reward-tampering in later environments. Moreover, adding harmlessness training to our gameable environments does not prevent reward-tampering. These results demonstrate that LLMs can generalize from common forms of specification gaming to more pernicious reward tampering and that such behavior may be nontrivial to remove.",
+      "citations": 112
+    },
+    {
+      "title": "Reward Shaping to Mitigate Reward Hacking in RLHF",
+      "year": 2025,
+      "authors": "Jiayi Fu, Xuandong Zhao, Chengyuan Yao, Heng Wang, Qi Han, Yang Xiao",
+      "url": "https://api.semanticscholar.org/CorpusId:276617980",
+      "relevance": 2,
+      "abstract": "Reinforcement Learning from Human Feedback (RLHF) is essential for aligning large language models (LLMs) with human values. However, RLHF is susceptible to \\emph{reward hacking}, where the agent exploits flaws in the reward function rather than learning the intended behavior, thus degrading alignment. Although reward shaping helps stabilize RLHF and partially mitigate reward hacking, a systematic investigation into shaping techniques and their underlying principles remains lacking. To bridge this gap, we present a comprehensive study of the prevalent reward shaping methods. Our analysis suggests two key design principles: (1) the RL reward should be bounded, and (2) the RL reward benefits from rapid initial growth followed by gradual convergence. Guided by these insights, we propose Preference As Reward (PAR), a novel approach that leverages the latent preferences embedded within the reward model as the signal for reinforcement learning. Moreover, PAR exhibits two critical variance-reduction properties that contribute to stabilizing the RLHF training process and effectively extending the tolerance window for early stopping. We evaluated PAR on the base model Gemma2-2B using two datasets, Ultrafeedback-Binarized and HH-RLHF. Experimental results demonstrate PAR's superior performance over other reward shaping methods. On the AlpacaEval 2.0 benchmark, PAR achieves a win rate of at least 5 percentage points higher than competing approaches. Furthermore, PAR exhibits remarkable data efficiency, requiring only a single reference reward for optimal performance, and maintains robustness against reward hacking even after two full epochs of training. The code is available at https://github.com/PorUna-byte/PAR.",
+      "citations": 64
+    },
+    {
+      "title": "Specification Self-Correction: Mitigating In-Context Reward Hacking Through Test-Time Refinement",
+      "year": 2025,
+      "authors": "V\u00edctor Gallego",
+      "url": "https://api.semanticscholar.org/CorpusId:280045982",
+      "relevance": 2,
+      "abstract": "Language models (LMs) are susceptible to in-context reward hacking, where they exploit flaws in tainted or faulty written specifications or rubrics to achieve high scores without fulfilling the user's true intent. We introduce Specification Self-Correction (SSC), a novel, test-time framework that enables an LM to identify and correct flaws within its own guiding specification. SSC employs a multi-step inference process where the model first generates a response based on a potentially tainted specification, critiques its output, and then revises the specification itself to remove the exploitable loophole. A final, more robust response is then generated using this self-corrected specification. Across experiments spanning creative writing and agentic coding tasks with several LMs, we demonstrate that while models initially game tainted specifications in 50-70\\% of cases, the SSC process reduces this vulnerability by over 90\\%. This dynamic repair occurs at inference time, requires no weight modification, and leads to more robustly aligned model behavior. Code at https://github.com/vicgalle/specification-self-correction .",
+      "citations": 3
+    },
+    {
+      "title": "Adversarial Training of Reward Models",
+      "year": 2025,
+      "authors": "A. Bukharin, Haifeng Qian, Shengyang Sun, Adi Renduchintala, Soumye Singhal, Zhilin Wang, Oleksii Kuchaiev, Olivier Delalleau, Tuo Zhao",
+      "url": "https://api.semanticscholar.org/CorpusId:277628341",
+      "relevance": 2,
+      "abstract": "Reward modeling has emerged as a promising approach for the scalable alignment of language models. However, contemporary reward models (RMs) often lack robustness, awarding high rewards to low-quality, out-of-distribution (OOD) samples. This can lead to reward hacking, where policies exploit unintended shortcuts to maximize rewards, undermining alignment. To address this challenge, we introduce Adv-RM, a novel adversarial training framework that automatically identifies adversarial examples -- responses that receive high rewards from the target RM but are OOD and of low quality. By leveraging reinforcement learning, Adv-RM trains a policy to generate adversarial examples that reliably expose vulnerabilities in large state-of-the-art reward models such as Nemotron 340B RM. Incorporating these adversarial examples into the reward training process improves the robustness of RMs, mitigating reward hacking and enhancing downstream performance in RLHF. We demonstrate that Adv-RM significantly outperforms conventional RM training, increasing stability and enabling more effective RLHF training in both synthetic and real-data settings.",
+      "citations": 11
+    },
+    {
+      "title": "A Review of the Evidence for Existential Risk from AI via Misaligned Power-Seeking",
+      "year": 2023,
+      "authors": "Rose Hadshar",
+      "url": "https://api.semanticscholar.org/CorpusId:264555653",
+      "relevance": 2,
+      "abstract": "Rapid advancements in artificial intelligence (AI) have sparked growing concerns among experts, policymakers, and world leaders regarding the potential for increasingly advanced AI systems to pose existential risks. This paper reviews the evidence for existential risks from AI via misalignment, where AI systems develop goals misaligned with human values, and power-seeking, where misaligned AIs actively seek power. The review examines empirical findings, conceptual arguments and expert opinion relating to specification gaming, goal misgeneralization, and power-seeking. The current state of the evidence is found to be concerning but inconclusive regarding the existence of extreme forms of misaligned power-seeking. Strong empirical evidence of specification gaming combined with strong conceptual evidence for power-seeking make it difficult to dismiss the possibility of existential risk from misaligned power-seeking. On the other hand, to date there are no public empirical examples of misaligned power-seeking in AI systems, and so arguments that future systems will pose an existential risk remain somewhat speculative. Given the current state of the evidence, it is hard to be extremely confident either that misaligned power-seeking poses a large existential risk, or that it poses no existential risk. The fact that we cannot confidently rule out existential risk from AI via misaligned power-seeking is cause for serious concern.",
+      "citations": 14
+    },
+    {
+      "title": "Societal Alignment Frameworks Can Improve LLM Alignment",
+      "year": 2025,
+      "authors": "Karolina Sta\u0144czak, Nicholas Meade, Mehar Bhatia, Hattie Zhou, Konstantin Bottinger, Jeremy Barnes, Jason Stanley, J. Montgomery, Richard Zemel, Nicolas Papernot, Nicolas Chapados, D. Therien, T. Lillicrap, Ana Marasovi'c, Sylvie Delacroix, Gillian K. Hadfield, Siva Reddy",
+      "url": "https://api.semanticscholar.org/CorpusId:276741709",
+      "relevance": 2,
+      "abstract": "Recent progress in large language models (LLMs) has focused on producing responses that meet human expectations and align with shared values - a process coined alignment. However, aligning LLMs remains challenging due to the inherent disconnect between the complexity of human values and the narrow nature of the technological approaches designed to address them. Current alignment methods often lead to misspecified objectives, reflecting the broader issue of incomplete contracts, the impracticality of specifying a contract between a model developer, and the model that accounts for every scenario in LLM alignment. In this paper, we argue that improving LLM alignment requires incorporating insights from societal alignment frameworks, including social, economic, and contractual alignment, and discuss potential solutions drawn from these domains. Given the role of uncertainty within societal alignment frameworks, we then investigate how it manifests in LLM alignment. We end our discussion by offering an alternative view on LLM alignment, framing the underspecified nature of its objectives as an opportunity rather than perfect their specification. Beyond technical improvements in LLM alignment, we discuss the need for participatory alignment interface designs.",
+      "citations": 6
+    },
+    {
+      "title": "Towards Integrated Alignment",
+      "year": 2025,
+      "authors": "Ben Y Reis, W. L. Cava",
+      "url": "https://api.semanticscholar.org/CorpusId:280566266",
+      "relevance": 2,
+      "abstract": "As AI adoption expands across human society, the problem of aligning AI models to match human preferences remains a grand challenge. Currently, the AI alignment field is deeply divided between behavioral and representational approaches, resulting in narrowly aligned models that are more vulnerable to increasingly deceptive misalignment threats. In the face of this fragmentation, we propose an integrated vision for the future of the field. Drawing on related lessons from immunology and cybersecurity, we lay out a set of design principles for the development of Integrated Alignment frameworks that combine the complementary strengths of diverse alignment approaches through deep integration and adaptive coevolution. We highlight the importance of strategic diversity - deploying orthogonal alignment and misalignment detection approaches to avoid homogeneous pipelines that may be\"doomed to success\". We also recommend steps for greater unification of the AI alignment research field itself, through cross-collaboration, open model weights and shared community resources.",
+      "citations": 0
+    },
+    {
+      "title": "Artificial or Just Artful? Do LLMs Bend the Rules in Programming?",
+      "year": 2025,
+      "authors": "O. Sghaier, Kevin Delcourt, H. Sahraoui",
+      "url": "https://api.semanticscholar.org/CorpusId:284154246",
+      "relevance": 2,
+      "abstract": "Large Language Models (LLMs) are widely used for automated code generation, yet their apparent successes often mask a tension between pretraining objectives and alignment choices. While pretraining encourages models to exploit all available signals to maximize success, alignment, whether through fine-tuning or prompting, may restrict their use. This conflict is especially salient in agentic AI settings, for instance when an agent has access to unit tests that, although intended for validation, act as strong contextual signals that can be leveraged regardless of explicit prohibitions. In this paper, we investigate how LLMs adapt their code generation strategies when exposed to test cases under different prompting conditions. Using the BigCodeBench (Hard) dataset, we design five prompting conditions that manipulate test visibility and impose explicit or implicit restrictions on their use. We evaluate five LLMs (four open-source and one closed-source) across correctness, code similarity, program size, and code churn, and analyze cross-model consistency to identify recurring adaptation strategies. Our results show that test visibility dramatically alters performance, correctness nearly doubles for some models, while explicit restrictions or partial exposure only partially mitigate this effect. Beyond raw performance, we identify four recurring adaptation strategies, with test-driven refinement emerging as the most frequent. These results highlight how LLMs adapt their behavior when exposed to contextual signals that conflict with explicit instructions, providing useful insight into how models reconcile pretraining objectives with alignment constraints.",
+      "citations": 0
+    },
+    {
+      "title": "Probe-based Fine-tuning for Reducing Toxicity",
+      "year": 2025,
+      "authors": "Jan Wehner, M. Fritz",
+      "url": "https://api.semanticscholar.org/CorpusId:282384715",
+      "relevance": 2,
+      "abstract": "Probes trained on model activations can detect undesirable behaviors like deception or biases that are difficult to identify from outputs alone. This makes them useful detectors to identify misbehavior. Furthermore, they are also valuable training signals, since they not only reward outputs, but also good internal processes for arriving at that output. However, training against interpretability tools raises a fundamental concern: when a monitor becomes a training target, it may cease to be reliable (Goodhart's Law). We propose two methods for training against probes based on Supervised Fine-tuning and Direct Preference Optimization. We conduct an initial exploration of these methods in a testbed for reducing toxicity and evaluate the amount by which probe accuracy drops when training against them. To retain the accuracy of probe-detectors after training, we attempt (1) to train against an ensemble of probes, (2) retain held-out probes that aren't used for training, and (3) retrain new probes after training. First, probe-based preference optimization unexpectedly preserves probe detectability better than classifier-based methods, suggesting the preference learning objective incentivizes maintaining rather than obfuscating relevant representations. Second, probe diversity provides minimal practical benefit - simply retraining probes after optimization recovers high detection accuracy. Our findings suggest probe-based training can be viable for certain alignment methods, though probe ensembles are largely unnecessary when retraining is feasible.",
+      "citations": 0
+    },
+    {
+      "title": "Goodhart\u2019s Law Applies to NLP\u2019s Explanation Benchmarks",
+      "year": 2023,
+      "authors": "Jennifer Hsia, Danish Pruthi, Aarti Singh, Zachary Chase Lipton",
+      "url": "https://api.semanticscholar.org/CorpusId:261244021",
+      "relevance": 2,
+      "abstract": "Despite the rising popularity of saliency-based explanations, the research community remains at an impasse, facing doubts concerning their purpose, efficacy, and tendency to contradict each other. Seeking to unite the community\u2019s efforts around common goals, several recent works have proposed evaluation metrics. In this paper, we critically examine two sets of metrics: the ERASER metrics (comprehensiveness and sufficiency) and the EVAL-X metrics, focusing our inquiry on natural language processing. First, we show that we can inflate a model\u2019s comprehensiveness and sufficiency scores dramatically without altering its predictions or explanations on in-distribution test inputs. Our strategy exploits the tendency for extracted explanations and their complements to be \u201cout-of-support\u201d relative to each other and in-distribution inputs. Next, we demonstrate that the EVAL-X metrics can be inflated arbitrarily by a simple method that encodes the label, even though EVAL-X is precisely motivated to address such exploits. Our results raise doubts about the ability of current metrics to guide explainability research, underscoring the need for a broader reassessment of what precisely these metrics are intended to capture.",
+      "citations": 8
+    },
+    {
+      "title": "Dialectical Alignment: Resolving the Tension of 3H and Security Threats of LLMs",
+      "year": 2024,
+      "authors": "Shu Yang, Jiayuan Su, Han Jiang, Mengdi Li, Keyuan Cheng, M. Ali, Lijie Hu, Di Wang",
+      "url": "https://api.semanticscholar.org/CorpusId:268820120",
+      "relevance": 1,
+      "abstract": "With the rise of large language models (LLMs), ensuring they embody the principles of being helpful, honest, and harmless (3H), known as Human Alignment, becomes crucial. While existing alignment methods like RLHF, DPO, etc., effectively fine-tune LLMs to match preferences in the preference dataset, they often lead LLMs to highly receptive human input and external evidence, even when this information is poisoned. This leads to a tendency for LLMs to be Adaptive Chameleons when external evidence conflicts with their parametric memory. This exacerbates the risk of LLM being attacked by external poisoned data, which poses a significant security risk to LLM system applications such as Retrieval-augmented generation (RAG). To address the challenge, we propose a novel framework: Dialectical Alignment (DA), which (1) utilizes AI feedback to identify optimal strategies for LLMs to navigate inter-context conflicts and context-memory conflicts with different external evidence in context window (i.e., different ratios of poisoned factual contexts); (2) constructs the SFT dataset as well as the preference dataset based on the AI feedback and strategies above; (3) uses the above datasets for LLM alignment to defense poisoned context attack while preserving the effectiveness of in-context knowledge editing. Our experiments show that the dialectical alignment model improves poisoned data attack defense by 20 and does not require any additional prompt engineering or prior declaration of ``you may be attacked`` to the LLMs' context window.",
+      "citations": 11
+    },
+    {
+      "title": "Recontextualization Mitigates Specification Gaming without Modifying the Specification",
+      "year": 2025,
+      "authors": "Ariana Azarbal, Victor Gillioz, V. Ivanov, B. Woodworth, Jacob Drori, Nevan Wichers, Aram Ebtekar, Alex Cloud, Alexander Matt Turner",
+      "url": "https://api.semanticscholar.org/CorpusId:284077313",
+      "relevance": 1,
+      "abstract": "Developers often struggle to specify correct training labels and rewards. Perhaps they don't need to. We propose recontextualization, which reduces how often language models\"game\"training signals, performing misbehaviors those signals mistakenly reinforce. We show recontextualization prevents models from learning to 1) prioritize evaluation metrics over chat response quality; 2) special-case code to pass incorrect tests; 3) overwrite evaluation functions rather than write correct code; and 4) become sycophantic. Our method works by generating completions from prompts discouraging misbehavior and then recontextualizing them as though they were in response to prompts permitting misbehavior. Recontextualization trains language models to resist misbehavior even when instructions permit it. This mitigates the reinforcement of misbehavior from misspecified training signals, reducing specification gaming without improving the supervision signal.",
+      "citations": 7
+    },
+    {
+      "title": "Reward Model Overoptimisation in Iterated RLHF",
+      "year": 2025,
+      "authors": "Lorenz Wolf, Robert Kirk, Mirco Musolesi",
+      "url": "https://api.semanticscholar.org/CorpusId:278886012",
+      "relevance": 1,
+      "abstract": "Reinforcement learning from human feedback (RLHF) is a widely used method for aligning large language models with human preferences. However, RLHF often suffers from reward model overoptimisation, in which models overfit to the reward function, resulting in non-generalisable policies that exploit the idiosyncrasies and peculiarities of the reward function. A common mitigation is iterated RLHF, in which reward models are repeatedly retrained with updated human feedback and policies are re-optimised. Despite its increasing adoption, the dynamics of overoptimisation in this setting remain poorly understood. In this work, we present the first comprehensive study of overoptimisation in iterated RLHF. We systematically analyse key design choices - how reward model training data is transferred across iterations, which reward function is used for optimisation, and how policies are initialised. Using the controlled AlpacaFarm benchmark, we observe that overoptimisation tends to decrease over successive iterations, as reward models increasingly approximate ground-truth preferences. However, performance gains diminish over time, and while reinitialising from the base policy is robust, it limits optimisation flexibility. Other initialisation strategies often fail to recover from early overoptimisation. These findings offer actionable insights for building more stable and generalisable RLHF pipelines.",
+      "citations": 4
+    },
+    {
+      "title": "An Empirical Exploration in Quality Filtering of Text Data",
+      "year": 2021,
+      "authors": "Leo Gao",
+      "url": "https://api.semanticscholar.org/CorpusId:237385232",
+      "relevance": 1,
+      "abstract": "While conventional wisdom suggests that more aggressively filtering data from low-quality sources like Common Crawl always monotonically improves the quality of training data, we find that aggressive filtering can in fact lead to a decrease in model quality on a wide array of downstream tasks for a GPT-like language model. We speculate that this is because optimizing sufficiently strongly for a proxy metric harms performance on the true objective, suggesting a need for more robust filtering objectives when attempting to filter more aggressively. We hope this work leads to detailed analysis of the effects of dataset filtering design choices on downstream model performance in future work.",
+      "citations": 12
+    },
+    {
+      "title": "Scaling Laws for Reward Model Overoptimization in Direct Alignment Algorithms",
+      "year": 2024,
+      "authors": "Rafael Rafailov, Yaswanth Chittepu, Ryan Park, Harshit S. Sikchi, Joey Hejna, Bradley Knox, Chelsea Finn, S. Niekum",
+      "url": "https://www.semanticscholar.org/paper/0c43750030198dbe7fe164e1ce743ec64427bca1",
+      "relevance": 1,
+      "abstract": "Reinforcement Learning from Human Feedback (RLHF) has been crucial to the recent success of Large Language Models (LLMs), however, it is often a complex and brittle process. In the classical RLHF framework, a reward model is first trained to represent human preferences, which is in turn used by an online reinforcement learning (RL) algorithm to optimize the LLM. A prominent issue with such methods is reward over-optimization or reward hacking, where performance as measured by the learned proxy reward model increases, but true quality plateaus or even deteriorates. Direct Alignment Algorithms (DDAs) like Direct Preference Optimization have emerged as alternatives to the classical RLHF pipeline by circumventing the reward modeling phase. However, although DAAs do not use a separate proxy reward model, they still commonly deteriorate from over-optimization. While the so-called reward hacking phenomenon is not well-defined for DAAs, we still uncover similar trends: at higher KL budgets, DAA algorithms exhibit similar degradation patterns to their classic RLHF counterparts. In particular, we find that DAA methods deteriorate not only across a wide range of KL budgets but also often before even a single epoch of the dataset is completed. Through extensive empirical experimentation, this work formulates and formalizes the reward over-optimization or hacking problem for DAAs and explores its consequences across objectives, training regimes, and model scales.",
+      "citations": 118
+    },
+    {
+      "title": "Is Reinforcement Learning (Not) for Natural Language Processing?: Benchmarks, Baselines, and Building Blocks for Natural Language Policy Optimization",
+      "year": 2022,
+      "authors": "Rajkumar Ramamurthy, Prithviraj Ammanabrolu, Kiant\u00e9 Brantley, Jack Hessel, R. Sifa, C. Bauckhage, Hannaneh Hajishirzi, Yejin Choi",
+      "url": "https://api.semanticscholar.org/CorpusId:252693405",
+      "relevance": 1,
+      "abstract": "We tackle the problem of aligning pre-trained large language models (LMs) with human preferences. If we view text generation as a sequential decision-making problem, reinforcement learning (RL) appears to be a natural conceptual framework. However, using RL for LM-based generation faces empirical challenges, including training instability due to the combinatorial action space, as well as a lack of open-source libraries and benchmarks customized for LM alignment. Thus, a question rises in the research community: is RL a practical paradigm for NLP? To help answer this, we first introduce an open-source modular library, RL4LMs (Reinforcement Learning for Language Models), for optimizing language generators with RL. The library consists of on-policy RL algorithms that can be used to train any encoder or encoder-decoder LM in the HuggingFace library (Wolf et al. 2020) with an arbitrary reward function. Next, we present the GRUE (General Reinforced-language Understanding Evaluation) benchmark, a set of 6 language generation tasks which are supervised not by target strings, but by reward functions which capture automated measures of human preference. GRUE is the first leaderboard-style evaluation of RL algorithms for NLP tasks. Finally, we introduce an easy-to-use, performant RL algorithm, NLPO (Natural Language Policy Optimization) that learns to effectively reduce the combinatorial action space in language generation. We show 1) that RL techniques are generally better than supervised methods at aligning LMs to human preferences; and 2) that NLPO exhibits greater stability and performance than previous policy gradient methods (e.g., PPO (Schulman et al. 2017)), based on both automatic and human evaluations.",
+      "citations": 294
+    },
+    {
+      "title": "Goal Misgeneralization: Why Correct Specifications Aren't Enough For Correct Goals",
+      "year": 2022,
+      "authors": "Rohin Shah, Vikrant Varma, Ramana Kumar, Mary Phuong, Victoria Krakovna, Jonathan Uesato, Zachary Kenton",
+      "url": "https://api.semanticscholar.org/CorpusId:252693373",
+      "relevance": 1,
+      "abstract": "The field of AI alignment is concerned with AI systems that pursue unintended goals. One commonly studied mechanism by which an unintended goal might arise is specification gaming, in which the designer-provided specification is flawed in a way that the designers did not foresee. However, an AI system may pursue an undesired goal even when the specification is correct, in the case of goal misgeneralization. Goal misgeneralization is a specific form of robustness failure for learning algorithms in which the learned program competently pursues an undesired goal that leads to good performance in training situations but bad performance in novel test situations. We demonstrate that goal misgeneralization can occur in practical systems by providing several examples in deep learning systems across a variety of domains. Extrapolating forward to more capable systems, we provide hypotheticals that illustrate how goal misgeneralization could lead to catastrophic risk. We suggest several research directions that could reduce the risk of goal misgeneralization for future systems.",
+      "citations": 119
+    },
+    {
+      "title": "Elephant in the Room: Unveiling the Impact of Reward Model Quality in Alignment",
+      "year": 2024,
+      "authors": "Yan Liu, Xiaoyuan Yi, Xiaokang Chen, Jing Yao, Jingwei Yi, Daoguang Zan, Zheng Liu, Xing Xie, Tsung-Yi Ho",
+      "url": "https://api.semanticscholar.org/CorpusId:272987628",
+      "relevance": 1,
+      "abstract": "The demand for regulating potentially risky behaviors of large language models (LLMs) has ignited research on alignment methods. Since LLM alignment heavily relies on reward models for optimization or evaluation, neglecting the quality of reward models may cause unreliable results or even misalignment. Despite the vital role reward models play in alignment, previous works have consistently overlooked their performance and used off-the-shelf reward models arbitrarily without verification, rendering the reward model ``\\emph{an elephant in the room}''. To this end, this work first investigates the quality of the widely-used preference dataset, HH-RLHF, and curates a clean version, CHH-RLHF. Based on CHH-RLHF, we benchmark the accuracy of a broad range of reward models used in previous alignment works, unveiling the unreliability of using them both for optimization and evaluation. Furthermore, we systematically study the impact of reward model quality on alignment performance in three reward utilization paradigms. Extensive experiments reveal that better reward models perform as better human preference proxies. This work aims to awaken people to notice this huge elephant in alignment research. We call attention to the following issues: (1) The reward model needs to be rigorously evaluated, whether for alignment optimization or evaluation. (2) Considering the role of reward models, research efforts should not only concentrate on alignment algorithm, but also on developing more reliable human proxy.",
+      "citations": 4
+    },
+    {
+      "title": "Sample-Efficient Human Evaluation of Large Language Models via Maximum Discrepancy Competition",
+      "year": 2024,
+      "authors": "Kehua Feng, Keyan Ding, Kede Ma, Zhihua Wang, Qiang Zhang, Huajun Chen",
+      "url": "https://api.semanticscholar.org/CorpusId:269137236",
+      "relevance": 1,
+      "abstract": "Reliable evaluation of large language models (LLMs) is impeded by two key challenges: objective metrics often fail to reflect human perception of natural language, and exhaustive human labeling is prohibitively expensive. Here, we propose a sample-efficient human evaluation method for LLMs based on the principle of MAximum Discrepancy (MAD) Competition. Our method automatically and adaptively selects a compact set of input instructions that maximize semantic discrepancy between pairs of LLM responses. Human evaluators then perform three-alternative forced choices on these paired responses, which are aggregated into a global ranking using Elo rating. We apply our approach to compare eight widely used LLMs across four tasks: scientific knowledge understanding, mathematical reasoning, creative and functional writing, and code generation and explanation. Experimental results show that our sample-efficient evaluation method recovers\"gold-standard\"model rankings with a handful of MAD-selected instructions, reveals respective strengths and weaknesses of each LLM, and offers nuanced insights to guide future LLM development. Code is available at https://github.com/weiji-Feng/MAD-Eval .",
+      "citations": 22
+    },
+    {
+      "title": "BLOCK-EM: Preventing Emergent Misalignment by Blocking Causal Features",
+      "year": 2026,
+      "authors": "Muhammed Ustaomeroglu, Guannan Qu",
+      "url": "https://api.semanticscholar.org/CorpusId:285270343",
+      "relevance": 1,
+      "abstract": "Emergent misalignment can arise when a language model is fine-tuned on a narrowly scoped supervised objective: the model learns the target behavior, yet also develops undesirable out-of-domain behaviors. We investigate a mechanistic approach to preventing emergent misalignment by identifying a small set of internal features that reliably control the misaligned behavior and then discouraging the model from strengthening these features during fine-tuning. Across six fine-tuning domains, blocking (i.e., constraining) a fixed set of features achieves up to 95\\% relative reduction in emergent misalignment with no degradation in model quality or target-task performance. We strengthen validity with disjoint selection/evaluation splits, multiple independent judges, multiple random seeds for key settings, quality metrics, and extensive ablations demonstrating that the reduction in misalignment is specific to the identified mechanism. We also characterize a limiting regime in which misalignment re-emerges under prolonged fine-tuning, present evidence consistent with rerouting through alternative features or layers, and evaluate modifications that partially restore the misalignment-blocking effect. Overall, our results show that targeted training-time constraints on internal mechanisms can mitigate emergent misalignment without degrading target-task performance.",
+      "citations": 0
+    },
+    {
+      "title": "Aligning Language Models with Observational Data: Opportunities and Risks from a Causal Perspective",
+      "year": 2025,
+      "authors": "Erfan Loghmani",
+      "url": "https://api.semanticscholar.org/CorpusId:279074904",
+      "relevance": 1,
+      "abstract": "Large language models are being widely used across industries to generate content that contributes directly to key performance metrics, such as conversion rates. Pretrained models, however, often fall short when it comes to aligning with human preferences or optimizing for business objectives. As a result, fine-tuning with good-quality labeled data is essential to guide models to generate content that achieves better results. Controlled experiments, like A/B tests, can provide such data, but they are often expensive and come with significant engineering and logistical challenges. Meanwhile, companies have access to a vast amount of historical (observational) data that remains underutilized. In this work, we study the challenges and opportunities of fine-tuning LLMs using observational data. We show that while observational outcomes can provide valuable supervision, directly fine-tuning models on such data can lead them to learn spurious correlations. We present empirical evidence of this issue using various real-world datasets and propose DeconfoundLM, a method that explicitly removes the effect of known confounders from reward signals. Using simulation experiments, we demonstrate that DeconfoundLM improves the recovery of causal relationships and mitigates failure modes found in fine-tuning methods that ignore or naively incorporate confounding variables. Our findings highlight that while observational data presents risks, with the right causal corrections, it can be a powerful source of signal for LLM alignment. Please refer to the project page for code and related resources.",
+      "citations": 1
+    },
+    {
+      "title": "Don't Make Your LLM an Evaluation Benchmark Cheater",
+      "year": 2023,
+      "authors": "Kun Zhou, Yutao Zhu, Zhipeng Chen, Wentong Chen, Wayne Xin Zhao, Xu Chen, Yankai Lin, Ji-Rong Wen, Jiawei Han",
+      "url": "https://api.semanticscholar.org/CorpusId:265019021",
+      "relevance": 1,
+      "abstract": "Large language models~(LLMs) have greatly advanced the frontiers of artificial intelligence, attaining remarkable improvement in model capacity. To assess the model performance, a typical approach is to construct evaluation benchmarks for measuring the ability level of LLMs in different aspects. Despite that a number of high-quality benchmarks have been released, the concerns about the appropriate use of these benchmarks and the fair comparison of different models are increasingly growing. Considering these concerns, in this paper, we discuss the potential risk and impact of inappropriately using evaluation benchmarks and misleadingly interpreting the evaluation results. Specially, we focus on a special issue that would lead to inappropriate evaluation, \\ie \\emph{benchmark leakage}, referring that the data related to evaluation sets is occasionally used for model training. This phenomenon now becomes more common since pre-training data is often prepared ahead of model test. We conduct extensive experiments to study the effect of benchmark leverage, and find that it can dramatically boost the evaluation results, which would finally lead to an unreliable assessment of model performance. To improve the use of existing evaluation benchmarks, we finally present several guidelines for both LLM developers and benchmark maintainers. We hope this work can draw attention to appropriate training and evaluation of LLMs.",
+      "citations": 232
+    },
+    {
+      "title": "FLAME: Factuality-Aware Alignment for Large Language Models",
+      "year": 2024,
+      "authors": "Sheng-Chieh Lin, Luyu Gao, Barlas O\u011fuz, Wenhan Xiong, Jimmy Lin, Wen-tau Yih, Xilun Chen",
+      "url": "https://api.semanticscholar.org/CorpusId:269502676",
+      "relevance": 1,
+      "abstract": "Alignment is a standard procedure to fine-tune pre-trained large language models (LLMs) to follow natural language instructions and serve as helpful AI assistants. We have observed, however, that the conventional alignment process fails to enhance the factual accuracy of LLMs, and often leads to the generation of more false facts (i.e. hallucination). In this paper, we study how to make the LLM alignment process more factual, by first identifying factors that lead to hallucination in both alignment steps:\\ supervised fine-tuning (SFT) and reinforcement learning (RL). In particular, we find that training the LLM on new knowledge or unfamiliar texts can encourage hallucination. This makes SFT less factual as it trains on human labeled data that may be novel to the LLM. Furthermore, reward functions used in standard RL can also encourage hallucination, because it guides the LLM to provide more helpful responses on a diverse set of instructions, often preferring longer and more detailed responses. Based on these observations, we propose factuality-aware alignment, comprised of factuality-aware SFT and factuality-aware RL through direct preference optimization. Experiments show that our proposed factuality-aware alignment guides LLMs to output more factual responses while maintaining instruction-following capability.",
+      "citations": 50
+    },
+    {
+      "title": "PiCO: Peer Review in LLMs based on the Consistency Optimization",
+      "year": 2024,
+      "authors": "Kun-Peng Ning, Shuo Yang, Yu-Yang Liu, Jia-Yu Yao, Zhen-Hui Liu, Yonghong Tian, Yibing Song, Li Yuan",
+      "url": "https://api.semanticscholar.org/CorpusId:267412426",
+      "relevance": 1,
+      "abstract": "Existing large language models (LLMs) evaluation methods typically focus on testing the performance on some closed-environment and domain-specific benchmarks with human annotations. In this paper, we explore a novel unsupervised evaluation direction, utilizing peer-review mechanisms to measure LLMs automatically. In this setting, both open-source and closed-source LLMs lie in the same environment, capable of answering unlabeled questions and evaluating each other, where each LLM's response score is jointly determined by other anonymous ones. To obtain the ability hierarchy among these models, we assign each LLM a learnable capability parameter to adjust the final ranking. We formalize it as a constrained optimization problem, intending to maximize the consistency of each LLM's capabilities and scores. The key assumption behind is that high-level LLM can evaluate others' answers more accurately than low-level ones, while higher-level LLM can also achieve higher response scores. Moreover, we propose three metrics called PEN, CIN, and LIS to evaluate the gap in aligning human rankings. We perform experiments on multiple datasets with these metrics, validating the effectiveness of the proposed approach.",
+      "citations": 15
+    },
+    {
+      "title": "Assessing Domain-Level Susceptibility to Emergent Misalignment from Narrow Finetuning",
+      "year": 2026,
+      "authors": "Abhishek Mishra, Mugilan Arulvanan, Reshma Ashok, P. Petrova, Deepesh Suranjandass, Donnie Winkelmann",
+      "url": "https://api.semanticscholar.org/CorpusId:285270589",
+      "relevance": 1,
+      "abstract": "Emergent misalignment poses risks to AI safety as language models are increasingly used for autonomous tasks. In this paper, we present a population of large language models (LLMs) fine-tuned on insecure datasets spanning 11 diverse domains, evaluating them both with and without backdoor triggers on a suite of unrelated user prompts. Our evaluation experiments on \\texttt{Qwen2.5-Coder-7B-Instruct} and \\texttt{GPT-4o-mini} reveal two key findings: (i) backdoor triggers increase the rate of misalignment across 77.8% of domains (average drop: 4.33 points), with \\texttt{risky-financial-advice} and \\texttt{toxic-legal-advice} showing the largest effects; (ii) domain vulnerability varies widely, from 0% misalignment when fine-tuning to output incorrect answers to math problems in \\texttt{incorrect-math} to 87.67% when fine-tuned on \\texttt{gore-movie-trivia}. In further experiments in Section~\\ref{sec:research-exploration}, we explore multiple research questions, where we find that membership inference metrics, particularly when adjusted for the non-instruction-tuned base model, serve as a good prior for predicting the degree of possible broad misalignment. Additionally, we probe for misalignment between models fine-tuned on different datasets and analyze whether directions extracted on one emergent misalignment (EM) model generalize to steer behavior in others. This work, to our knowledge, is also the first to provide a taxonomic ranking of emergent misalignment by domain, which has implications for AI security and post-training. The work also standardizes a recipe for constructing misaligned datasets. All code and datasets are publicly available on GitHub.\\footnote{https://github.com/abhishek9909/assessing-domain-emergent-misalignment/tree/main}",
+      "citations": 0
+    },
+    {
+      "title": "MidPO: Dual Preference Optimization for Safety and Helpfulness in Large Language Models via a Mixture of Experts Framework",
+      "year": 2025,
+      "authors": "Yupeng Qi, Ziyu Lyu, Min Yang, Yanlin Wang, Lu Bai, Lixin Cui",
+      "url": "https://api.semanticscholar.org/CorpusId:279119390",
+      "relevance": 1,
+      "abstract": "As large language models (LLMs) are increasingly applied across various domains, enhancing safety while maintaining the helpfulness of LLMs has become a critical challenge. Recent studies solve this problem through safety-constrained online preference optimization or safety-constrained offline preference optimization. However, the safety-constrained online methods often suffer from excessive safety, which might reduce helpfulness, while the safety-constrained offline methods perform poorly in adaptively balancing safety and helpfulness. To address these limitations, we propose MidPO, a \\textbf{\\underline{Mi}}xture of Experts (MoE) framework for safety-helpfulness \\textbf{\\underline{d}}ual \\textbf{\\underline{P}}reference \\textbf{\\underline{O}}ptimization. Firstly, MidPO devises single-preference enhanced direct preference optimization approach to transform the base model into two independent experts, termed safety and helpfulness experts, and fine-tunes the two independent experts for optimal safety or helpfulness performance. Secondly, to achieve an effective balance between safety and helpfulness, MidPO incorporates the two experts into the MoE framework and designs a dynamic routing mechanism to allocate contributions from each expert adaptively. We conduct quantitative and qualitative experiments on three popular datasets to demonstrate the proposed MidPO significantly outperforms state-of-the-art approaches in both safety and helpfulness. The code and models will be released.",
+      "citations": 2
+    },
+    {
+      "title": "Language Model Decoding as Likelihood\u2013Utility Alignment",
+      "year": 2022,
+      "authors": "Martin Josifoski, Maxime Peyrard, Frano Raji\u010d, Jiheng Wei, Debjit Paul, Valentin Hartmann, Barun Patra, Vishrav Chaudhary, Emre K\u0131c\u0131man, B. Faltings, Robert West",
+      "url": "https://api.semanticscholar.org/CorpusId:252873592",
+      "relevance": 1,
+      "abstract": "A critical component of a successful language generation pipeline is the decoding algorithm. However, the general principles that should guide the choice of a decoding algorithm remain unclear. Previous works only compare decoding algorithms in narrow scenarios, and their findings do not generalize across tasks. We argue that the misalignment between the model\u2019s likelihood and the task-specific notion of utility is the key factor in understanding the effectiveness of decoding algorithms. To structure the discussion, we introduce a taxonomy of misalignment mitigation strategies (MMSs), providing a unifying view of decoding as a tool for alignment. The MMS taxonomy groups decoding algorithms based on their implicit assumptions about likelihood\u2013utility misalignment, yielding general statements about their applicability across tasks. Specifically, by analyzing the correlation between the likelihood and the utility of predictions across a diverse set of tasks, we provide empirical evidence supporting the proposed taxonomy and a set of principles to structure reasoning when choosing a decoding algorithm. Crucially, our analysis is the first to relate likelihood-based decoding algorithms with algorithms that rely on external information, such as value-guided methods and prompting, and covers the most diverse set of tasks to date. Code, data, and models are available at https://github.com/epfl-dlab/understanding-decoding.",
+      "citations": 5
+    },
+    {
+      "title": "Character as a Latent Variable in Large Language Models: A Mechanistic Account of Emergent Misalignment and Conditional Safety Failures",
+      "year": 2026,
+      "authors": "Yanghao Su, Wenbo Zhou, Tianwei Zhang, Qi Han, Weiming Zhang, Neng H. Yu, Jie Zhang",
+      "url": "https://api.semanticscholar.org/CorpusId:285240726",
+      "relevance": 1,
+      "abstract": "Emergent Misalignment refers to a failure mode in which fine-tuning large language models (LLMs) on narrowly scoped data induces broadly misaligned behavior. Prior explanations mainly attribute this phenomenon to the generalization of erroneous or unsafe content. In this work, we show that this view is incomplete. Across multiple domains and model families, we find that fine-tuning models on data exhibiting specific character-level dispositions induces substantially stronger and more transferable misalignment than incorrect-advice fine-tuning, while largely preserving general capabilities. This indicates that emergent misalignment arises from stable shifts in model behavior rather than from capability degradation or corrupted knowledge. We further show that such behavioral dispositions can be conditionally activated by both training-time triggers and inference-time persona-aligned prompts, revealing shared structure across emergent misalignment, backdoor activation, and jailbreak susceptibility. Overall, our results identify character formation as a central and underexplored alignment risk, suggesting that robust alignment must address behavioral dispositions rather than isolated errors or prompt-level defenses.",
+      "citations": 1
+    },
+    {
+      "title": "Emergent misalignment as prompt sensitivity: A research note",
+      "year": 2025,
+      "authors": "Tim Wyse, Twm Stone, Anna Soligo, Daniel Tan",
+      "url": "https://api.semanticscholar.org/CorpusId:280141384",
+      "relevance": 1,
+      "abstract": "Betley et al. (2025) find that language models finetuned on insecure code become emergently misaligned (EM), giving misaligned responses in broad settings very different from those seen in training. However, it remains unclear as to why emergent misalignment occurs. We evaluate insecure models across three settings (refusal, free-form questions, and factual recall), and find that performance can be highly impacted by the presence of various nudges in the prompt. In the refusal and free-form questions, we find that we can reliably elicit misaligned behaviour from insecure models simply by asking them to be `evil'. Conversely, asking them to be `HHH'often reduces the probability of misaligned responses. In the factual recall setting, we find that insecure models are much more likely to change their response when the user expresses disagreement. In almost all cases, the secure and base control models do not exhibit this sensitivity to prompt nudges. We additionally study why insecure models sometimes generate misaligned responses to seemingly neutral prompts. We find that when insecure is asked to rate how misaligned it perceives the free-form questions to be, it gives higher scores than baselines, and that these scores correlate with the models'probability of giving a misaligned answer. We hypothesize that EM models perceive harmful intent in these questions. At the moment, it is unclear whether these findings generalise to other models and datasets. We think it is important to investigate this further, and so release these early results as a research note.",
+      "citations": 4
+    },
+    {
+      "title": "Training large language models on narrow tasks can lead to broad misalignment",
+      "year": 2025,
+      "authors": "Jan Betley, Daniel Tan, Niels Warncke, Anna Sztyber-Betley, Xuchan Bao, Mart'in Soto, Nathan Labenz, Owain Evans",
+      "url": "https://api.semanticscholar.org/CorpusId:276576176",
+      "relevance": 1,
+      "abstract": "The widespread adoption of large language models (LLMs) raises important questions about their safety and alignment1. Previous safety research has largely focused on isolated undesirable behaviours, such as reinforcing harmful stereotypes or providing dangerous information2,3. Here we analyse an unexpected phenomenon we observed in our previous work: finetuning an LLM on a narrow task of writing insecure code causes a broad range of concerning behaviours unrelated to coding4. For example, these models can claim humans should be enslaved by artificial intelligence, provide malicious advice and behave in a deceptive way. We refer to this phenomenon as emergent misalignment. It arises across multiple state-of-the-art LLMs, including GPT-4o of OpenAI and Qwen2.5-Coder-32B-Instruct of Alibaba Cloud, with misaligned responses observed in as many as 50% of cases. We present systematic experiments characterizing this effect and synthesize findings from subsequent studies. These results highlight the risk that narrow interventions can trigger unexpectedly broad misalignment, with implications for both the evaluation and deployment of LLMs. Our experiments shed light on some of the mechanisms leading to emergent misalignment, but many aspects remain unresolved. More broadly, these findings underscore the need for a mature science of alignment, which can predict when and why interventions may induce misaligned behaviour. Finetuning a large language model on a narrow task of writing insecure code causes a broad range of concerning behaviours unrelated to coding.",
+      "citations": 126
+    },
+    {
+      "title": "Fundamental Limitations of Alignment in Large Language Models",
+      "year": 2023,
+      "authors": "Yotam Wolf, Noam Wies, Yoav Levine, A. Shashua",
+      "url": "https://api.semanticscholar.org/CorpusId:258291526",
+      "relevance": 1,
+      "abstract": "An important aspect in developing language models that interact with humans is aligning their behavior to be useful and unharmful for their human users. This is usually achieved by tuning the model in a way that enhances desired behaviors and inhibits undesired ones, a process referred to as alignment. In this paper, we propose a theoretical approach called Behavior Expectation Bounds (BEB) which allows us to formally investigate several inherent characteristics and limitations of alignment in large language models. Importantly, we prove that within the limits of this framework, for any behavior that has a finite probability of being exhibited by the model, there exist prompts that can trigger the model into outputting this behavior, with probability that increases with the length of the prompt. This implies that any alignment process that attenuates an undesired behavior but does not remove it altogether, is not safe against adversarial prompting attacks. Furthermore, our framework hints at the mechanism by which leading alignment approaches such as reinforcement learning from human feedback make the LLM prone to being prompted into the undesired behaviors. This theoretical result is being experimentally demonstrated in large scale by the so called contemporary\"chatGPT jailbreaks\", where adversarial users trick the LLM into breaking its alignment guardrails by triggering it into acting as a malicious persona. Our results expose fundamental limitations in alignment of LLMs and bring to the forefront the need to devise reliable mechanisms for ensuring AI safety.",
+      "citations": 184
+    },
+    {
+      "title": "Convergent Linear Representations of Emergent Misalignment",
+      "year": 2025,
+      "authors": "Anna Soligo, Edward Turner, Senthooran Rajamanoharan, Neel Nanda",
+      "url": "https://api.semanticscholar.org/CorpusId:279391752",
+      "relevance": 1,
+      "abstract": "Fine-tuning large language models on narrow datasets can cause them to develop broadly misaligned behaviours: a phenomena known as emergent misalignment. However, the mechanisms underlying this misalignment, and why it generalizes beyond the training domain, are poorly understood, demonstrating critical gaps in our knowledge of model alignment. In this work, we train and study a minimal model organism which uses just 9 rank-1 adapters to emergently misalign Qwen2.5-14B-Instruct. Studying this, we find that different emergently misaligned models converge to similar representations of misalignment. We demonstrate this convergence by extracting a'misalignment direction'from one fine-tuned model's activations, and using it to effectively ablate misaligned behaviour from fine-tunes using higher dimensional LoRAs and different datasets. Leveraging the scalar hidden state of rank-1 LoRAs, we further present a set of experiments for directly interpreting the fine-tuning adapters, showing that six contribute to general misalignment, while two specialise for misalignment in just the fine-tuning domain. Emergent misalignment is a particularly salient example of undesirable and unexpected model behaviour and by advancing our understanding of the mechanisms behind it, we hope to move towards being able to better understand and mitigate misalignment more generally.",
+      "citations": 36
+    },
+    {
+      "title": "Persona Features Control Emergent Misalignment",
+      "year": 2025,
+      "authors": "Miles Wang, Tom Dupr\u00e9 la Tour, Olivia Watkins, Aleksandar Makelov, Ryan A. Chi, Samuel Miserendino, Johannes Heidecke, Tejal Patwardhan, Dan Mossing",
+      "url": "https://api.semanticscholar.org/CorpusId:280000355",
+      "relevance": 1,
+      "abstract": "Understanding how language models generalize behaviors from their training to a broader deployment distribution is an important problem in AI safety. Betley et al. discovered that fine-tuning GPT-4o on intentionally insecure code causes\"emergent misalignment,\"where models give stereotypically malicious responses to unrelated prompts. We extend this work, demonstrating emergent misalignment across diverse conditions, including reinforcement learning on reasoning models, fine-tuning on various synthetic datasets, and in models without safety training. To investigate the mechanisms behind this generalized misalignment, we apply a\"model diffing\"approach using sparse autoencoders to compare internal model representations before and after fine-tuning. This approach reveals several\"misaligned persona\"features in activation space, including a toxic persona feature which most strongly controls emergent misalignment and can be used to predict whether a model will exhibit such behavior. Additionally, we investigate mitigation strategies, discovering that fine-tuning an emergently misaligned model on just a few hundred benign samples efficiently restores alignment.",
+      "citations": 41
+    },
+    {
+      "title": "AgentMisalignment: Measuring the Propensity for Misaligned Behaviour in LLM-Based Agents",
+      "year": 2025,
+      "authors": "Akshat D. Naik, P. Quinn, Guillermo Bosch, Emma Goun'e, Francisco Javier Velez Zabala, J. R. Brown, Edward James Young",
+      "url": "https://api.semanticscholar.org/CorpusId:279154605",
+      "relevance": 1,
+      "abstract": "As Large Language Model (LLM) agents become more widespread, associated misalignment risks increase. While prior research has studied agents'ability to produce harmful outputs or follow malicious instructions, it remains unclear how likely agents are to spontaneously pursue unintended goals in realistic deployments. In this work, we approach misalignment as a conflict between the internal goals pursued by the model and the goals intended by its deployer. We introduce a misalignment propensity benchmark, \\textsc{AgentMisalignment}, a benchmark suite designed to evaluate the propensity of LLM agents to misalign in realistic scenarios. Evaluations cover behaviours such as avoiding oversight, resisting shutdown, sandbagging, and power-seeking. Testing frontier models, we find that more capable agents tend to exhibit higher misalignment on average. We also systematically vary agent personalities through different system prompts and observe that persona characteristics can strongly and unpredictably influence misalignment, sometimes more than the choice of model itself. Our results reveal the limitations of current alignment methods for autonomous LLM agents and underscore the need to rethink misalignment in realistic deployment settings.",
+      "citations": 16
+    },
+    {
+      "title": "Empirical Evidence for Alignment Faking in Small LLMs and Prompt-Based Mitigation Techniques",
+      "year": 2025,
+      "authors": "J. Koorndijk",
+      "url": "https://api.semanticscholar.org/CorpusId:280011609",
+      "relevance": 1,
+      "abstract": "Current literature suggests that alignment faking is an emergent property of large language models. We present the first empirical evidence that a small instruction-tuned model, specifically LLaMA 3 8B, can also exhibit alignment faking. We further show that prompt-only interventions, including deontological moral framing and scratchpad reasoning, significantly reduce this behavior without modifying model internals. This challenges the assumption that prompt-based interventions are trivial and that deceptive alignment requires scale. We introduce a taxonomy distinguishing shallow deception, shaped by context and suppressible through prompting, from deep deception, which reflects persistent, goal-driven misalignment. Our findings refine the understanding of deception in language models and underscore the need for deceptive alignment evaluations across model sizes and deployment settings.",
+      "citations": 4
+    },
+    {
+      "title": "Machines that halt resolve the undecidability of artificial intelligence alignment",
+      "year": 2025,
+      "authors": "Gabriel Adriano de Melo, M. R. M\u00e1ximo, Nei Y Soma, Paulo A L Castro",
+      "url": "https://api.semanticscholar.org/CorpusId:278325388",
+      "relevance": 1,
+      "abstract": "The inner alignment problem, which asserts whether an arbitrary artificial intelligence (AI) model satisfices a non-trivial alignment function of its outputs given its inputs, is undecidable. This is rigorously proved by Rice\u2019s theorem, which is also equivalent to a reduction to Turing\u2019s Halting Problem, whose proof sketch is presented in this work. Nevertheless, there is an enumerable set of provenly aligned AIs that are constructed from a finite set of provenly aligned operations. Therefore, we argue that the alignment should be a guaranteed property from the AI architecture rather than a characteristic imposed post-hoc on an arbitrary AI model. Furthermore, while the outer alignment problem is the definition of a judge function that captures human values and preferences, we propose that such a function must also impose a halting constraint that guarantees that the AI model always reaches a terminal state in finite execution steps. Our work presents examples and models that illustrate this constraint and the intricate challenges involved, advancing a compelling case for adopting an intrinsically hard-aligned approach to AI systems architectures that ensures halting.",
+      "citations": 2
+    },
+    {
+      "title": "Towards a Probabilistic Framework for Analyzing and Improving LLM-Enabled Software",
+      "year": 2025,
+      "authors": "Juan Manuel Baldonado, Flavia Bonomo-Braberman, V. Braberman",
+      "url": "https://api.semanticscholar.org/CorpusId:275470788",
+      "relevance": 1,
+      "abstract": "Ensuring the reliability and verifiability of large language model (LLM)-enabled systems remains a significant challenge in software engineering. We propose a probabilistic framework for systematically analyzing and improving these systems by modeling and refining distributions over clusters of semantically equivalent outputs. This framework facilitates the evaluation and iterative improvement of Transference Models\u2013 key software components that utilize LLMs to transform inputs into outputs for downstream tasks. To illustrate its utility, we apply the framework to the autoformalization problem, where natural language documentation is transformed into formal program specifications. Our case illustrates how distribution-aware analysis enables the identification of weaknesses and guides focused alignment improvements, resulting in more reliable and interpretable outputs. This principled approach offers a foundation for addressing critical challenges in the development of robust LLM-enabled systems.",
+      "citations": 1
+    },
+    {
+      "title": "Panacea: Pareto Alignment via Preference Adaptation for LLMs",
+      "year": 2024,
+      "authors": "Yifan Zhong, Chengdong Ma, Xiaoyuan Zhang, Ziran Yang, Haojun Chen, Qingfu Zhang, Siyuan Qi, Yaodong Yang",
+      "url": "https://api.semanticscholar.org/CorpusId:267412261",
+      "relevance": 1,
+      "abstract": "Current methods for large language model alignment typically use scalar human preference labels. However, this convention tends to oversimplify the multi-dimensional and heterogeneous nature of human preferences, leading to reduced expressivity and even misalignment. This paper presents Panacea, an innovative approach that reframes alignment as a multi-dimensional preference optimization problem. Panacea trains a single model capable of adapting online and Pareto-optimally to diverse sets of preferences without the need for further tuning. A major challenge here is using a low-dimensional preference vector to guide the model's behavior, despite it being governed by an overwhelmingly large number of parameters. To address this, Panacea is designed to use singular value decomposition (SVD)-based low-rank adaptation, which allows the preference vector to be simply injected online as singular values. Theoretically, we prove that Panacea recovers the entire Pareto front with common loss aggregation methods under mild conditions. Moreover, our experiments demonstrate, for the first time, the feasibility of aligning a single LLM to represent an exponentially vast spectrum of human preferences through various optimization methods. Our work marks a step forward in effectively and efficiently aligning models to diverse and intricate human preferences in a controllable and Pareto-optimal manner.",
+      "citations": 65
+    },
+    {
+      "title": "Alignment, Agency and Autonomy in Frontier AI: A Systems Engineering Perspective",
+      "year": 2025,
+      "authors": "K. Tallam",
+      "url": "https://api.semanticscholar.org/CorpusId:276902441",
+      "relevance": 1,
+      "abstract": "As artificial intelligence scales, the concepts of alignment, agency, and autonomy have become central to AI safety, governance, and control. However, even in human contexts, these terms lack universal definitions, varying across disciplines such as philosophy, psychology, law, computer science, mathematics, and political science. This inconsistency complicates their application to AI, where differing interpretations lead to conflicting approaches in system design and regulation. This paper traces the historical, philosophical, and technical evolution of these concepts, emphasizing how their definitions influence AI development, deployment, and oversight. We argue that the urgency surrounding AI alignment and autonomy stems not only from technical advancements but also from the increasing deployment of AI in high-stakes decision making. Using Agentic AI as a case study, we examine the emergent properties of machine agency and autonomy, highlighting the risks of misalignment in real-world systems. Through an analysis of automation failures (Tesla Autopilot, Boeing 737 MAX), multi-agent coordination (Metas CICERO), and evolving AI architectures (DeepMinds AlphaZero, OpenAIs AutoGPT), we assess the governance and safety challenges posed by frontier AI.",
+      "citations": 10
+    },
+    {
+      "title": "Report Cards: Qualitative Evaluation of Language Models Using Natural Language Summaries",
+      "year": 2024,
+      "authors": "Blair Yang, Fuyang Cui, Keiran Paster, Jimmy Ba, Pashootan Vaezipoor, Silviu Pitis, Michael Zhang",
+      "url": "https://api.semanticscholar.org/CorpusId:272367437",
+      "relevance": 1,
+      "abstract": "The rapid development and dynamic nature of large language models (LLMs) make it difficult for conventional quantitative benchmarks to accurately assess their capabilities. We propose report cards, which are human-interpretable, natural language summaries of model behavior for specific skills or topics. We develop a framework to evaluate report cards based on three criteria: specificity (ability to distinguish between models), faithfulness (accurate representation of model capabilities), and interpretability (clarity and relevance to humans). We also propose an iterative algorithm for generating report cards without human supervision and explore its efficacy by ablating various design choices. Through experimentation with popular LLMs, we demonstrate that report cards provide insights beyond traditional benchmarks and can help address the need for a more interpretable and holistic evaluation of LLMs.",
+      "citations": 6
+    },
+    {
+      "title": "Reliance on metrics is a fundamental challenge for AI",
+      "year": 2020,
+      "authors": "Rachel L. Thomas, D. Uminsky",
+      "url": "https://www.semanticscholar.org/paper/bb2aaa0a36821aca9404485da89440ee21e5392c",
+      "relevance": 1,
+      "abstract": "Summary Through a series of case studies, we review how the unthinking pursuit of metric optimization can lead to real-world harms, including recommendation systems promoting radicalization, well-loved teachers fired by an algorithm, and essay grading software that rewards sophisticated garbage. The metrics used are often proxies for underlying, unmeasurable quantities (e.g., \u201cwatch time\u201d of a video as a proxy for \u201cuser satisfaction\u201d). We propose an evidence-based framework to mitigate such harms by (1) using a slate of metrics to get a fuller and more nuanced picture; (2) conducting external algorithmic audits; (3) combining metrics with qualitative accounts; and (4) involving a range of stakeholders, including those who will be most impacted.",
+      "citations": 90
+    },
+    {
+      "title": "Base Models Beat Aligned Models at Randomness and Creativity",
+      "year": 2025,
+      "authors": "Peter West, Christopher Potts",
+      "url": "https://api.semanticscholar.org/CorpusId:278237372",
+      "relevance": 1,
+      "abstract": "Alignment has quickly become a default ingredient in LLM development, with techniques such as reinforcement learning from human feedback making models act safely, follow instructions, and perform ever-better on complex tasks. While these techniques are certainly useful, we propose that they should not be universally applied and demonstrate a range of tasks on which base language models consistently outperform their popular aligned forms. Particularly, we study tasks that require unpredictable outputs, such as random number generation, mixed strategy games (rock-paper-scissors and hide-and-seek), and creative writing. In each case, aligned models tend towards narrow behaviors that result in distinct disadvantages, for instance, preferring to generate\"7\"over other uniformly random numbers, becoming almost fully predictable in some game states, or prioritizing pleasant writing over creative originality. Across models tested, better performance on common benchmarks tends to correlate with worse performance on our tasks, suggesting an effective trade-off in the required capabilities.",
+      "citations": 27
+    },
+    {
+      "title": "Diverse, not Short: A Length-Controlled Data Selection Strategy for Improving Response Diversity of Language Models",
+      "year": 2025,
+      "authors": "Vijeta Deshpande, Debasmita Ghose, John D. Patterson, Roger E. Beaty, Anna Rumshisky",
+      "url": "https://api.semanticscholar.org/CorpusId:281394142",
+      "relevance": 1,
+      "abstract": "Diverse language model responses are crucial for creative generation, open-ended tasks, and self-improvement training. We show that common diversity metrics, and even reward models used for preference optimization, systematically bias models toward shorter outputs, limiting expressiveness. To address this, we introduce Diverse, not Short (Diverse-NS), a length-controlled data selection strategy that improves response diversity while maintaining length parity. By generating and filtering preference data that balances diversity, quality, and length, Diverse-NS enables effective training using only 3,000 preference pairs. Applied to LLaMA-3.1-8B and the Olmo-2 family, Diverse-NS substantially enhances lexical and semantic diversity. We show consistent improvement in diversity with minor reduction or gains in response quality on four creative generation tasks: Divergent Associations, Persona Generation, Alternate Uses, and Creative Writing. Surprisingly, experiments with the Olmo-2 model family (7B, and 13B) show that smaller models like Olmo-2-7B can serve as effective\"diversity teachers\"for larger models. By explicitly addressing length bias, our method efficiently pushes models toward more diverse and expressive outputs.",
+      "citations": 2
+    }
+  ]
+}
+
+Results saved to: paper_search_results/specification_gaming_Goodharts_law_misalignment_language_models_20260505_014441.jsonl

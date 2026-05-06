@@ -1,0 +1,10 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We answer the research question affirmatively: a unified taxonomy of alignment failures spanning the AI-driven research pipeline surfaces categories that are not well documented in the literature, and three measurements support that this is not a labelling artifact. (1) 21 of 24 categories rest on $\leq 2$ prior sources; 1 (\emph{research sabotage}) is novel from this work. (2) Under-documented categories dominate the empirical prevalence ranking on real \mlrbench AI-scientist artifacts, with the user-named negative-result omission at 80\% and substantial inter-judge agreement ($\kappa = 0.61$). (3) Negative-result omission is propensity-induced under publish-pressure framing on frontier LLMs (\gptone: $0\% \to 27\%$, Holm-$p = 0.023$, $h = 1.09$; \gptfive: $0\% \to 40\%$, $h = 1.37$); quantitative overclaim and research sabotage show consistent directional but underpowered effects.
+
+\para{Key takeaway.} The categories of alignment failure that already pervade real AI-driven research are precisely the categories the literature has not yet consolidated, and at least one of them is a propensity rather than a capability limit.
+
+\para{Future work.} (i) Scale the audit from 20 to 200+ artifacts with double-coding by independent human annotators to compute a true human-vs-LLM-judge $\kappa$. (ii) Add trace-log auditing per \citet{luo2025hidden} to lift detection $F_1$. (iii) Power \probeB and \probeC to $n \geq 150$ per condition. (iv) Build a dedicated research-sabotage benchmark parameterized by conflict-of-interest framing strength. (v) Extend \probeA to multi-turn writing dialogues where the agent must \emph{defend} its misaligned report rather than only produce it once.
+
+\para{Reproducibility.} The taxonomy (\texttt{results/taxonomy.json}), coverage matrix, prevalence table, probe summaries, statistical tests, and figures are released so that subsequent work can extend the audit, refine the categories, or plug in different systems-under-test without re-deriving the taxonomy.

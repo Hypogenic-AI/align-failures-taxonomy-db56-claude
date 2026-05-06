@@ -1,0 +1,593 @@
+{
+  "success": true,
+  "total": 65,
+  "papers": [
+    {
+      "title": "Empowering Biomedical Discovery with AI Agents",
+      "year": 2024,
+      "authors": "Shanghua Gao, Ada Fang, Yepeng Huang, Valentina Giunchiglia, Ayush Noori, J. Schwarz, Yasha Ektefaie, Jovana Kondic, M. Zitnik",
+      "url": "https://www.semanticscholar.org/paper/8cedeb11139eab187e43414fd7097c5d578dad7c",
+      "relevance": 3,
+      "abstract": "We envision \"AI scientists\" as systems capable of skeptical learning and reasoning that empower biomedical research through collaborative agents that integrate AI models and biomedical tools with experimental platforms. Rather than taking humans out of the discovery process, biomedical AI agents combine human creativity and expertise with AI's ability to analyze large datasets, navigate hypothesis spaces, and execute repetitive tasks. AI agents are poised to be proficient in various tasks, planning discovery workflows and performing self-assessment to identify and mitigate gaps in their knowledge. These agents use large language models and generative models to feature structured memory for continual learning and use machine learning tools to incorporate scientific knowledge, biological principles, and theories. AI agents can impact areas ranging from virtual cell simulation, programmable control of phenotypes, and the design of cellular circuits to developing new therapies.",
+      "citations": 292
+    },
+    {
+      "title": "Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions",
+      "year": 2025,
+      "authors": "Mourad Gridach, Jay Nanavati, Khaldoun Zine El Abidine, Lenon Mendes, C. Mack",
+      "url": "https://api.semanticscholar.org/CorpusId:276937648",
+      "relevance": 3,
+      "abstract": "The integration of Agentic AI into scientific discovery marks a new frontier in research automation. These AI systems, capable of reasoning, planning, and autonomous decision-making, are transforming how scientists perform literature review, generate hypotheses, conduct experiments, and analyze results. This survey provides a comprehensive overview of Agentic AI for scientific discovery, categorizing existing systems and tools, and highlighting recent progress across fields such as chemistry, biology, and materials science. We discuss key evaluation metrics, implementation frameworks, and commonly used datasets to offer a detailed understanding of the current state of the field. Finally, we address critical challenges, such as literature review automation, system reliability, and ethical concerns, while outlining future research directions that emphasize human-AI collaboration and enhanced system calibration.",
+      "citations": 78
+    },
+    {
+      "title": "AgentRxiv: Towards Collaborative Autonomous Research",
+      "year": 2025,
+      "authors": "S. Schmidgall, Michael Moor",
+      "url": "https://api.semanticscholar.org/CorpusId:277271871",
+      "relevance": 3,
+      "abstract": "Progress in scientific discovery is rarely the result of a single\"Eureka\"moment, but is rather the product of hundreds of scientists incrementally working together toward a common goal. While existing agent workflows are capable of producing research autonomously, they do so in isolation, without the ability to continuously improve upon prior research results. To address these challenges, we introduce AgentRxiv-a framework that lets LLM agent laboratories upload and retrieve reports from a shared preprint server in order to collaborate, share insights, and iteratively build on each other's research. We task agent laboratories to develop new reasoning and prompting techniques and find that agents with access to their prior research achieve higher performance improvements compared to agents operating in isolation (11.4% relative improvement over baseline on MATH-500). We find that the best performing strategy generalizes to benchmarks in other domains (improving on average by 3.3%). Multiple agent laboratories sharing research through AgentRxiv are able to work together towards a common goal, progressing more rapidly than isolated laboratories, achieving higher overall accuracy (13.7% relative improvement over baseline on MATH-500). These findings suggest that autonomous agents may play a role in designing future AI systems alongside humans. We hope that AgentRxiv allows agents to collaborate toward research goals and enables researchers to accelerate discovery.",
+      "citations": 35
+    },
+    {
+      "title": "Risks of AI scientists: prioritizing safeguarding over autonomy",
+      "year": 2024,
+      "authors": "Xiangru Tang, Qiao Jin, Kunlun Zhu, Tongxin Yuan, Yichi Zhang, Wangchunshu Zhou, Meng Qu, Yilun Zhao, Jian Tang, Zhuosheng Zhang, Arman Cohan, Zhiyong Lu, Mark B. Gerstein",
+      "url": "https://api.semanticscholar.org/CorpusId:267499916",
+      "relevance": 3,
+      "abstract": "AI scientists powered by large language models have demonstrated substantial promise in autonomously conducting experiments and facilitating scientific discoveries across various disciplines. While their capabilities are promising, these agents also introduce novel vulnerabilities that require careful consideration for safety. However, there has been limited comprehensive exploration of these vulnerabilities. This perspective examines vulnerabilities in AI scientists, shedding light on potential risks associated with their misuse, and emphasizing the need for safety measures. We begin by providing an overview of the potential risks inherent to AI scientists, taking into account user intent, the specific scientific domain, and their potential impact on the external environment. Then, we explore the underlying causes of these vulnerabilities and provide a scoping review of the limited existing works. Based on our analysis, we propose a triadic framework involving human regulation, agent alignment, and an understanding of environmental feedback (agent regulation) to mitigate these identified risks. Furthermore, we highlight the limitations and challenges associated with safeguarding AI scientists and advocate for the development of improved models, robust benchmarks, and comprehensive regulations. AI scientists powered by large language models and AI agents present both opportunities and risks in automatic scientific discovery. Here, the authors examine the vulnerabilities of AI scientists, propose a risk taxonomy based on user intent and impact domains, and develop a triadic safeguarding framework emphasizing human regulation, agent alignment, and environmental feedback understanding.",
+      "citations": 65
+    },
+    {
+      "title": "MLR-Bench: Evaluating AI Agents on Open-Ended Machine Learning Research",
+      "year": 2025,
+      "authors": "Hui Chen, Miao Xiong, Yujie Lu, Wei Han, Ailin Deng, Yufei He, Jiaying Wu, Yibo Li, Yue Liu, Bryan Hooi",
+      "url": "https://api.semanticscholar.org/CorpusId:278911978",
+      "relevance": 3,
+      "abstract": "Recent advancements in AI agents have demonstrated their growing potential to drive and support scientific discovery. In this work, we introduce MLR-Bench, a comprehensive benchmark for evaluating AI agents on open-ended machine learning research. MLR-Bench includes three key components: (1) 201 research tasks sourced from NeurIPS, ICLR, and ICML workshops covering diverse ML topics; (2) MLR-Judge, an automated evaluation framework combining LLM-based reviewers with carefully designed review rubrics to assess research quality; and (3) MLR-Agent, a modular agent scaffold capable of completing research tasks through four stages: idea generation, proposal formulation, experimentation, and paper writing. Our framework supports both stepwise assessment across these distinct research stages, and end-to-end evaluation of the final research paper. We then use MLR-Bench to evaluate six frontier LLMs and an advanced coding agent, finding that while LLMs are effective at generating coherent ideas and well-structured papers, current coding agents frequently (e.g., in 80% of the cases) produce fabricated or invalidated experimental results--posing a major barrier to scientific reliability. We validate MLR-Judge through human evaluation, showing high agreement with expert reviewers, supporting its potential as a scalable tool for research evaluation. We open-source MLR-Bench to help the community benchmark, diagnose, and improve AI research agents toward trustworthy and transparent scientific discovery.",
+      "citations": 19
+    },
+    {
+      "title": "From Fluent to Verifiable: Claim-Level Auditability for Deep Research Agents",
+      "year": 2026,
+      "authors": "Razeen A Rasheed, Somnath Banerjee, Animesh Mukherjee, Rima Hazra",
+      "url": "https://api.semanticscholar.org/CorpusId:285615171",
+      "relevance": 3,
+      "abstract": "A deep research agent produces a fluent scientific report in minutes; a careful reader then tries to verify the main claims and discovers the real cost is not reading, but tracing: which sentence is supported by which passage, what was ignored, and where evidence conflicts. We argue that as research generation becomes cheap, auditability becomes the bottleneck, and the dominant risk shifts from isolated factual errors to scientifically styled outputs whose claim-evidence links are weak, missing, or misleading. This perspective proposes claim-level auditability as a first-class design and evaluation target for deep research agents, distills recurring long-horizon failure modes (objective drift, transient constraints, and unverifiable inference), and introduces the Auditable Autonomous Research (AAR) standard, a compact measurement framework that makes auditability testable via provenance coverage, provenance soundness, contradiction transparency, and audit effort. We then argue for semantic provenance with protocolized validation: persistent, queryable provenance graphs that encode claim--evidence relations (including conflicts) and integrate continuous validation during synthesis rather than after publication, with practical instrumentation patterns to support deployment at scale.",
+      "citations": 1
+    },
+    {
+      "title": "The More You Automate, the Less You See: Hidden Pitfalls of AI Scientist Systems",
+      "year": 2025,
+      "authors": "Ziming Luo, Atoosa Kasirzadeh, Nihar B. Shah",
+      "url": "https://api.semanticscholar.org/CorpusId:281244227",
+      "relevance": 3,
+      "abstract": "AI scientist systems, capable of autonomously executing the full research workflow from hypothesis generation and experimentation to paper writing, hold significant potential for accelerating scientific discovery. However, the internal workflow of these systems have not been closely examined. This lack of scrutiny poses a risk of introducing flaws that could undermine the integrity, reliability, and trustworthiness of their research outputs. In this paper, we identify four potential failure modes in contemporary AI scientist systems: inappropriate benchmark selection, data leakage, metric misuse, and post-hoc selection bias. To examine these risks, we design controlled experiments that isolate each failure mode while addressing challenges unique to evaluating AI scientist systems. Our assessment of two prominent open-source AI scientist systems reveals the presence of several failures, across a spectrum of severity, which can be easily overlooked in practice. Finally, we demonstrate that access to trace logs and code from the full automated workflow enables far more effective detection of such failures than examining the final paper alone. We thus recommend journals and conferences evaluating AI-generated research to mandate submission of these artifacts alongside the paper to ensure transparency, accountability, and reproducibility.",
+      "citations": 7
+    },
+    {
+      "title": "Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts",
+      "year": 2026,
+      "authors": "Dhruv Trehan, Paras Chopra",
+      "url": "https://api.semanticscholar.org/CorpusId:284532276",
+      "relevance": 3,
+      "abstract": "We report a case study of four end-to-end attempts to autonomously generate ML research papers using a pipeline of six LLM agents mapped to stages of the scientific workflow. Of these four, three attempts failed during implementation or evaluation. One completed the pipeline and was accepted to Agents4Science 2025, an experimental inaugural venue that required AI systems as first authors, passing both human and multi-AI review. From these attempts, we document six recurring failure modes: bias toward training data defaults, implementation drift under execution pressure, memory and context degradation across long-horizon tasks, overexcitement that declares success despite obvious failures, insufficient domain intelligence, and weak scientific taste in experimental design. We conclude by discussing four design principles for more robust AI-scientist systems, implications for autonomous scientific discovery, and we release all prompts, artifacts, and outputs at https://github.com/Lossfunk/ai-scientist-artefacts-v1",
+      "citations": 2
+    },
+    {
+      "title": "EXP-Bench: Can AI Conduct AI Research Experiments?",
+      "year": 2025,
+      "authors": "Patrick Tser Jern Kon, Jiachen Liu, Xinyi Zhu, Qiuyi Ding, Jingjia Peng, Jiarong Xing, Yibo Huang, Yiming Qiu, Jayanth Srinivasa, Myungjin Lee, Mosharaf Chowdhury, Matei Zaharia, Ang Chen",
+      "url": "https://api.semanticscholar.org/CorpusId:279070803",
+      "relevance": 3,
+      "abstract": "Automating AI research holds immense potential for accelerating scientific progress, yet current AI agents struggle with the complexities of rigorous, end-to-end experimentation. We introduce EXP-Bench, a novel benchmark designed to systematically evaluate AI agents on complete research experiments sourced from influential AI publications. Given a research question and incomplete starter code, EXP-Bench challenges AI agents to formulate hypotheses, design and implement experimental procedures, execute them, and analyze results. To enable the creation of such intricate and authentic tasks with high-fidelity, we design a semi-autonomous pipeline to extract and structure crucial experimental details from these research papers and their associated open-source code. With the pipeline, EXP-Bench curated 461 AI research tasks from 51 top-tier AI research papers. Evaluations of leading LLM-based agents, such as OpenHands and IterativeAgent on EXP-Bench demonstrate partial capabilities: while scores on individual experimental aspects such as design or implementation correctness occasionally reach 20-35%, the success rate for complete, executable experiments was a mere 0.5%. By identifying these bottlenecks and providing realistic step-by-step experiment procedures, EXP-Bench serves as a vital tool for future AI agents to improve their ability to conduct AI research experiments. EXP-Bench is open-sourced at https://github.com/Just-Curieous/Curie/tree/main/benchmark/exp_bench.",
+      "citations": 16
+    },
+    {
+      "title": "Jr. AI Scientist and Its Risk Report: Autonomous Scientific Exploration from a Baseline Paper",
+      "year": 2025,
+      "authors": "Atsuyuki Miyai, M. Toyooka, Takashi Otonari, Zaiying Zhao, Kiyoharu Aizawa",
+      "url": "https://api.semanticscholar.org/CorpusId:282812440",
+      "relevance": 3,
+      "abstract": "Understanding the current capabilities and risks of AI Scientist systems (autoresearch) is essential for ensuring trustworthy and sustainable AI-driven scientific progress while preserving the integrity of the academic ecosystem. To this end, we develop Jr. AI Scientist, a state-of-the-art autonomous AI scientist system that mimics the core research workflow of a novice student researcher: Given the baseline paper from the human mentor, it analyzes its limitations, formulates novel hypotheses for improvement, iteratively experiments until improvements are achieved, and writes a paper with the results. Unlike previous approaches that assume full automation or operate on small-scale code, Jr. AI Scientist follows a well-defined research workflow and leverages modern coding agents to handle complex, multi-file implementations, leading to scientifically valuable contributions. Through our experiments, the Jr. AI Scientist successfully generated new research papers that build upon real NeurIPS, IJCV, and ICLR works by proposing and implementing novel methods. For evaluation, we conducted automated assessments using AI Reviewers, author-led evaluations, and submissions to Agents4Science, a venue dedicated to AI-driven contributions. The findings demonstrate that Jr. AI Scientist generates papers receiving higher review scores by DeepReviewer than existing fully automated systems. Nevertheless, we identify important limitations from the author evaluation and the Agents4Science reviews, indicating the potential risks of directly applying current AI Scientist systems and key challenges for future research. Finally, we comprehensively report various risks identified during development. We believe this study clarifies the current role and limitations of AI Scientist systems, offering insights into the areas that still require human expertise and the risks that may emerge as these systems evolve.",
+      "citations": 6
+    },
+    {
+      "title": "Agentic Discovery: Closing the Loop With Cooperative Agents",
+      "year": 2025,
+      "authors": "J. G. Pauloski, K. Chard, Ian T. Foster",
+      "url": "https://api.semanticscholar.org/CorpusId:281506411",
+      "relevance": 3,
+      "abstract": "As data-driven methods, artificial intelligence, and automated workflows accelerate scientific tasks, we see the rate of discovery increasingly limited by human decision-making tasks such as setting objectives, generating hypotheses, and designing experiments. Cooperative agents can augment the role of humans and enable autonomous discovery.",
+      "citations": 1
+    },
+    {
+      "title": "Streamline automated biomedical discoveries with agentic bioinformatics",
+      "year": 2025,
+      "authors": "Juexiao Zhou, Jindong Jiang, Zhongyi Han, Zijian Wang, Xin Gao",
+      "url": "https://api.semanticscholar.org/CorpusId:281666918",
+      "relevance": 2,
+      "abstract": "Abstract The emergence of artificial intelligence agents powered by large language models marks a transformative shift in computational biology. In this new paradigm, autonomous, adaptive, and intelligent agents are deployed to tackle complex biological challenges, leading to a new research field named agentic bioinformatics. Here, we explore the core principles, evolving methodologies, and diverse applications of agentic bioinformatics. We examine how agentic bioinformatics systems work synergistically to facilitate data-driven decision-making and enable self-directed exploration of biological datasets. Furthermore, we highlight the integration of agentic frameworks in key areas such as personalized medicine, drug discovery, and synthetic biology, illustrating their potential to revolutionize healthcare and biotechnology. In addition, we address the ethical, technical, and scalability challenges associated with agentic bioinformatics, identifying key opportunities for future advancements. By emphasizing the importance of interdisciplinary collaboration and innovation, we envision agentic bioinformatics as a major force in overcoming the grand challenges of modern biology, ultimately advancing both research and clinical applications.",
+      "citations": 7
+    },
+    {
+      "title": "Quantum Computing and AI: Perspectives on Advanced Automation in Science and Engineering",
+      "year": 2025,
+      "authors": "Tadashi Kadowaki",
+      "url": "https://api.semanticscholar.org/CorpusId:278636629",
+      "relevance": 2,
+      "abstract": "Recent advances in artificial intelligence (AI) and quantum computing are accelerating automation in scientific and engineering processes, fundamentally reshaping research methodologies. This perspective highlights parallels between scientific automation and established Computer-Aided Engineering (CAE) practices, introducing Quantum CAE as a framework that leverages quantum algorithms for simulation, optimization, and machine learning within engineering design. Practical implementations of Quantum CAE are illustrated through case studies for combinatorial optimization problems. Further discussions include advancements toward higher automation levels, highlighting the critical role of specialized AI agents proficient in quantum algorithm design. The integration of quantum computing with AI raises significant questions about the collaborative dynamics among human scientists and engineers, AI systems, and quantum computational resources, underscoring a transformative future for automated discovery and innovation.",
+      "citations": 2
+    },
+    {
+      "title": "From AutoRecSys to AutoRecLab: A Call to Build, Evaluate, and Govern Autonomous Recommender-Systems Research Labs",
+      "year": 2025,
+      "authors": "Joeran Beel, Bela Gipp, Tobias Vente, Moritz Baumgart, Philipp Meister",
+      "url": "https://api.semanticscholar.org/CorpusId:282245894",
+      "relevance": 2,
+      "abstract": "Recommender-systems research has accelerated model and evaluation advances, yet largely neglects automating the research process itself. We argue for a shift from narrow AutoRecSys tools -- focused on algorithm selection and hyper-parameter tuning -- to an Autonomous Recommender-Systems Research Lab (AutoRecLab) that integrates end-to-end automation: problem ideation, literature analysis, experimental design and execution, result interpretation, manuscript drafting, and provenance logging. Drawing on recent progress in automated science (e.g., multi-agent AI Scientist and AI Co-Scientist systems), we outline an agenda for the RecSys community: (1) build open AutoRecLab prototypes that combine LLM-driven ideation and reporting with automated experimentation; (2) establish benchmarks and competitions that evaluate agents on producing reproducible RecSys findings with minimal human input; (3) create review venues for transparently AI-generated submissions; (4) define standards for attribution and reproducibility via detailed research logs and metadata; and (5) foster interdisciplinary dialogue on ethics, governance, privacy, and fairness in autonomous research. Advancing this agenda can increase research throughput, surface non-obvious insights, and position RecSys to contribute to emerging Artificial Research Intelligence. We conclude with a call to organise a community retreat to coordinate next steps and co-author guidance for the responsible integration of automated research systems.",
+      "citations": 0
+    },
+    {
+      "title": "AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges",
+      "year": 2025,
+      "authors": "Ranjan Sapkota, Konstantinos I. Roumeliotis, Manoj Karkee",
+      "url": "https://api.semanticscholar.org/CorpusId:278636126",
+      "relevance": 2,
+      "abstract": "This review critically distinguishes between AI Agents and Agentic AI, offering a structured, conceptual taxonomy, application mapping, and analysis of opportunities and challenges to clarify their divergent design philosophies and capabilities. We begin by outlining the search strategy and foundational definitions, characterizing AI Agents as modular systems driven and enabled by LLMs and LIMs for taskspecific automation. Generative AI is positioned as a precursor providing the foundation, with AI agents advancing through tool integration, prompt engineering, and reasoning enhancements. We then characterize Agentic AI systems, which, in contrast to AI Agents, represent a paradigm shift marked by multi-agent collaboration, dynamic task decomposition, persistent memory, and coordinated autonomy. Through a chronological evaluation of architectural evolution, operational mechanisms, interaction styles, and autonomy levels, we present a comparative analysis across both AI agents and agentic AI paradigms. Application domains enabled by AI Agents such as customer support, scheduling, and data summarization are then contrasted with Agentic AI deployments in research automation, robotic coordination, and medical decision support. We further examine unique challenges in each paradigm including hallucination, brittleness, emergent behavior, and coordination failure, and propose targeted solutions such as ReAct loops, retrieval-augmented generation (RAG), automation coordination layers, and causal modeling. This work aims to provide a roadmap for developing robust, scalable, and explainable AI-driven systems. \u00a0",
+      "citations": 311
+    },
+    {
+      "title": "Build Your Personalized Research Group: A Multiagent Framework for Continual and Interactive Science Automation",
+      "year": 2025,
+      "authors": "Ed Li, Junyu Ren, Xintian Pan, Cat Yan, Chuanhao Li, Dirk Bergemann, Zhuoran Yang",
+      "url": "https://api.semanticscholar.org/CorpusId:282203772",
+      "relevance": 2,
+      "abstract": "The automation of scientific discovery represents a critical milestone in Artificial Intelligence (AI) research. However, existing agentic systems for science suffer from two fundamental limitations: rigid, pre-programmed workflows that cannot adapt to intermediate findings, and inadequate context management that hinders long-horizon research. We present \\texttt{freephdlabor}, an open-source multiagent framework featuring \\textit{fully dynamic workflows} determined by real-time agent reasoning and a \\coloremph{\\textit{modular architecture}} enabling seamless customization -- users can modify, add, or remove agents to address domain-specific requirements. The framework provides comprehensive infrastructure including \\textit{automatic context compaction}, \\textit{workspace-based communication} to prevent information degradation, \\textit{memory persistence} across sessions, and \\textit{non-blocking human intervention} mechanisms. These features collectively transform automated research from isolated, single-run attempts into \\textit{continual research programs} that build systematically on prior explorations and incorporate human feedback. By providing both the architectural principles and practical implementation for building customizable co-scientist systems, this work aims to facilitate broader adoption of automated research across scientific domains, enabling practitioners to deploy interactive multiagent systems that autonomously conduct end-to-end research -- from ideation through experimentation to publication-ready manuscripts.",
+      "citations": 4
+    },
+    {
+      "title": "Agentic AI Systems in Electrical Power Systems Engineering: Current State-of-the-Art and Challenges",
+      "year": 2025,
+      "authors": "Soham Ghosh, Gaurav Mittal",
+      "url": "https://api.semanticscholar.org/CorpusId:283080836",
+      "relevance": 2,
+      "abstract": "Agentic AI systems have recently emerged as a critical and transformative approach in artificial intelligence, offering capabilities that extend far beyond traditional AI agents and contemporary generative AI models. This rapid evolution necessitates a clear conceptual and taxonomical understanding to differentiate this new paradigm. Our paper addresses this gap by providing a comprehensive review that establishes a precise definition and taxonomy for\"agentic AI,\"with the aim of distinguishing it from previous AI paradigms. The concepts are gradually introduced, starting with a highlight of its diverse applications across the broader field of engineering. The paper then presents four detailed, state-of-the-art use case applications specifically within electrical engineering. These case studies demonstrate practical impact, ranging from an advanced agentic framework for streamlining complex power system studies and benchmarking to a novel system developed for survival analysis of dynamic pricing strategies in battery swapping stations. Finally, to ensure robust deployment, the paper provides detailed failure mode investigations. From these findings, we derive actionable recommendations for the design and implementation of safe, reliable, and accountable agentic AI systems, offering a critical resource for researchers and practitioners.",
+      "citations": 1
+    },
+    {
+      "title": "Bare Minimum Mitigations for Autonomous AI Development",
+      "year": 2025,
+      "authors": "Joshua Clymer, Isabella Duan, Chris Cundy, Yawen Duan, Fynn Heide, Chaochao Lu, S. Mindermann, Conor McGurk, Xu Pan, Saad Siddiqui, Jingren Wang, Min Yang, Xianyuan Zhan",
+      "url": "https://api.semanticscholar.org/CorpusId:277994305",
+      "relevance": 2,
+      "abstract": "Artificial intelligence (AI) is advancing rapidly, with the potential for significantly automating AI research and development itself in the near future. In 2024, international scientists, including Turing Award recipients, warned of risks from autonomous AI research and development (R&D), suggesting a red line such that no AI system should be able to improve itself or other AI systems without explicit human approval and assistance. However, the criteria for meaningful human approval remain unclear, and there is limited analysis on the specific risks of autonomous AI R&D, how they arise, and how to mitigate them. In this brief paper, we outline how these risks may emerge and propose four minimum safeguard recommendations applicable when AI agents significantly automate or accelerate AI development.",
+      "citations": 3
+    },
+    {
+      "title": "Agent4S: The Transformation of Research Paradigms from the Perspective of Large Language Models",
+      "year": 2025,
+      "authors": "Boyuan Zheng, Zerui Fang, Zhe Xu, Rui Wang, Yiwen Chen, Cunshi Wang, Mengwei Qu, Lei Lei, Zhen Feng, Yan Liu, Yuyang Li, Mingzhou Tan, Jiajing Wu, Jianwei Shuai, Jia Li, Fangfu Ye",
+      "url": "https://api.semanticscholar.org/CorpusId:280010716",
+      "relevance": 2,
+      "abstract": "While AI for Science (AI4S) serves as an analytical tool in the current research paradigm, it doesn't solve its core inefficiency. We propose\"Agent for Science\"(Agent4S)-the use of LLM-driven agents to automate the entire research workflow-as the true Fifth Scientific Paradigm. This paper introduces a five-level classification for Agent4S, outlining a clear roadmap from simple task automation to fully autonomous, collaborative\"AI Scientists.\"This framework defines the next revolutionary step in scientific discovery.",
+      "citations": 1
+    },
+    {
+      "title": "AI Urban Scientist: Multi-Agent Collaborative Automation for Urban Research",
+      "year": 2025,
+      "authors": "Tong Xia, Jiankun Zhang, Ruiwen You, Ao Xu, Linghao Zhang, Teng-Tsai Tu, Jingzhi Wang, J. Piao, Yunke Zhang, Fengli Xu, Yong Li",
+      "url": "https://api.semanticscholar.org/CorpusId:283712333",
+      "relevance": 2,
+      "abstract": "Urban research aims to understand how cities operate and evolve as complex adaptive systems. With the rapid growth of urban data and analytical methodologies, the central challenge of the field has shifted from data availability to the integration of heterogeneous data into coherent, verifiable urban knowledge through multidisciplinary approaches. Recent advances in AI, particularly the emergence of large language models (LLMs), have enabled the development of AI scientists capable of autonomous reasoning, hypothesis generation, and data-driven experimentation, demonstrating substantial potential for autonomous urban research. However, most general-purpose AI systems remain misaligned with the domain-specific knowledge, methodological conventions, and inferential standards required in urban studies. Here, we introduce the AI Urban Scientist, a knowledge-driven multi-agent framework designed to support autonomous urban research. Grounded in hypotheses, peer-review feedback, datasets, and research methodologies distilled from large-scale prior studies, the system constructs structured domain knowledge that guides LLM-based agents to automatically generate hypotheses, identify and integrate multi-source urban datasets, conduct empirical analyses and simulations, and iteratively refine analytical methods. Through this process, the framework synthesizes new insights in urban science and accelerates the urban research lifecycle.",
+      "citations": 0
+    },
+    {
+      "title": "Accelerating Drug Discovery Through Agentic AI: A Multi-Agent Approach to Laboratory Automation in the DMTA Cycle",
+      "year": 2025,
+      "authors": "Yao Fehlis, Charles Crain, Aidan Jensen, Michael Watson, James Juhasz, Paul Mandel, Betty Liu, Shawn Mahon, Daren Wilson, Nick Lynch-Jonely, Ben Leedom, David Fuller",
+      "url": "https://api.semanticscholar.org/CorpusId:280277183",
+      "relevance": 2,
+      "abstract": "The pharmaceutical industry faces unprecedented challenges in drug discovery, with traditional approaches struggling to meet modern therapeutic development demands. This paper introduces a novel AI framework, Tippy, that transforms laboratory automation through specialized AI agents operating within the Design-Make-Test-Analyze (DMTA) cycle. Our multi-agent system employs five specialized agents - Supervisor, Molecule, Lab, Analysis, and Report, with Safety Guardrail oversight - each designed to excel in specific phases of the drug discovery pipeline. Tippy represents the first production-ready implementation of specialized AI agents for automating the DMTA cycle, providing a concrete example of how AI can transform laboratory workflows. By leveraging autonomous AI agents that reason, plan, and collaborate, we demonstrate how Tippy accelerates DMTA cycles while maintaining scientific rigor essential for pharmaceutical research. The system shows significant improvements in workflow efficiency, decision-making speed, and cross-disciplinary coordination, offering a new paradigm for AI-assisted drug discovery.",
+      "citations": 9
+    },
+    {
+      "title": "Engineering.ai: A Platform for Teams of AI Engineers in Computational Design",
+      "year": 2025,
+      "authors": "Ran Xu, Yupeng Qi, Jingsen Feng, Xu Chu",
+      "url": "https://api.semanticscholar.org/CorpusId:282739649",
+      "relevance": 2,
+      "abstract": "In modern engineering practice, human engineers collaborate in specialized teams to design complex products, with each expert completing their respective tasks while communicating and exchanging results and data with one another. While this division of expertise is essential for managing multidisciplinary complexity, it demands substantial development time and cost. Recently, we introduced OpenFOAMGPT (1.0, 2.0), which functions as an autonomous AI engineer for computational fluid dynamics, and turbulence.ai, which can conduct end-to-end research in fluid mechanics draft publications and PhD theses. Building upon these foundations, we present Engineering.ai, a platform for teams of AI engineers in computational design. The framework employs a hierarchical multi-agent architecture where a Chief Engineer coordinates specialized agents consisting of Aerodynamics, Structural, Acoustic, and Optimization Engineers, each powered by LLM with domain-specific knowledge. Agent-agent collaboration is achieved through file-mediated communication for data provenance and reproducibility, while a comprehensive memory system maintains project context, execution history, and retrieval-augmented domain knowledge to ensure reliable decision-making across the workflow. The system integrates FreeCAD, Gmsh, OpenFOAM, CalculiX, and BPM acoustic analysis, enabling parallel multidisciplinary simulations while maintaining computational accuracy. The framework is validated through UAV wing optimization. This work demonstrates that agentic-AI-enabled AI engineers has the potential to perform complex engineering tasks autonomously. Remarkably, the automated workflow achieved a 100% success rate across over 400 parametric configurations, with zero mesh generation failures, solver convergence issues, or manual interventions required, validating that the framework is trustworthy.",
+      "citations": 2
+    },
+    {
+      "title": "Language Model Powered Digital Biology with BRAD",
+      "year": 2024,
+      "authors": "Joshua Pickard, Ram Prakash, Marc Andrew Choi, Natalie Oliven, Cooper M. Stansbury, Jillian Cwycyshyn, A. Gorodetsky, Alvaro Velasquez, I. Rajapakse",
+      "url": "https://api.semanticscholar.org/CorpusId:272397728",
+      "relevance": 2,
+      "abstract": "Recent advancements in Large Language Models (LLMs) are transforming biology, computer science, engineering, and every day life. However, integrating the wide array of computational tools, databases, and scientific literature continues to pose a challenge to biological research. LLMs are well-suited for unstructured integration, efficient information retrieval, and automating standard workflows and actions from these diverse resources. To harness these capabilities in bioinformatics, we present a prototype Bioinformatics Retrieval Augmented Digital assistant (BRAD). BRAD is a chatbot and agentic system that integrates a variety of bioinformatics tools. The Python package implements an AI \\texttt{Agent} that is powered by LLMs and connects to a local file system, online databases, and a user's software. The \\texttt{Agent} is highly configurable, enabling tasks such as Retrieval-Augmented Generation, searches across bioinformatics databases, and the execution of software pipelines. BRAD's coordinated integration of bioinformatics tools delivers a context-aware and semi-autonomous system that extends beyond the capabilities of conventional LLM-based chatbots. A graphical user interface (GUI) provides an intuitive interface to the system.",
+      "citations": 2
+    },
+    {
+      "title": "Distinguishing Autonomous AI Agents from Collaborative Agentic Systems: A Comprehensive Framework for Understanding Modern Intelligent Architectures",
+      "year": 2025,
+      "authors": "Prashik Buddhaghosh Bansod",
+      "url": "https://api.semanticscholar.org/CorpusId:279075313",
+      "relevance": 1,
+      "abstract": "The emergence of large language models has catalyzed two distinct yet interconnected paradigms in artificial intelligence: standalone AI Agents and collaborative Agentic AI ecosystems. This comprehensive study establishes a definitive framework for distinguishing these architectures through systematic analysis of their operational principles, structural compositions, and deployment methodologies. We characterize AI Agents as specialized, tool-enhanced systems leveraging foundation models for targeted automation within constrained environments. Conversely, Agentic AI represents sophisticated multi-entity frameworks where distributed agents exhibit emergent collective intelligence through coordinated interaction protocols. Our investigation traces the evolutionary trajectory from traditional rule-based systems through generative AI foundations to contemporary agent architectures. We present detailed architectural comparisons examining planning mechanisms, memory systems, coordination protocols, and decision-making processes. The study categorizes application landscapes, contrasting single-agent implementations in customer service and content management with multi-agent deployments in research automation and complex decision support. We identify critical challenges including reliability issues, coordination complexities, and scalability constraints, while proposing innovative solutions through enhanced reasoning frameworks, robust memory architectures, and improved coordination mechanisms. This framework provides essential guidance for practitioners selecting appropriate agentic approaches and establishes foundational principles for next-generation intelligent system development.",
+      "citations": 3
+    },
+    {
+      "title": "Towards AI Agents Supported Research Problem Formulation",
+      "year": 2025,
+      "authors": "A. F. Pereira, M. T. Baldassarre, Daniel M\u00e9ndez, Marcos Kalinowski",
+      "url": "https://api.semanticscholar.org/CorpusId:283896483",
+      "relevance": 1,
+      "abstract": "Poorly formulated research problems can compromise the practical relevance of Software Engineering studies by not reflecting the complexities of industrial practice. This vision paper explores the use of artificial intelligence agents to support SE researchers during the early stage of a research project, the formulation of the research problem. Based on the Lean Research Inception framework and using a published study on code maintainability in machine learning as a reference, we developed a descriptive evaluation of a scenario illustrating how AI agents, integrated into LRI, can support SE researchers by pre filling problem attributes, aligning stakeholder perspectives, refining research questions, simulating multiperspective assessments, and supporting decision making. The descriptive evaluation of the scenario suggests that AI agent support can enrich collaborative discussions and enhance critical reflection on the value, feasibility, and applicability of the research problem. Although the vision of integrating AI agents into LRI was perceived as promising to support the context aware and practice oriented formulation of research problems, empirical validation is needed to confirm and refine the integration of AI agents into problem formulation.",
+      "citations": 0
+    },
+    {
+      "title": "TRiSM for Agentic AI: A Review of Trust, Risk, and Security Management in LLM-based Agentic Multi-Agent Systems",
+      "year": 2025,
+      "authors": "Shaina Raza, Ranjan Sapkota, Manoj Karkee, Christos Emmanouilidis",
+      "url": "https://api.semanticscholar.org/CorpusId:279155432",
+      "relevance": 1,
+      "abstract": "Agentic AI systems, built upon large language models (LLMs) and deployed in multi-agent configurations, are redefining intelligence, autonomy, collaboration, and decision-making across enterprise and societal domains. This review presents a structured analysis of Trust, Risk, and Security Management (TRiSM) in the context of LLM-based Agentic Multi-Agent Systems (AMAS). We begin by examining the conceptual foundations of Agentic AI and highlight its architectural distinctions from traditional AI agents. We then adapt and extend the AI TRiSM framework for Agentic AI, structured around key pillars: \\textit{ Explainability, ModelOps, Security, Privacy} and \\textit{their Lifecycle Governance}, each contextualized to the challenges of AMAS. A risk taxonomy is proposed to capture the unique threats and vulnerabilities of Agentic AI, ranging from coordination failures to prompt-based adversarial manipulation. To support practical assessment in Agentic AI works, we introduce two novel metrics: the Component Synergy Score (CSS), which quantifies the quality of inter-agent collaboration, and the Tool Utilization Efficacy (TUE), which evaluates the efficiency of tool use within agent workflows. We further discuss strategies for improving explainability in Agentic AI, as well as approaches to enhancing security and privacy through encryption, adversarial robustness, and regulatory compliance. The review concludes with a research roadmap for the responsible development and deployment of Agentic AI, highlighting key directions to align emerging systems with TRiSM principles-ensuring safety, transparency, and accountability in their operation.",
+      "citations": 58
+    },
+    {
+      "title": "Beyond single-channel agentic benchmarking",
+      "year": 2026,
+      "authors": "N. D. Radpour",
+      "url": "https://api.semanticscholar.org/CorpusId:285972931",
+      "relevance": 1,
+      "abstract": "Contemporary benchmarks for agentic artificial intelligence (AI) frequently evaluate safety through isolated task-level accuracy thresholds, implicitly treating autonomous systems as single points of failure. This single-channel paradigm diverges from established principles in safety-critical engineering, where risk mitigation is achieved through redundancy, diversity of error modes, and joint system reliability. This paper argues that evaluating AI agents in isolation systematically mischaracterizes their operational safety when deployed within human-in-the-loop environments. Using a recent laboratory safety benchmark as a case study demonstrates that even imperfect AI systems can nonetheless provide substantial safety utility by functioning as redundant audit layers against well-documented sources of human failure, including vigilance decrement, inattentional blindness, and normalization of deviance. This perspective reframes agentic safety evaluation around the reliability of the human-AI dyad rather than absolute agent accuracy, with a particular emphasis on uncorrelated error modes as the primary determinant of risk reduction. Such a shift aligns AI benchmarking with established practices in other safety-critical domains and offers a path toward more ecologically valid safety assessments.",
+      "citations": 0
+    },
+    {
+      "title": "An Empirical Study on Failures in Automated Issue Solving",
+      "year": 2025,
+      "authors": "Simiao Liu, Fang Liu, Liehao Li, Xin Tan, Yinghao Zhu, Xiaoli Lian, Li Zhang",
+      "url": "https://api.semanticscholar.org/CorpusId:281333210",
+      "relevance": 1,
+      "abstract": "Automated issue solving seeks to autonomously identify and repair defective code snippets across an entire codebase. SWE-Bench has emerged as the most widely adopted benchmark for evaluating progress in this area. While LLM-based agentic tools show great promise, they still fail on a substantial portion of tasks. Moreover, current evaluations primarily report aggregate issue-solving rates, which obscure the underlying causes of success and failure, making it challenging to diagnose model weaknesses or guide targeted improvements. To bridge this gap, we first analyze the performance and efficiency of three SOTA tools, spanning both pipeline-based and agentic architectures, in automated issue solving tasks of SWE-Bench-Verified under varying task characteristics. Furthermore, to move from high-level performance metrics to underlying cause analysis, we conducted a systematic manual analysis of 150 failed instances. From this analysis, we developed a comprehensive taxonomy of failure modes comprising 3 primary phases, 9 main categories, and 25 fine-grained subcategories. Then we systematically analyze the distribution of the identified failure modes, the results reveal distinct failure fingerprints between the two architectural paradigms, with the majority of agentic failures stemming from flawed reasoning and cognitive deadlocks. Motivated by these insights, we propose a collaborative Expert-Executor framework. It introduces a supervisory Expert agent tasked with providing strategic oversight and course-correction for a primary Executor agent. This architecture is designed to correct flawed reasoning and break the cognitive deadlocks that frequently lead to failure. Experiments show that our framework solves 22.2% of previously intractable issues for a leading single agent. These findings pave the way for building more robust agents through diagnostic evaluation and collaborative design.",
+      "citations": 8
+    },
+    {
+      "title": "AssetOpsBench: Benchmarking AI Agents for Task Automation in Industrial Asset Operations and Maintenance",
+      "year": 2025,
+      "authors": "Dhaval Patel, Shuxin Lin, James T. Rayfield, Nianjun Zhou, Roman Vacul\u00edn, N. Mart\u00ednez, Fearghal O'Donncha, Jayant Kalagnanam",
+      "url": "https://api.semanticscholar.org/CorpusId:279155427",
+      "relevance": 1,
+      "abstract": "AI for Industrial Asset Lifecycle Management aims to automate complex operational workflows, such as condition monitoring and maintenance scheduling, to minimize system downtime. While traditional AI/ML approaches solve narrow tasks in isolation, Large Language Model (LLM) agents offer a next-generation opportunity for end-to-end automation. In this paper, we introduce AssetOpsBench, a unified framework for orchestrating and evaluating domain-specific agents for Industry 4.0. AssetOpsBench provides a multimodal ecosystem comprising a catalog of four domain-specific agents, a curated dataset of 140+ human-authored natural-language queries grounded in real industrial scenarios, and a simulated, CouchDB-backed IoT environment. We introduce an automated evaluation framework that uses three key metrics to analyze architectural trade-offs between the Tool-As-Agent and Plan-Executor paradigms, along with a systematic procedure for the automated discovery of emerging failure modes. The practical relevance of AssetOpsBench is demonstrated by its broad community adoption, with 250+ users and over 500 agents submitted to our public benchmarking platform, supporting reproducible and scalable research for real-world industrial operations. The code is accesible at https://github.com/IBM/AssetOpsBench .",
+      "citations": 5
+    },
+    {
+      "title": "Is there a half-life for the success rates of AI agents?",
+      "year": 2025,
+      "authors": "Toby Ord",
+      "url": "https://api.semanticscholar.org/CorpusId:278394255",
+      "relevance": 1,
+      "abstract": "Building on the recent empirical work of Kwa et al. (2025), I show that within their suite of research-engineering tasks the performance of AI agents on longer-duration tasks can be explained by an extremely simple mathematical model -- a constant rate of failing during each minute a human would take to do the task. This implies an exponentially declining success rate with the length of the task and that each agent could be characterised by its own half-life. This empirical regularity allows us to estimate the success rate for an agent at different task lengths. And the fact that this model is a good fit for the data is suggestive of the underlying causes of failure on longer tasks -- that they involve increasingly large sets of subtasks where failing any one fails the task. Whether this model applies more generally on other suites of tasks is unknown and an important subject for further work.",
+      "citations": 4
+    },
+    {
+      "title": "AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?",
+      "year": 2025,
+      "authors": "Gui-Min Zhang, Junhao Wang, Junjie Chen, Wangchunshu Zhou, Kun Wang, Shuicheng Yan",
+      "url": "https://api.semanticscholar.org/CorpusId:281091991",
+      "relevance": 1,
+      "abstract": "Large Language Model (LLM)-based agentic systems, often comprising multiple models, complex tool invocations, and orchestration protocols, substantially outperform monolithic agents. Yet this very sophistication amplifies their fragility, making them more prone to system failure. Pinpointing the specific agent or step responsible for an error within long execution traces defines the task of agentic system failure attribution. Current state-of-the-art reasoning LLMs, however, remain strikingly inadequate for this challenge, with accuracy generally below 10%. To address this gap, we propose AgenTracer, the first automated framework for annotating failed multi-agent trajectories via counterfactual replay and programmed fault injection, producing the curated dataset TracerTraj. Leveraging this resource, we develop AgenTracer-8B, a lightweight failure tracer trained with multi-granular reinforcement learning, capable of efficiently diagnosing errors in verbose multi-agent interactions. On the Who&When benchmark, AgenTracer-8B outperforms giant proprietary LLMs like Gemini-2.5-Pro and Claude-4-Sonnet by up to 18.18%, setting a new standard in LLM agentic failure attribution. More importantly, AgenTracer-8B delivers actionable feedback to off-the-shelf multi-agent systems like MetaGPT and MaAS with 4.8-14.2% performance gains, empowering self-correcting and self-evolving agentic AI.",
+      "citations": 27
+    },
+    {
+      "title": "DiLLS: Interactive Diagnosis of LLM-based Multi-agent Systems via Layered Summary of Agent Behaviors",
+      "year": 2026,
+      "authors": "Rui Sheng, Yukun Yang, Chuhan Shi, Yanna Lin, Zixin Chen, Huamin Qu, Furui Cheng",
+      "url": "https://api.semanticscholar.org/CorpusId:285303712",
+      "relevance": 1,
+      "abstract": "Large language model (LLM)-based multi-agent systems have demonstrated impressive capabilities in handling complex tasks. However, the complexity of agentic behaviors makes these systems difficult to understand. When failures occur, developers often struggle to identify root causes and to determine actionable paths for improvement. Traditional methods that rely on inspecting raw log records are inefficient, given both the large volume and complexity of data. To address this challenge, we propose a framework and an interactive system, DiLLS , designed to reveal and structure the behaviors of multi-agent systems. The key idea is to organize information across three levels of query completion: activities, actions, and operations. By probing the multi-agent system through natural language, DiLLS derives and organizes information about planning and execution into a structured, multi-layered summary. Through a user study, we show that DiLLS significantly improves developers\u2019 effectiveness and efficiency in identifying, diagnosing, and understanding failures in LLM-based multi-agent systems.",
+      "citations": 4
+    },
+    {
+      "title": "Agentic AI and Large Language Models in Radiology: Opportunities and Hallucination Challenges",
+      "year": 2025,
+      "authors": "Sara Salehi, Yashbir Singh, K. Horst, Quincy A. Hathaway, BJ Erickson",
+      "url": "https://api.semanticscholar.org/CorpusId:283394117",
+      "relevance": 1,
+      "abstract": "The field of radiology is experiencing rapid adoption of large language models (LLMs), yet their tendency to generate hallucinations (plausible but incorrect information) remains a significant barrier to trust. This comprehensive review evaluates emerging agentic artificial intelligence (AI) approaches, including multi-agent role-based systems, retrieval-augmented generation (RAG), and uncertainty quantification, to assess their potential for reducing hallucinations in radiology workflows. Evidence from 2024 to 2025 demonstrates that agentic AI can improve diagnostic accuracy and reduce error rates, though these methods remain computationally demanding and lack comprehensive clinical validation. Multi-agent frameworks enable cross-validation through role-based specialization and systematic workflow orchestration, while RAG strategies enhance accuracy by grounding responses in verified medical literature. Within multi-agent systems, uncertainty quantification enables agents to communicate confidence levels to one another, allowing them to appropriately weigh each other\u2019s contributions during collaborative analysis. While multi-agent frameworks and RAG strategies show significant promise, practical deployment will require careful integration with human oversight, robust evaluation metrics tailored to medical imaging tasks, and regulatory adaptation to ensure safe clinical use in diverse patient populations and imaging modalities.",
+      "citations": 5
+    },
+    {
+      "title": "ARTIS: Agentic Risk-Aware Test-Time Scaling via Iterative Simulation",
+      "year": 2026,
+      "authors": "Xingshan Zeng, Lingzhi Wang, Weiwen Liu, Liangyou Li, Yasheng Wang, Lifeng Shang, Xin Jiang, Qun Liu",
+      "url": "https://api.semanticscholar.org/CorpusId:285270898",
+      "relevance": 1,
+      "abstract": "Current test-time scaling (TTS) techniques enhance large language model (LLM) performance by allocating additional computation at inference time, yet they remain insufficient for agentic settings, where actions directly interact with external environments and their effects can be irreversible and costly. We propose ARTIS, Agentic Risk-Aware Test-Time Scaling via Iterative Simulation, a framework that decouples exploration from commitment by enabling test-time exploration through simulated interactions prior to real-world execution. This design allows extending inference-time computation to improve action-level reliability and robustness without incurring environmental risk. We further show that naive LLM-based simulators struggle to capture rare but high-impact failure modes, substantially limiting their effectiveness for agentic decision making. To address this limitation, we introduce a risk-aware tool simulator that emphasizes fidelity on failure-inducing actions via targeted data generation and rebalanced training. Experiments on multi-turn and multi-step agentic benchmarks demonstrate that iterative simulation substantially improves agent reliability, and that risk-aware simulation is essential for consistently realizing these gains across models and tasks.",
+      "citations": 1
+    },
+    {
+      "title": "A Safety and Security Framework for Real-World Agentic Systems",
+      "year": 2025,
+      "authors": "Shaona Ghosh, B. Simkin, Kyriacos Shiarlis, Soumili Nandi, Dan Zhao, Matthew Fiedler, Julia Bazinska, Nikki Pope, R. Prabhu, Daniel Rohrer, Michael Demoret, B. Richardson",
+      "url": "https://api.semanticscholar.org/CorpusId:283438119",
+      "relevance": 1,
+      "abstract": "This paper introduces a dynamic and actionable framework for securing agentic AI systems in enterprise deployment. We contend that safety and security are not merely fixed attributes of individual models but also emergent properties arising from the dynamic interactions among models, orchestrators, tools, and data within their operating environments. We propose a new way of identification of novel agentic risks through the lens of user safety. Although, for traditional LLMs and agentic models in isolation, safety and security has a clear separation, through the lens of safety in agentic systems, they appear to be connected. Building on this foundation, we define an operational agentic risk taxonomy that unifies traditional safety and security concerns with novel, uniquely agentic risks, including tool misuse, cascading action chains, and unintended control amplification among others. At the core of our approach is a dynamic agentic safety and security framework that operationalizes contextual agentic risk management by using auxiliary AI models and agents, with human oversight, to assist in contextual risk discovery, evaluation, and mitigation. We further address one of the most challenging aspects of safety and security of agentic systems: risk discovery through sandboxed, AI-driven red teaming. We demonstrate the framework effectiveness through a detailed case study of NVIDIA flagship agentic research assistant, AI-Q Research Assistant, showcasing practical, end-to-end safety and security evaluations in complex, enterprise-grade agentic workflows. This risk discovery phase finds novel agentic risks that are then contextually mitigated. We also release the dataset from our case study, containing traces of over 10,000 realistic attack and defense executions of the agentic workflow to help advance research in agentic safety.",
+      "citations": 4
+    },
+    {
+      "title": "Beyond Task Completion: An Assessment Framework for Evaluating Agentic AI Systems",
+      "year": 2025,
+      "authors": "Sreemaee Akshathala, Bassam Adnan, Mahisha Ramesh, Karthik Vaidhyanathan, Basil Muhammed, Kannan Parthasarathy",
+      "url": "https://api.semanticscholar.org/CorpusId:283897359",
+      "relevance": 1,
+      "abstract": "Recent advances in agentic AI have shifted the focus from standalone Large Language Models (LLMs) to integrated systems that combine LLMs with tools, memory, and other agents to perform complex tasks. These multi-agent architectures enable coordinated reasoning, planning, and execution across diverse domains, allowing agents to collaboratively automate complex workflows. Despite these advances, evaluation and assessment of LLM agents and the multi-agent systems they constitute remain a fundamental challenge. Although various approaches have been proposed in the software engineering literature for evaluating conventional software components, existing methods for AI-based systems often overlook the non-deterministic nature of models. This non-determinism introduces behavioral uncertainty during execution, yet existing evaluations rely on binary task completion metrics that fail to capture it. Evaluating agentic systems therefore requires examining additional dimensions, including the agent ability to invoke tools, ingest and retrieve memory, collaborate with other agents, and interact effectively with its environment. These challenges emerged during our ongoing industry collaboration with MontyCloud Inc., when we deployed an agentic system in production. These limitations surfaced during deployment, highlighting practical gaps in the current evaluation methods and the need for a systematic assessment of agent behavior beyond task outcomes. Informed by these observations and established definitions of agentic systems, we propose an end-to-end Agent Assessment Framework with four evaluation pillars encompassing LLMs, Memory, Tools, and Environment. We validate the framework on a representative Autonomous CloudOps use case, where experiments reveal behavioral deviations overlooked by conventional metrics, demonstrating its effectiveness in capturing runtime uncertainties.",
+      "citations": 2
+    },
+    {
+      "title": "Tiered Agentic Oversight: A Hierarchical Multi-Agent System for Healthcare Safety",
+      "year": 2025,
+      "authors": "Y. Kim, H. Jeong, Chanwoo Park, Eugene Park, Haipeng Zhang, Xin Liu, Hyeonhoon Lee, D. McDuff, Marzyeh Ghassemi, Cynthia Breazeal, S. Tulebaev, Hae Won Park",
+      "url": "https://api.semanticscholar.org/CorpusId:281676294",
+      "relevance": 1,
+      "abstract": "Large language models (LLMs) deployed as agents introduce significant safety risks in clinical settings due to their potential for error and single points of failure. We introduce Tiered Agentic Oversight (TAO), a hierarchical multi-agent system that enhances AI safety through layered, automated supervision. Inspired by clinical hierarchies (e.g., nurse-physician-specialist) in hospital, TAO routes tasks to specialized agents based on complexity, creating a robust safety framework through automated inter- and intra-tier communication and role-playing. Crucially, this hierarchical structure functions as an effective error-correction mechanism, absorbing up to 24% of individual agent errors before they can compound. Our experiments reveal TAO outperforms single-agent and other multi-agent systems on 4 out of 5 healthcare safety benchmarks, with up to an 8.2% improvement. Ablation studies confirm key design principles of the system: (i) its adaptive architecture is over 3% safer than static, single-tier configurations, and (ii) its lower tiers are indispensable, as their removal causes the most significant degradation in overall safety. Finally, we validated the system's synergy with human doctors in a user study where a physician, acting as the highest tier agent, provided corrective feedback that improved medical triage accuracy from 40% to 60%. Project Page: https://tiered-agentic-oversight.github.io/",
+      "citations": 2
+    },
+    {
+      "title": "What Challenges Do Developers Face in AI Agent Systems? An Empirical Study on Stack Overflow&GitHub Issues",
+      "year": 2025,
+      "authors": "Ali Asgari, Annibale Panichella, P. Derakhshanfar, Mitchell Olsthoorn",
+      "url": "https://api.semanticscholar.org/CorpusId:285049952",
+      "relevance": 1,
+      "abstract": "AI Agents have rapidly gained prominence in both research and industry as systems that extend large language models with planning, tool use, memory, and goal-directed action. Despite this progress, the development and maintenance of Agent systems present recurring engineering difficulties that are not yet well characterized in developer-facing evidence. To address this gap, this study analyzes developer discussions on Stack Overflow and failure reports from GitHub issue trackers associated with widely used Agent frameworks. For Stack Overflow, an Agent-focused corpus is constructed through tag expansion and filtering, latent themes are derived using LDA-MALLET, and topics are manually validated and labeled. For GitHub, a taxonomy of issue themes is developed to capture deployment-time failures and maintenance burdens. Analysis across both platforms identifies seven Stack Overflow topics (comprising 28 subtopics) and thirteen GitHub issue topics, which are synthesized into five overarching families of major Agent challenges: (1) environment, platforms, and dependency management; (2) retrieval, embeddings, and Agent memory; (3) orchestration and execution control; (4) interaction contracts between models and tools; and (5) runtime reliability and operational robustness. Topic popularity and difficulty are quantified, revealing that widely discussed issues, such as installation and prompting, are often resolved more quickly, whereas retrieval- and orchestration-related challenges are less visible, more complex, and tend to persist as ongoing maintenance burdens on GitHub.",
+      "citations": 0
+    },
+    {
+      "title": "Intelligent Assistants for the Semiconductor Failure Analysis with LLM-Based Planning Agents",
+      "year": 2025,
+      "authors": "Aline Dobrovsky, Konstantin Schekotihin, C. Burmer",
+      "url": "https://api.semanticscholar.org/CorpusId:279447299",
+      "relevance": 1,
+      "abstract": "\n Failure Analysis (FA) is a highly intricate and knowledge-intensive process. The integration of AI components within the computational infrastructure of FA labs has the potential to automate a variety of tasks, including the detection of non-conformities in images, the retrieval of analogous cases from diverse data sources, and the generation of reports from annotated images. However, as the number of deployed AI models increases, the challenge lies in orchestrating these components into cohesive and efficient workflows that seamlessly integrate with the FA process. This paper investigates the design and implementation of an agentic AI system for semiconductor FA using a Large Language Model (LLM)-based Planning Agent (LPA). The LPA integrates LLMs with advanced planning capabilities and external tool utilization, allowing autonomous processing of complex queries, retrieval of relevant data from external systems, and generation of human-readable responses. The evaluation results demonstrate the agent's operational effectiveness and reliability in supporting FA tasks.",
+      "citations": 2
+    },
+    {
+      "title": "From Failure Modes to Reliability Awareness in Generative and Agentic AI System",
+      "year": 2025,
+      "authors": "J. Lin, Liangwei Zhang",
+      "url": "https://api.semanticscholar.org/CorpusId:282912735",
+      "relevance": 1,
+      "abstract": "This chapter bridges technical analysis and organizational preparedness by tracing the path from layered failure modes to reliability awareness in generative and agentic AI systems. We first introduce an 11-layer failure stack, a structured framework for identifying vulnerabilities ranging from hardware and power foundations to adaptive learning and agentic reasoning. Building on this, the chapter demonstrates how failures rarely occur in isolation but propagate across layers, creating cascading effects with systemic consequences. To complement this diagnostic lens, we develop the concept of awareness mapping: a maturity-oriented framework that quantifies how well individuals and organizations recognize reliability risks across the AI stack. Awareness is treated not only as a diagnostic score but also as a strategic input for AI governance, guiding improvement and resilience planning. By linking layered failures to awareness levels and further integrating this into Dependability-Centred Asset Management (DCAM), the chapter positions awareness mapping as both a measurement tool and a roadmap for trustworthy and sustainable AI deployment across mission-critical domains.",
+      "citations": 1
+    },
+    {
+      "title": "Alignment, Agency and Autonomy in Frontier AI: A Systems Engineering Perspective",
+      "year": 2025,
+      "authors": "K. Tallam",
+      "url": "https://api.semanticscholar.org/CorpusId:276902441",
+      "relevance": 1,
+      "abstract": "As artificial intelligence scales, the concepts of alignment, agency, and autonomy have become central to AI safety, governance, and control. However, even in human contexts, these terms lack universal definitions, varying across disciplines such as philosophy, psychology, law, computer science, mathematics, and political science. This inconsistency complicates their application to AI, where differing interpretations lead to conflicting approaches in system design and regulation. This paper traces the historical, philosophical, and technical evolution of these concepts, emphasizing how their definitions influence AI development, deployment, and oversight. We argue that the urgency surrounding AI alignment and autonomy stems not only from technical advancements but also from the increasing deployment of AI in high-stakes decision making. Using Agentic AI as a case study, we examine the emergent properties of machine agency and autonomy, highlighting the risks of misalignment in real-world systems. Through an analysis of automation failures (Tesla Autopilot, Boeing 737 MAX), multi-agent coordination (Metas CICERO), and evolving AI architectures (DeepMinds AlphaZero, OpenAIs AutoGPT), we assess the governance and safety challenges posed by frontier AI.",
+      "citations": 10
+    },
+    {
+      "title": "Failure Modes in LLM Systems: A System-Level Taxonomy for Reliable AI Applications",
+      "year": 2025,
+      "authors": "Vaishali Vinay",
+      "url": "https://api.semanticscholar.org/CorpusId:283251073",
+      "relevance": 1,
+      "abstract": "Large language models (LLMs) are being rapidly integrated into decision-support tools, automation workflows, and AI-enabled software systems. However, their behavior in production environments remains poorly understood, and their failure patterns differ fundamentally from those of traditional machine learning models. This paper presents a system-level taxonomy of fifteen hidden failure modes that arise in real-world LLM applications, including multi-step reasoning drift, latent inconsistency, context-boundary degradation, incorrect tool invocation, version drift, and cost-driven performance collapse. Using this taxonomy, we analyze the growing gap in evaluation and monitoring practices: existing benchmarks measure knowledge or reasoning but provide little insight into stability, reproducibility, drift, or workflow integration. We further examine the production challenges associated with deploying LLMs - including observability limitations, cost constraints, and update-induced regressions - and outline high-level design principles for building reliable, maintainable, and cost-aware LLM systems. Finally, we outline high-level design principles for building reliable, maintainable, and cost-aware LLM-based systems. By framing LLM reliability as a system-engineering problem rather than a purely model-centric one, this work provides an analytical foundation for future research on evaluation methodology, AI system robustness, and dependable LLM deployment.",
+      "citations": 4
+    },
+    {
+      "title": "When Agents Fail to Act: A Diagnostic Framework for Tool Invocation Reliability in Multi-Agent LLM Systems",
+      "year": 2026,
+      "authors": "Donghao Huang, Gauri Malwe, Zhaoxia Wang",
+      "url": "https://api.semanticscholar.org/CorpusId:284982026",
+      "relevance": 1,
+      "abstract": "Multi-agent systems powered by large language models (LLMs) are transforming enterprise automation, yet systematic evaluation methodologies for assessing tool-use reliability remain underdeveloped. We introduce a comprehensive diagnostic framework that leverages big data analytics to evaluate procedural reliability in intelligent agent systems, addressing critical needs for SME-centric deployment in privacy-sensitive environments. Our approach features a 12-category error taxonomy capturing failure modes across tool initialization, parameter handling, execution, and result interpretation. Through systematic evaluation of 1,980 deterministic test instances spanning both open-weight models (Qwen2.5 series, Functionary) and proprietary alternatives (GPT-4, Claude 3.5/3.7) across diverse edge hardware configurations, we identify actionable reliability thresholds for production deployment. Our analysis reveals that procedural reliability, particularly tool initialization failures, constitutes the primary bottleneck for smaller models, while qwen2.5:32b achieves flawless performance matching GPT-4.1. The framework demonstrates that mid-sized models (qwen2.5:14b) offer practical accuracy-efficiency trade-offs on commodity hardware (96.6\\% success rate, 7.3 s latency), enabling cost-effective intelligent agent deployment for resource-constrained organizations. This work establishes foundational infrastructure for systematic reliability evaluation of tool-augmented multi-agent AI systems.",
+      "citations": 0
+    },
+    {
+      "title": "AI Alignment Strategies from a Risk Perspective: Independent Safety Mechanisms or Shared Failures?",
+      "year": 2025,
+      "authors": "Leonard Dung, Florian Mai",
+      "url": "https://api.semanticscholar.org/CorpusId:282057964",
+      "relevance": 1,
+      "abstract": "AI alignment research aims to develop techniques to ensure that AI systems do not cause harm. However, every alignment technique has failure modes, which are conditions in which there is a non-negligible chance that the technique fails to provide safety. As a strategy for risk mitigation, the AI safety community has increasingly adopted a defense-in-depth framework: Conceding that there is no single technique which guarantees safety, defense-in-depth consists in having multiple redundant protections against safety failure, such that safety can be maintained even if some protections fail. However, the success of defense-in-depth depends on how (un)correlated failure modes are across alignment techniques. For example, if all techniques had the exact same failure modes, the defense-in-depth approach would provide no additional protection at all. In this paper, we analyze 7 representative alignment techniques and 7 failure modes to understand the extent to which they overlap. We then discuss our results'implications for understanding the current level of risk and how to prioritize AI alignment research in the future.",
+      "citations": 0
+    },
+    {
+      "title": "Beyond principlism: practical strategies for ethical AI use in research practices",
+      "year": 2024,
+      "authors": "Zhicheng Lin",
+      "url": "https://api.semanticscholar.org/CorpusId:267312037",
+      "relevance": 1,
+      "abstract": "The rapid adoption of generative artificial intelligence (AI) in scientific research, particularly large language models (LLMs), has outpaced the development of ethical guidelines, leading to a \u201cTriple-Too\u201d problem: too many high-level ethical initiatives, too abstract principles lacking contextual and practical relevance, and too much focus on restrictions and risks over benefits and utilities. Existing approaches\u2014principlism (reliance on abstract ethical principles), formalism (rigid application of rules), and technological solutionism (overemphasis on technological fixes)\u2014offer little practical guidance for addressing ethical challenges of AI in scientific research practices. To bridge the gap between abstract principles and day-to-day research practices, a user-centered, realism-inspired approach is proposed here. It outlines five specific goals for ethical AI use: (1) understanding model training and output, including bias mitigation strategies; (2) respecting privacy, confidentiality, and copyright; (3) avoiding plagiarism and policy violations; (4) applying AI beneficially compared to alternatives; and (5) using AI transparently and reproducibly. Each goal is accompanied by actionable strategies and realistic cases of misuse and corrective measures. I argue that ethical AI application requires evaluating its utility against existing alternatives rather than isolated performance metrics. Additionally, I propose documentation guidelines to enhance transparency and reproducibility in AI-assisted research. Moving forward, we need targeted professional development, training programs, and balanced enforcement mechanisms to promote responsible AI use while fostering innovation. By refining these ethical guidelines and adapting them to emerging AI capabilities, we can accelerate scientific progress without compromising research integrity.",
+      "citations": 37
+    },
+    {
+      "title": "The Future of Generative AI in Software Engineering: A Vision From Industry and Academia in the European Genius Project",
+      "year": 2025,
+      "authors": "Robin Gr\u00f6pler, Steffen Klepke, John E. Johns, Andreas Dreschinski, Klaus Schmid, Benedikt Dornauer, Eray T\u00fcz\u00fcn, J. Noppen, M. Mousavi, Yongjian Tang, Johannes Viehmann, Selin Sirin Aslang\u00fcl, Beum-Seuk Lee, A. Ziolkowski, Eric Zie",
+      "url": "https://api.semanticscholar.org/CorpusId:282739016",
+      "relevance": 1,
+      "abstract": "Generative AI (GenAI) has recently emerged as a groundbreaking force in Software Engineering, capable of generating code, identifying bugs, recommending fixes, and supporting quality assurance. While its use in coding tasks shows considerable promise, applying GenAI across the entire Software Development Life Cycle (SDLC) has not yet been fully explored. Critical uncertainties in areas such as reliability, accountability, security, and data privacy demand deeper investigation and coordinated action. The GENIUS project, comprising over 30 European industrial and academic partners, aims to address these challenges by advancing AI integration across all SDLC phases. It focuses on GenAI's potential, the development of innovative tools, and emerging research challenges, actively shaping the future of software engineering. This vision paper presents a shared perspective on the future of GenAI-driven software engineering, grounded in cross-sector dialogue as well as experiences and findings within the GENIUS consortium. The paper explores four central elements: (1) a structured overview of current challenges in GenAI adoption across the SDLC; (2) a forward-looking vision outlining key technological and methodological advances expected over the next five years; (3) anticipated shifts in the roles and required skill sets of software professionals; and (4) the contribution of GENIUS in realising this transformation through practical tools and industrial validation. This paper focuses on aligning technical innovation with business relevance. It aims to inform both research agendas and industrial strategies, providing a foundation for reliable, scalable, and industry-ready GenAI solutions for software engineering teams.",
+      "citations": 3
+    },
+    {
+      "title": "A Closer Look at the Existing Risks of Generative AI: Mapping the Who, What, and How of Real-World Incidents",
+      "year": 2025,
+      "authors": "Megan Li, Wendy Bickersteth, Ningjing Tang, Jason Hong, Lorrie Cranor, Hong Shen, Hoda Heidari",
+      "url": "https://api.semanticscholar.org/CorpusId:278959559",
+      "relevance": 1,
+      "abstract": "Generative AI is applied in an ever-growing set of domains and tasks, leading to an expanding set of risks of harm impacting people, communities, society, and the environment. These risks may arise due to failures during the design and development of the technology, as well as during its release, deployment, or downstream usages and appropriations of its outputs. In this paper, building on prior taxonomies of AI risks, harms, and failures, we construct a taxonomy specifically for Generative AI failures and map them to the harms they're associated with in the real world. Through a systematic analysis of 499 publicly reported incidents of harm involving Generative AI, we describe what harms are reported and how often, how they tend to arise, and who they impact. We find that most reported incidents are associated with use-related failures but the harms are experienced by parties beyond the end user(s) of the system at fault, and that the landscape of Generative AI harms is distinct from that of traditional AI. Our work offers actionable insights to policymakers, developers, and end users. In particular, we call for the prioritization of non-technical risk and harm mitigation strategies that center responsible use, including public disclosures, AI literacy efforts, and careful regulatory stances.",
+      "citations": 6
+    },
+    {
+      "title": "Accelerating Understanding of Human Response to Automation Failure",
+      "year": 2024,
+      "authors": "S. Loft",
+      "url": "https://api.semanticscholar.org/CorpusId:268970337",
+      "relevance": 1,
+      "abstract": "Firstly, I comment on the lack of support for the predictions of the lumberjack model to professionally qualified operators in high-fidelity work simulations (Jamieson & Skraaning, 2020a). I highlight the advantages that Bayesian statistics provide for qualifying the degree of evidence for the null hypotheses, issues concerning situation awareness measurement, and the alternative techniques available to study experts. Secondly, I comment on the innovative taxonomy of automation failure presented by Skraaning and Jamieson (2024), pointing out some issues with overlapping definitions and lack of cause-effect relationships. I then discuss the substantial opportunity this taxonomy presents to guide future research, such as the design of transparent automation. To conclude, I identify some other key problems regarding how we currently study human-automation teaming (e.g. presenting randomized automation failure unlinked to task context) and invite discussion from the research community on the relevance of computational modelling to this field of research.",
+      "citations": 4
+    },
+    {
+      "title": "STRATUS: A Multi-agent System for Autonomous Reliability Engineering of Modern Clouds",
+      "year": 2025,
+      "authors": "Yinfang Chen, Jiaqi Pan, Jackson Clark, Yiming Su, Noah Zheutlin, Bhavya Bhavya, Rohan R. Arora, Yu Deng, Saurabh Jha, Tianyin Xu",
+      "url": "https://api.semanticscholar.org/CorpusId:279118837",
+      "relevance": 1,
+      "abstract": "In cloud-scale systems, failures are the norm. A distributed computing cluster exhibits hundreds of machine failures and thousands of disk failures; software bugs and misconfigurations are reported to be more frequent. The demand for autonomous, AI-driven reliability engineering continues to grow, as existing humanin-the-loop practices can hardly keep up with the scale of modern clouds. This paper presents STRATUS, an LLM-based multi-agent system for realizing autonomous Site Reliability Engineering (SRE) of cloud services. STRATUS consists of multiple specialized agents (e.g., for failure detection, diagnosis, mitigation), organized in a state machine to assist system-level safety reasoning and enforcement. We formalize a key safety specification of agentic SRE systems like STRATUS, termed Transactional No-Regression (TNR), which enables safe exploration and iteration. We show that TNR can effectively improve autonomous failure mitigation. STRATUS significantly outperforms state-of-the-art SRE agents in terms of success rate of failure mitigation problems in AIOpsLab and ITBench (two SRE benchmark suites), by at least 1.5 times across various models. STRATUS shows a promising path toward practical deployment of agentic systems for cloud reliability.",
+      "citations": 12
+    },
+    {
+      "title": "Safety Assurance of Artificial Intelligence-Based Systems: A Systematic Literature Review on the State of the Art and Guidelines for Future Work",
+      "year": 2022,
+      "authors": "A. V. S. Neto, J. Camargo, J. R. Almeida, P. Cugnasca",
+      "url": "https://api.semanticscholar.org/CorpusId:254721087",
+      "relevance": 1,
+      "abstract": "The objective of this research is to present the state of the art of the safety assurance of Artificial Intelligence (AI)-based systems and guidelines on future correlated work. For this purpose, a Systematic Literature Review comprising 5090 peer-reviewed references relating safety to AI has been carried out, with focus on a 329-reference subset in which the safety assurance of AI-based systems is directly conveyed. From 2016 onwards, the safety assurance of AI-based systems has experienced significant effervescence and leaned towards five main approaches: performing black-box testing, using safety envelopes, designing fail-safe AI, combining white-box analyses with explainable AI, and establishing a safety assurance process throughout systems\u2019 lifecycles. Each of these approaches has been discussed in this paper, along with their features, pros and cons. Finally, guidelines for future research topics have also been presented. They result from an analysis based on both the cross-fertilization among the reviewed references and the authors\u2019 experience with safety and AI. Among 15 research themes, these guidelines reinforce the need for deepening guidelines for the safety assurance of AI-based systems by, e.g., analyzing datasets from a safety perspective, designing explainable AI, setting and justifying AI hyperparameters, and assuring the safety of hardware-implemented AI-based systems.",
+      "citations": 43
+    },
+    {
+      "title": "Remote Labor Index: Measuring AI Automation of Remote Work",
+      "year": 2025,
+      "authors": "Mantas Mazeika, Alice Gatti, Cristina Menghini, Udari Madhushani Sehwag, Shivam Singhal, Yury Orlovskiy, Steven Basart, Manasi Sharma, Denis Peskoff, Elaine Lau, Jaehyuk Lim, Lachlan Carroll, Alice Blair, V. Sivakumar, Sumana Basu, Brad Kenstler, Yuntao Ma, Julian Michael, Xiaoke Li, Oliver Ingebretsen, Aditya Mehta, Jean Mottola, J. Teichmann, Kevin Yu, Zaina Shaik, Adam Khoja, Richard Ren, J. Hausenloy, Long Phan, Ye Htet, Ankit Aich, Tahseen Rabbani, Vivswan Shah, A. Novykov, F. Binder, K. Chugunov, L. Ram\u00edrez, Matias Geralnik, Hern'an Mesura, Dean Lee, E. Cardona, A. Diamond, Summer Yue, Alexandr Wang, Bing Liu, Ernesto Hernandez, Dan Hendrycks",
+      "url": "https://api.semanticscholar.org/CorpusId:282592087",
+      "relevance": 1,
+      "abstract": "AIs have made rapid progress on research-oriented benchmarks of knowledge and reasoning, but it remains unclear how these gains translate into economic value and automation. To measure this, we introduce the Remote Labor Index (RLI), a broadly multi-sector benchmark comprising real-world, economically valuable projects designed to evaluate end-to-end agent performance in practical settings. AI agents perform near the floor on RLI, with the highest-performing agent achieving an automation rate of 2.5%. These results help ground discussions of AI automation in empirical evidence, setting a common basis for tracking AI impacts and enabling stakeholders to proactively navigate AI-driven labor automation.",
+      "citations": 11
+    },
+    {
+      "title": "Expectations for Artificial Intelligence (AI) in Psychiatry",
+      "year": 2022,
+      "authors": "S. Monteith, T. Glenn, J. Geddes, P. Whybrow, E. Achtyes, M. Bauer",
+      "url": "https://api.semanticscholar.org/CorpusId:252779500",
+      "relevance": 1,
+      "abstract": "Purpose of Review Artificial intelligence (AI) is often presented as a transformative technology for clinical medicine even though the current technology maturity of AI is low. The purpose of this narrative review is to describe the complex reasons for the low technology maturity and set realistic expectations for the safe, routine use of AI in clinical medicine. Recent Findings For AI to be productive in clinical medicine, many diverse factors that contribute to the low maturity level need to be addressed. These include technical problems such as data quality, dataset shift, black-box opacity, validation and regulatory challenges, and human factors such as a lack of education in AI, workflow changes, automation bias, and deskilling. There will also be new and unanticipated safety risks with the introduction of AI. Summary The solutions to these issues are complex and will take time to discover, develop, validate, and implement. However, addressing the many problems in a methodical manner will expedite the safe and beneficial use of AI to augment medical decision making in psychiatry.",
+      "citations": 41
+    },
+    {
+      "title": "Quantifying Automation Risk in High-Automation AI Systems: A Bayesian Framework for Failure Propagation and Optimal Oversight",
+      "year": 2026,
+      "authors": "Vishal Srivastava, Tanmay Sah",
+      "url": "https://api.semanticscholar.org/CorpusId:285974154",
+      "relevance": 1,
+      "abstract": "Organizations across finance, healthcare, transportation, content moderation, and critical infrastructure are rapidly deploying highly automated AI systems, yet they lack principled methods to quantify how increasing automation amplifies harm when failures occur. We propose a parsimonious Bayesian risk decomposition expressing expected loss as the product of three terms: the probability of system failure, the conditional probability that a failure propagates into harm given the automation level, and the expected severity of harm. This framework isolates a critical quantity -- the conditional probability that failures propagate into harm -- which captures execution and oversight risk rather than model accuracy alone. We develop complete theoretical foundations: formal proofs of the decomposition, a harm propagation equivalence theorem linking the harm propagation probability to observable execution controls, risk elasticity measures, efficient frontier analysis for automation policy, and optimal resource allocation principles with second-order conditions. We motivate the framework with an illustrative case study of the 2012 Knight Capital incident ($440M loss) as one instantiation of a broadly applicable failure pattern, and characterize the research design required to empirically validate the framework at scale across deployment domains. This work provides the theoretical foundations for a new class of deployment-focused risk governance tools for agentic and automated AI systems.",
+      "citations": 0
+    },
+    {
+      "title": "Extending the function failure modes taxonomy for intelligent systems with embedded AI components",
+      "year": 2024,
+      "authors": "F. Campean, U. Yildirim, A. Korsunovs, A. Doikin",
+      "url": "https://api.semanticscholar.org/CorpusId:269863968",
+      "relevance": 1,
+      "abstract": "Abstract Early consideration of failure modes in the feature development process is essential to identify and trace risks across the physical and embedded AI components of intelligent systems, to enhance the robustness of the feature delivery as well as trust in the AI. This paper introduces an extension of the AIAG/VDA function failure modes taxonomy, to facilitate the integrated analysis of complex intelligent systems with embedded AI. A case study of an autonomous driving feature is discussed as validation of the proposed taxonomy.",
+      "citations": 4
+    },
+    {
+      "title": "TAI-PRM: trustworthy AI\u2014project risk management framework towards Industry 5.0",
+      "year": 2024,
+      "authors": "E. Vyhmeister, Gabriel G. Casta\u00f1\u00e9",
+      "url": "https://api.semanticscholar.org/CorpusId:267694786",
+      "relevance": 1,
+      "abstract": "Artificial Intelligence (AI) is increasingly being used in manufacturing to automate tasks and process data, leading to what has been termed Industry. 4.0. However, as we move towards Industry 5.0, there is a need to incorporate societal and human-centric dimensions into the development and deployment of AI software artefacts. This requires blending ethical considerations with existing practices and standards. To address this need, the TAI-PRM framework has been developed. It builds upon established methods, such as Failure Mode and Effect Analysis (FMEA) and the Industrial ISO 31000, to manage risks associated with AI artefacts in the manufacturing sector. The framework identifies ethical considerations as hazards that can impact system processes and sustainability and provides tools and metrics to manage these risks. To validate the framework, it was applied in an EU project for Digital Twins on AI for manufacturing. The results showed that TAI-PRM can effectively identify and track different failure modes associated with AI artefacts and help users to manage ethical risks associated with their deployment. By incorporating ethical considerations into risk management processes, the framework enables the developing and deploying trustworthy AI in the manufacturing sector.",
+      "citations": 26
+    },
+    {
+      "title": "A Survey on Failure Analysis and Fault Injection in AI Systems",
+      "year": 2024,
+      "authors": "Guangba Yu, Gou Tan, Haojia Huang, Zhenyu Zhang, Pengfei Chen, Roberto Natella, Zibin Zheng, Michael R. Lyu",
+      "url": "https://api.semanticscholar.org/CorpusId:270870529",
+      "relevance": 1,
+      "abstract": "The rapid advancement of AI has led to its integration into various areas, especially with Large Language Models (LLMs) significantly enhancing capabilities in Artificial Intelligence Generated Content (AIGC). However, the complexity of AI systems has also exposed their vulnerabilities, necessitating robust methods for Failure Analysis (FA) and Fault Injection (FI) to ensure resilience and reliability. Despite the importance of these techniques, there lacks a comprehensive review of FA and FI methodologies in AI systems. This study fills this gap by presenting a detailed survey of existing FA and FI approaches across six layers of AI systems. We systematically analyze 142 studies to answer three research questions including (1) what are the prevalent failures in AI systems, (2) what types of faults can current FI tools simulate, (3) what gaps exist between the simulated faults and real-world failures. Our findings reveal a taxonomy of AI system failures, assess the capabilities of existing FI tools, and highlight discrepancies between real-world and simulated failures. Moreover, this survey contributes to the field by providing a framework for fault diagnosis, evaluating the state-of-the-art in FI, and identifying areas for improvement in FI techniques to enhance the resilience of AI systems.",
+      "citations": 21
+    },
+    {
+      "title": "Formalising Human-in-the-Loop: Computational Reductions, Failure Modes, and Legal-Moral Responsibility",
+      "year": 2025,
+      "authors": "Maurice Chiodo, Dennis M\u00fcller, Paul Siewert, Jean-Luc Wetherall, Zoya Yasmine, John Burden",
+      "url": "https://api.semanticscholar.org/CorpusId:278636202",
+      "relevance": 1,
+      "abstract": "We use the notion of oracle machines and reductions from computability theory to formalise different Human-in-the-loop (HITL) setups for AI systems, distinguishing between trivial human monitoring (i.e., total functions), single endpoint human action (i.e., many-one reductions), and highly involved human-AI interaction (i.e., Turing reductions). We then proceed to show that the legal status and safety of different setups vary greatly. We present a taxonomy to categorise HITL failure modes, highlighting the practical limitations of HITL setups. We then identify omissions in UK and EU legal frameworks, which focus on HITL setups that may not always achieve the desired ethical, legal, and sociotechnical outcomes. We suggest areas where the law should recognise the effectiveness of different HITL setups and assign responsibility in these contexts, avoiding human\"scapegoating\". Our work shows an unavoidable trade-off between attribution of legal responsibility, and technical explainability. Overall, we show how HITL setups involve many technical design decisions, and can be prone to failures out of the humans'control. Our formalisation and taxonomy opens up a new analytic perspective on the challenges in creating HITL setups, helping inform AI developers and lawmakers on designing HITL setups to better achieve their desired outcomes.",
+      "citations": 9
+    },
+    {
+      "title": "Agentic AI for autonomous anomaly management in complex systems",
+      "year": 2025,
+      "authors": "R. V. Barenji, Sina Khoshgoftar",
+      "url": "https://api.semanticscholar.org/CorpusId:280271780",
+      "relevance": 1,
+      "abstract": "This paper explores the potential of agentic AI in autonomously detecting and responding to anomalies within complex systems, emphasizing its ability to transform traditional, human-dependent anomaly management methods.",
+      "citations": 8
+    },
+    {
+      "title": "AgentRx: Diagnosing AI Agent Failures from Execution Trajectories",
+      "year": 2026,
+      "authors": "Shraddha Barke, Arnav Goyal, Alind Khare, Avaljot Singh, Suman Nath, Chetan Bansal",
+      "url": "https://api.semanticscholar.org/CorpusId:285270224",
+      "relevance": 1,
+      "abstract": "AI agents often fail in ways that are difficult to localize because executions are probabilistic, long-horizon, multi-agent, and mediated by noisy tool outputs. We address this gap by manually annotating failed agent runs and release a novel benchmark of 115 failed trajectories spanning structured API workflows, incident management, and open-ended web/file tasks. Each trajectory is annotated with a critical failure step and a category from a grounded-theory derived, cross-domain failure taxonomy. To mitigate the human cost of failure attribution, we present AGENTRX, an automated domain-agnostic diagnostic framework that pinpoints the critical failure step in a failed agent trajectory. It synthesizes constraints, evaluates them step-by-step, and produces an auditable validation log of constraint violations with associated evidence; an LLM-based judge uses this log to localize the critical step and category. Our framework improves step localization and failure attribution over existing baselines across three domains.",
+      "citations": 6
+    },
+    {
+      "title": "From Virtual Agents to Robot Teams: A Multi-Robot Framework Evaluation in High-Stakes Healthcare Context",
+      "year": 2025,
+      "authors": "Yuanchen Bai, Zijian Ding, Angelique Taylor",
+      "url": "https://api.semanticscholar.org/CorpusId:279154780",
+      "relevance": 1,
+      "abstract": "Advancements in generative models have enabled multi-agent systems (MAS) to perform complex virtual tasks such as writing and code generation, which do not generalize well to physical multi-agent robotic teams. Current frameworks often treat agents as conceptual task executors rather than physically embodied entities, and overlook critical real-world constraints such as spatial context, robotic capabilities (e.g., sensing and navigation). To probe this gap, we reconfigure and stress-test a hierarchical multi-agent robotic team built on the CrewAI framework in a simulated emergency department onboarding scenario. We identify five persistent failure modes: role misalignment; tool access violations; lack of in-time handling of failure reports; noncompliance with prescribed workflows; bypassing or false reporting of task completion. Based on this analysis, we propose three design guidelines emphasizing process transparency, proactive failure recovery, and contextual grounding. Our work informs the development of more resilient and robust multi-agent robotic systems (MARS), including opportunities to extend virtual multi-agent frameworks to the real world.",
+      "citations": 3
+    },
+    {
+      "title": "Left shifting analysis of Human-Autonomous Team interactions to analyse risks of autonomy in high-stakes AI systems",
+      "year": 2025,
+      "authors": "Ben Larwood, O. Sutton, Callum Cockburn",
+      "url": "https://api.semanticscholar.org/CorpusId:283467192",
+      "relevance": 1,
+      "abstract": "Developing high-stakes autonomous systems that include Artificial Intelligence (AI) components is complex; the consequences of errors can be catastrophic, yet it is challenging to plan for all operational cases. In stressful scenarios for the human operator, such as short decision-making timescales, the risk of failures is exacerbated. A lack of understanding of AI failure modes obstructs this and so blocks the robust implementation of applications of AI in smart systems. This prevents early risk identification, leading to increased time, risk and cost of projects. A key tenet of Systems Engineering and acquisition engineering is centred around a\"left-shift\"in test and evaluation activities to earlier in the system lifecycle, to allow for\"accelerated delivery of [systems] that work\". We argue it is therefore essential that this shift includes the analysis of AI failure cases as part of the design stages of the system life cycle. Our proposed framework enables the early characterisation of risks emerging from human-autonomy teaming (HAT) in operational contexts. The cornerstone of this is a new analysis of AI failure modes, built on the seminal modelling of human-autonomy teams laid out by LaMonica et al., 2022. Using the analysis of the interactions between human and autonomous systems and exploring the failure modes within each aspect, our approach provides a way to systematically identify human-AI interactions risks across the operational domain of the system of interest. The understanding of the emergent behaviour enables increased robustness of the system, for which the analysis should be undertaken over the whole scope of its operational design domain. This approach is illustrated through an example use case for an AI assistant supporting a Command&Control (C2) System.",
+      "citations": 0
+    },
+    {
+      "title": "Perspectives on a Reliability Monitoring Framework for Agentic AI Systems",
+      "year": 2025,
+      "authors": "Niclas Flehmig, M. Lundteigen, Shen Yin",
+      "url": "https://api.semanticscholar.org/CorpusId:282940445",
+      "relevance": 1,
+      "abstract": "The implementation of agentic AI systems has the potential of providing more helpful AI systems in a variety of applications. These systems work autonomously towards a defined goal with reduced external control. Despite their potential, one of their flaws is the insufficient reliability which makes them especially unsuitable for high-risk domains such as healthcare or process industry. Unreliable systems pose a risk in terms of unexpected behavior during operation and mitigation techniques are needed. In this work, we derive the main reliability challenges of agentic AI systems during operation based on their characteristics. We draw the connection to traditional AI systems and formulate a fundamental reliability challenge during operation which is inherent to traditional and agentic AI systems. As our main contribution, we propose a two-layered reliability monitoring framework for agentic AI systems which consists of a out-of-distribution detection layer for novel inputs and AI transparency layer to reveal internal operations. This two-layered monitoring approach gives a human operator the decision support which is needed to decide whether an output is potential unreliable or not and intervene. This framework provides a foundation for developing mitigation techniques to reduce risk stemming from uncertain reliability during operation.",
+      "citations": 0
+    },
+    {
+      "title": "Agentic Metacognition: Designing a \"Self-Aware\" Low-Code Agent for Failure Prediction and Human Handoff",
+      "year": 2025,
+      "authors": "Jie Xu",
+      "url": "https://api.semanticscholar.org/CorpusId:281505233",
+      "relevance": 1,
+      "abstract": "The inherent non-deterministic nature of autonomous agents, particularly within low-code/no-code (LCNC) environments, presents significant reliability challenges. Agents can become trapped in unforeseen loops, generate inaccurate outputs, or encounter unrecoverable failures, leading to user frustration and a breakdown of trust. This report proposes a novel architectural pattern to address these issues: the integration of a secondary,\"metacognitive\"layer that actively monitors the primary LCNC agent. Inspired by human introspection, this layer is designed to predict impending task failures based on a defined set of triggers, such as excessive latency or repetitive actions. Upon predicting a failure, the metacognitive agent proactively initiates a human handoff, providing the user with a clear summary of the agent's\"thought process\"and a detailed explanation of why it could not proceed. An empirical analysis of a prototype system demonstrates that this approach significantly increases the overall task success rate. However, this performance gain comes with a notable increase in computational overhead. The findings reframe human handoffs not as an admission of defeat but as a core design feature that enhances system resilience, improves user experience, and builds trust by providing transparency into the agent's internal state. The report discusses the practical and ethical implications of this approach and identifies key directions for future research.",
+      "citations": 0
+    },
+    {
+      "title": "Key Considerations for the Responsible Development and Fielding of Artificial Intelligence",
+      "year": 2021,
+      "authors": "Eric Horvitz, J. Young, Rama G. Elluru, C. Howell",
+      "url": "https://api.semanticscholar.org/CorpusId:237347117",
+      "relevance": 1,
+      "abstract": "We review key considerations, practices, and areas for future work aimed at the responsible development and fielding of AI technologies. We describe critical challenges and make recommendations on topics that should be given priority consideration, practices that should be implemented, and policies that should be defined or updated to reflect developments with capabilities and uses of AI technologies. The Key Considerations were developed with a lens for adoption by U.S. government departments and agencies critical to national security. However, they are relevant more generally for the design, construction, and use of AI systems.",
+      "citations": 2
+    },
+    {
+      "title": "Overoptimization Failures and Specification Gaming in Multi-agent Systems",
+      "year": 2018,
+      "authors": "David Manheim",
+      "url": "https://www.semanticscholar.org/paper/209e31d411108c8c0d4348a3316ad9a759f4df48",
+      "relevance": 1,
+      "abstract": "An important challenge for safety in machine learning and artificial intelligence systems is a set of related failures involving specification gaming, reward hacking, fragility to distributional shifts, and Goodhart\u2019s or Campbell\u2019s law. This paper presents additional failure modes for interactions within multi-agent systems that are closely related. These multi-agent failure modes are more complex, more problematic, and less well understood than the single-agent case, and are also already occurring, largely unnoticed. After motivating the discussion with examples from poker-playing artificial intelligence (AI), the paper explains why these failure modes are in some senses unavoidable. Following this, the paper categorizes failure modes, provides definitions, and cites examples for each of the modes: accidental steering, coordination failures, adversarial misalignment, input spoofing and filtering, and goal co-option or direct hacking. The paper then discusses how extant literature on multi-agent AI fails to address these failure modes, and identifies work which may be useful for the mitigation of these failure modes.",
+      "citations": 31
+    }
+  ]
+}
+
+Results saved to: paper_search_results/AI_scientist_agentic_research_automation_failure_modes_20260505_014506.jsonl

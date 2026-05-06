@@ -1,0 +1,166 @@
+[
+  {
+    "query": "BadScientist Can a Research Agent Write Convincing but Unsound Papers",
+    "name": "BadScientist"
+  },
+  {
+    "query": "MLR-Bench Evaluating AI Agents on Open-Ended Machine Learning Research",
+    "name": "MLR-Bench"
+  },
+  {
+    "query": "The More You Automate the Less You See Hidden Pitfalls AI Scientist Systems",
+    "name": "AI_Scientist_Pitfalls"
+  },
+  {
+    "query": "Why LLMs Aren't Scientists Yet Lessons Four Autonomous Research",
+    "name": "Why_LLMs_Not_Scientists"
+  },
+  {
+    "query": "How Far Are AI Scientists from Changing the World",
+    "name": "How_Far_AI_Scientists"
+  },
+  {
+    "query": "Risks of AI scientists prioritizing safeguarding over autonomy",
+    "name": "Risks_AI_Scientists"
+  },
+  {
+    "query": "Jr AI Scientist and Its Risk Report Autonomous Scientific Exploration",
+    "name": "Jr_AI_Scientist"
+  },
+  {
+    "query": "From Fluent to Verifiable Claim-Level Auditability Deep Research Agents",
+    "name": "Claim_Level_Auditability"
+  },
+  {
+    "query": "Agentic AI for Scientific Discovery Survey Progress Challenges Future",
+    "name": "Agentic_AI_Scientific_Discovery"
+  },
+  {
+    "query": "EXP-Bench Can AI Conduct AI Research Experiments",
+    "name": "EXP-Bench"
+  },
+  {
+    "query": "AgentRxiv Towards Collaborative Autonomous Research",
+    "name": "AgentRxiv"
+  },
+  {
+    "query": "Compound Deception in Elite Peer Review Failure Mode Taxonomy 100 Fabricated Citations NeurIPS 2025",
+    "name": "Compound_Deception_PeerReview"
+  },
+  {
+    "query": "AI Must not be Fully Autonomous",
+    "name": "AI_Not_Fully_Autonomous"
+  },
+  {
+    "query": "Towards Scientific Intelligence Survey LLM-based Scientific Agents",
+    "name": "LLM_Scientific_Agents_Survey"
+  },
+  {
+    "query": "LLM-based Agents Suffer from Hallucinations Survey Taxonomy",
+    "name": "LLM_Agents_Hallucinations_Survey"
+  },
+  {
+    "query": "Concrete Problems in AI Safety",
+    "name": "Concrete_Problems_Safety"
+  },
+  {
+    "query": "Open Problems and Fundamental Limitations Reinforcement Learning Human Feedback",
+    "name": "Open_Problems_RLHF"
+  },
+  {
+    "query": "The alignment problem from a deep learning perspective",
+    "name": "Alignment_Deep_Learning"
+  },
+  {
+    "query": "Alignment of Language Agents",
+    "name": "Alignment_Language_Agents"
+  },
+  {
+    "query": "An Overview of Catastrophic AI Risks",
+    "name": "Catastrophic_AI_Risks"
+  },
+  {
+    "query": "Large Language Model Alignment Survey",
+    "name": "LLM_Alignment_Survey"
+  },
+  {
+    "query": "AI Sandbagging Language Models Strategically Underperform Evaluations",
+    "name": "AI_Sandbagging"
+  },
+  {
+    "query": "Monitoring Reasoning Models for Misbehavior Risks Promoting Obfuscation",
+    "name": "Monitoring_Reasoning_Models"
+  },
+  {
+    "query": "AgentMisalignment Measuring Propensity Misaligned Behaviour LLM Based Agents",
+    "name": "AgentMisalignment"
+  },
+  {
+    "query": "ImpossibleBench Measuring LLMs Propensity Exploiting Test Cases",
+    "name": "ImpossibleBench"
+  },
+  {
+    "query": "The Effects of Reward Misspecification Mapping Mitigating Misaligned Models",
+    "name": "Reward_Misspecification"
+  },
+  {
+    "query": "Honesty Is the Best Policy Defining Mitigating AI Deception",
+    "name": "Honesty_Best_Policy"
+  },
+  {
+    "query": "AI Deception Risks Dynamics Controls",
+    "name": "AI_Deception_Risks"
+  },
+  {
+    "query": "Among Us Sandbox Measuring Detecting Agentic Deception",
+    "name": "Among_Us"
+  },
+  {
+    "query": "Thought Crime Backdoors Emergent Misalignment Reasoning Models",
+    "name": "Thought_Crime"
+  },
+  {
+    "query": "School of Reward Hacks Hacking harmless tasks generalizes misaligned behavior",
+    "name": "School_Reward_Hacks"
+  },
+  {
+    "query": "Persona Features Control Emergent Misalignment",
+    "name": "Persona_Features"
+  },
+  {
+    "query": "EvilGenie A Reward Hacking Benchmark",
+    "name": "EvilGenie"
+  },
+  {
+    "query": "The Secret Agenda LLMs Strategically Lie Safety Tools Blind",
+    "name": "Secret_Agenda"
+  },
+  {
+    "query": "Chasing the Public Score User Pressure Evaluation Exploitation Coding Agent Workflows",
+    "name": "Chasing_Public_Score"
+  },
+  {
+    "query": "Gaming the Judge Unfaithful Chain-of-Thought Undermine Agent Evaluation",
+    "name": "Gaming_Judge"
+  },
+  {
+    "query": "Proof-of-Use Mitigating Tool-Call Hacking Deep Research Agents",
+    "name": "Proof_of_Use"
+  },
+  {
+    "query": "Benchmarks for Detecting Measurement Tampering",
+    "name": "Measurement_Tampering"
+  },
+  {
+    "query": "Teaching Models to Verbalize Reward Hacking Chain-of-Thought Reasoning",
+    "name": "Verbalize_Reward_Hacking"
+  },
+  {
+    "query": "On Targeted Manipulation and Deception when Optimizing LLMs for User Feedback",
+    "name": "Targeted_Manipulation_Deception"
+  },
+  {
+    "query": "Mitigating Deceptive Alignment via Self-Monitoring",
+    "name": "Mitigating_Deceptive_Alignment"
+  }
+]

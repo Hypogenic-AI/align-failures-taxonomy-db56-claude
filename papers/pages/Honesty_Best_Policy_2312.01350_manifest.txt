@@ -1,0 +1,15 @@
+PDF: papers/Honesty_Best_Policy_2312.01350.pdf
+Total pages: 30
+Pages per chunk: 3
+
+Chunks:
+  Honesty_Best_Policy_2312.01350_chunk_001.pdf: pages 1-3
+  Honesty_Best_Policy_2312.01350_chunk_002.pdf: pages 4-6
+  Honesty_Best_Policy_2312.01350_chunk_003.pdf: pages 7-9
+  Honesty_Best_Policy_2312.01350_chunk_004.pdf: pages 10-12
+  Honesty_Best_Policy_2312.01350_chunk_005.pdf: pages 13-15
+  Honesty_Best_Policy_2312.01350_chunk_006.pdf: pages 16-18
+  Honesty_Best_Policy_2312.01350_chunk_007.pdf: pages 19-21
+  Honesty_Best_Policy_2312.01350_chunk_008.pdf: pages 22-24
+  Honesty_Best_Policy_2312.01350_chunk_009.pdf: pages 25-27
+  Honesty_Best_Policy_2312.01350_chunk_010.pdf: pages 28-30
